@@ -26,11 +26,12 @@
             <button type="submit" class="btn btn-primary">Ara</button>
         </form>
         
-        {%for result in results%}
+        {% for result in results %}
+            <p><a href="{{ result }}" target="_blank">{{ result }}</a></p>
+        {% endfor %}
 
-        <h1> {{result}} </h1>
-        {%endfor%}
-        
+
+    
 
         {% comment %} <h2 class="mt-4">Arama Sonuçları</h2>
         <ul class="list-group">
