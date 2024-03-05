@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # Create your views here.
-
+import os
 
 
 def homepage(request):
@@ -34,7 +34,15 @@ def homepage(request):
             if a:
                 span=a.find('span')
                 print(span.text)
-                results.append(title.text)
+                results.append(a.get('href'))
+                filename = os.path.basename(a.get('href'))
+    # İndirme işlemi
+                with open(filename, 'wb') as f:
+                    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+                    response = requests.get(a.get('href'), headers=headers)
+                    # response = requests.get()
+                    f.write(response.content)
+                print(f"{filename} indirildi.")
 
 
 # for title in titles:

@@ -5,5 +5,3 @@ from .views import homepage
 urlpatterns = [
    path('',homepage,name='inbox'),
     ]
-
-
