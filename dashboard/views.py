@@ -34,6 +34,9 @@ def homepage(request):
             if a:
                 span=a.find('span')
                 print(span.text)
+
+                
+
                 results.append(a.get('href'))
                 filename = os.path.basename(a.get('href'))
     # İndirme işlemi

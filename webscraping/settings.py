@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+import djongo
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -37,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dashboard'
+    'dashboard',
+    'djongo',
 ]
 
 MIDDLEWARE = [
@@ -74,12 +76,36 @@ WSGI_APPLICATION = 'webscraping.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'webscraping',
+        'ENFORCE_SCHEMA': False,  # İsteğe Bağlı
+        'CLIENT': {
+            'host': 'mongodb://localhost:27017/',
+            # Diğer MongoDB bağlantı seçeneklerini buraya ekleyin
+        }
     }
 }
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'akademi',
+        'ENFORCE_SCHEMA': False,  # İsteğe Bağlı
+        'CLIENT': {
+            'host': 'mongodb://localhost:56155/',
+            # Diğer MongoDB bağlantı seçeneklerini buraya ekleyin
+        }
+    }
+}
+
 
 
 # Password validation
