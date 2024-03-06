@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from bs4 import BeautifulSoup
 
-
+from .models import PDFData
 import requests
-
+from django.conf import settings
 # Create your views here.
 import os
 
@@ -26,32 +26,58 @@ def homepage(request):
 
 
 
-        titles = soup.find_all(class_='gs_or_ggsm')
-        results=[]
+        # titles = soup.find_all(class_='gs_or_ggsm')
+        titles=soup.find_all(class_='gs_r gs_or gs_scl')
+        # results=[]
+        results = []
         for title in titles:
+            
+            baslik=title.find(class_='gs_rt')
+            print(baslik.text)
+            at=title.find(class_='gs_or_ggsm')
+            
+            if at:
+                a=at.find('a')
+                if a:
 
-            a=title.find('a')
-            if a:
-                span=a.find('span')
-                print(span.text)
+                    span=a.find('span')
+                    print(span.text)
 
                 
 
-                results.append(a.get('href'))
-                filename = os.path.basename(a.get('href'))
+                # results.append(a.get('href'))
+                    # results.append(baslik.text)
+
+                   
+
+# 'document_url' ve 'document_url' adında attribute'ları ekleyerek dictionary'e ekleme yapma
+                    veri={}
+                    veri['document_url'] = a.get('href')
+                    veri['document_name'] = baslik.text
+                    results.append(veri)
+                # filename = os.path.basename(a.get('href'))
+
+                #dosya_yolu = "/path/to/your/directory/"
+                    filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
     # İndirme işlemi
-                with open(filename, 'wb') as f:
-                    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-                    response = requests.get(a.get('href'), headers=headers)
+                    with open(filename, 'wb') as f:
+                        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+                        response = requests.get(a.get('href'), headers=headers)
                     # response = requests.get()
-                    f.write(response.content)
-                print(f"{filename} indirildi.")
+                        f.write(response.content)
+                    print(f"{filename} indirildi.")
+                    # document_name=.text
+                    document_name=baslik.text
+                    document_url=a.get('href')
+                    document_file=filename
+                    pdf_data = PDFData(document_name=document_name, document_url=document_url, document_pdf=document_file)
+                    pdf_data.save()
 
 
 # for title in titles:
 #     print(title.text)
-
-        return render(request,'index.html',{'results':results})
+        datas=PDFData.objects.all()
+        return render(request,'index.html',{'results':results,'datas':datas})
 
     return render(request,'index.html')
 

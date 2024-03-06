@@ -94,17 +94,17 @@ DATABASES = {
         }
     }
 }
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'akademi',
-        'ENFORCE_SCHEMA': False,  # İsteğe Bağlı
-        'CLIENT': {
-            'host': 'mongodb://localhost:56155/',
-            # Diğer MongoDB bağlantı seçeneklerini buraya ekleyin
-        }
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'akademi',
+#         'ENFORCE_SCHEMA': False,  # İsteğe Bağlı
+#         'CLIENT': {
+#             'host': 'mongodb://localhost:56155/',
+#             # Diğer MongoDB bağlantı seçeneklerini buraya ekleyin
+#         }
+#     }
+# }
 
 
 

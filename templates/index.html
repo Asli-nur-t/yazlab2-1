@@ -26,8 +26,25 @@
             <button type="submit" class="btn btn-primary">Ara</button>
         </form>
         
-        {% for result in results %}
-            <p><a href="{{ result }}" target="_blank">{{ result }}</a></p>
+        {% for data in results %}
+
+         
+       
+
+
+              <div class="container m-4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">{{data.document_name}}</h5>
+                        <!-- <p class="card-text">Burası kart içeriği olacak.</p> -->
+                        <a href="{{data.document_url}}" class="btn btn-danger">PDF Linki</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         {% endfor %}
 
 
