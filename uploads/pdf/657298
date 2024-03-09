@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+            <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+            <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+            <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+            <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+            <head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<link rel="shortcut icon" href="/themes/Mirage2/images/favicon.ico">
+<link rel="apple-touch-icon" href="/themes/Mirage2/images/apple-touch-icon.png">
+<meta name="Generator" content="DSpace 6.4-SNAPSHOT">
+<link href="/themes/Mirage2/styles/main.css" rel="stylesheet">
+<link type="application/opensearchdescription+xml" rel="search" href="http://acikbilim.yok.gov.tr:80/open-search/description.xml" title="DSpace">
+<script>
+                //Clear default text of empty text areas on focus
+                function tFocus(element)
+                {
+                if (element.value == ' '){element.value='';}
+                }
+                //Clear default text of empty text areas on submit
+                function tSubmit(form)
+                {
+                var defaultedElements = document.getElementsByTagName("textarea");
+                for (var i=0; i != defaultedElements.length; i++){
+                if (defaultedElements[i].value == ' '){
+                defaultedElements[i].value='';}}
+                }
+                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                function disableEnterKey(e)
+                {
+                var key;
+
+                if(window.event)
+                key = window.event.keyCode;     //Internet Explorer
+                else
+                key = e.which;     //Firefox and Netscape
+
+                if(key == 13)  //if "Enter" pressed, then disable!
+                return false;
+                else
+                return true;
+                }
+            </script><!--[if lt IE 9]>
+                <script src="/themes/Mirage2/vendor/html5shiv/dist/html5shiv.js"> </script>
+                <script src="/themes/Mirage2/vendor/respond/dest/respond.min.js"> </script>
+                <![endif]--><script src="/themes/Mirage2/vendor/modernizr/modernizr.js"> </script>
+<title>Şehirsel yerleşmelerde fraktal ve h&uuml;cresel otomata y&ouml;ntemi ile gelişme alanlarının belirlenmesi</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.contributor" content="Giritlioğlu, Cengiz" />
+<meta name="DC.creator" content="Yüzer, Mehmet Ali" />
+<meta name="DCTERMS.dateAccepted" content="2021-05-08T08:46:43Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2021-05-08T08:46:43Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.date" content="2001" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2018-08-06" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="https://acikbilim.yok.gov.tr/handle/20.500.12812/657298" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="ŞEHİRSEL YERLEŞMELERDE FRAKTAL VE HÜCRESEL OTOMATA YÖNTEMİ İLE GELİŞME ALANLARININ BELİRLENMESİ ÖZET Yerleşmelerde çeşitli koşulların oluşturduğu fiziksel doku ve diğer özellikler ayrı nitelikler göstermektedir. Ancak her yerleşmenin makro ve mikro formları arasında organik bir bağ bulunmakta ve genelde sistematik ilişkiler düzeni kademeli olarak belirli zaman aralıklarında benzerlikler göstermektedir. Yerleşmelerde gözlenen bu tür benzerlikler, planlama sürecinde kullanılan yöntem ve modellere evrensel bir boyut kazandırmaktadır. M.Ö. 10000 yıllarından itibaren yerleşik düzene geçiş ve sonrasında, daha rahat, sağlıklı ve düzenli bir yaşam için şehirlerde çeşitli düzenlemeler ve planlanma faaliyetleri başlamış, özellikle 18. yy&amp;apos; dan itibaren geliştirilen ideal yerleşme şemaları ile planlamada yeni yaklaşımlar ortaya çıkmıştır. 1950&amp;apos;li yıllara kadar yapısında çok farklılıklar olmayan planlama çalışmalarında, hesaplama tekniklerinde gözlenen gelişmelerle birlikte yeni yöntemler araştırılmış ve şehirlerin gelecekteki durumlarını tahmin eden modeller ortaya konmuştur. 1980&amp;apos;li yıllarda bilgisayarların aktif olarak planlama çalışmalarında kullanılması, sayısal ortamda modelleme çalışmalarını hızlandırmış ve şehirlerde bilgi sistemleri organizasyonuna olanak tanımıştır. Ülkemizde bu çerçevede 1990&amp;apos;lı yılların başlarından itibaren geliştirilen modelleme çalışmaları ve planlama anlayışı, Coğrafi Bilgi Sistemleri (CBS) ve Kent Bilgi Sistemleri (KBS) kavramları altında gündeme gelmiş ancak geçen süre içinde konu şehir planlama çalışmalarında yaygınlaştırılamamıştır. Bu araştırmada, fiziki verilerin yanı sıra sosyo-ekonomik veriler kullanılarak ve yerleşmelerin fraktal yapısına bağlı olarak en küçük hücresel fonksiyon ile diğer fonksiyonlar arası ilişkiler baz alınarak geliştirilen hücreselotomata modeli ile, yerleşmelerin planlama sürecine katkı sağlayacak yönlendiricilerin elde edilmesi araştırmanın amacı olarak belirlenmiştir. Bu amaç doğrultusunda hazırlanan araştırma beş bölümden oluşmaktadır. Giriş bölümünden sonra ikinci bölümde, dünyada yerleşik düzene geçiş sonrası şehirsel alanların oluşturduğu formların irdelenmesi, klasik şehir formları-gelişme sınırları büyüme modelleri hakkında sanayi dönemi öncesi ve sonrası geliştirilen modeller araştırılmıştır. Üçüncü bölümde araştırmada geliştirilen yöntemin temelini oluşturan tekrar, hücresel ilişki, otomasyon ve hesaplama yöntemleri kavramları ve bu kavramların gelişim süreçleri irdelenmiştir. Fraktal kavramının ortaya çıkışı, kaos kavramıyla olan bağlantısı, fraktal tipleri ve fraktal boyutun ölçülmesi, doğa, sosyal olaylar ve bilim fraktal, arasındaki ilişki bu bölümde açıklanmıştır. Hücresel otomatanın (Cellular Automata) tanımı, mantığı, planlama ile hücresel otomata arasındaki bağlantı, hücresel otomata arazi kullanımı ilişkisi bu bölümde irdelenen diğer konulardır. Dördüncü bölümde araştırma kapsamında geliştirilen modelin temel özellikleri açıklandıktan sonra modele baz teşkil eden parametrelerin tespitinde uygulanan yöntem açıklanmış ve verilerin modele aplikasyonunda belirlenen kriterlerin esastan verilmiştir. Yerleşmelerin büyüme süreçlerinin tahmininde modelin yaygın bir araç olarak kullanılması için hesaplama süresinin minimuma indirilmesine yönelik olarak, bilgisayar ortamında rahat kullanılabilen bir program geliştirilmiştir. Bu bölümde modelin Bursa yerleşmesinde sınanması için model çalıştırılmış ve çıkan sonuçlar değerlendirilmiştir. Araştırmanın beşinci ve son bölümünde modelin çalıştırılması sonucunda ortaya çıkan şema başta belirlenen varsayımlarla test edilmiş, buna göre araştırmanın genel sonuçlan elde edilerek öneriler belirlenmiştir." />
+<meta name="DCTERMS.abstract" content="DETERMINATION OF URBAN DEVELOPMENT AREA BY FRACTAL AND CELLULAR AUTOMATA METHOD SUMMARY Cities take shape depend on their natural and social environment in their region. Sometimes a river or a harbour or if s demographic and social structure affects this form positively or negatively. The most important factor which change the existing structure of the city and one of the main reasons of urban development is the economic relations with their region, environment, nation and even world and their inner dynamics (productive activities). Dense productive activities, demographic movements and economic relations with close environment cause the development of cities and differentiation in land use in the development process. Land use differentiation has first seen in rural areas. Other effected are is the core of the city. Either the differentiation (transformation) of functional areas in city center depend on the existing structure or transformations seen in residential, industrial, commerce and unstructured areas depend on the relations with other functions occur as important criterion in urban development planning. In traditional planning approach, defining the development strategies, synthesis of physical and social data collected in several steps of planning process towards aim and goals, personal experience and skills of planner and other participants are used as the directors in planning. In recent years developments seen in information communication, transition of computers used in common areas to individual space, minimize the time spent in accessing to information, data collection and it&amp;apos;s evaluation. Computers which are used dense in different stages of planning help to obtain reliable and right results in planning of urban areas and defining their development strategies if they are directed well. In the process beginning from Mezopotamia civilization to the end of industrial revolution, city forms accurred depend on several factors. Since the first XI1000), Classic times (1500-1540), end of Renaissance (1540-1600), Barocco (16th- &amp;lt;jyth_18th centurjeS) time intervals.settlements organised according to geometric and symetric forms and fraktal order principles have been seen. In reality, fraktal geometric order reserved in nature itself. Fraktal geometric order which form the natural structure and structure of all the living are important to explain the textuer characteristics related to settlements. In settlements, physical texture and other characteristics show different qualities. However there are organic relations among micro and macro forms of every settlement and in general, systematic relations order show gradually similarities in certain time intervals. Planning understanding with modelling studies in numerical environment have been seen under Geographic Information System (GIS) and Urban Information System (UIS) since 1990&amp;apos;s. But it couldn&amp;apos;t be spread to urban planning studies. In this reserach, planning of settlements by using fraktal structure and cellular automata method which can form transformation and development strategies at the end of interaction among functions, depend on socio-economic data beyond physical data and go from minimum cell size to city form are defined as the main goal. The research which is prepared according to this goal consist of five chapter. After the introduction part in the second chapter, urban forms in the world after the settled order are examined and models developed before and after industrial period about classic urban forms- development borders- growth models are searched. In antique settlements, beyond natural conditions, administrative, religious and defence factors directed the formation of settlements, similarities determined in Maya and Inka civilisation&amp;apos;s cities developed in American continent and Mezopotamia and Egypt civilisation&amp;apos;s cities in BC 2500. Especially pyramid styled buildings occurred with mathematical and geometric orders and in grid system settlements domination of religious people have been seen. Iteration and cell development seen in grid system resemble today&amp;apos;s settlements.These iterations show that fraktal structure have been effective in settlement formation since past times. Growth requirements coming from migartion and population increase parallel to the industrial development cause unplanned and unhealthy lands in settlements and especially growing tendency of existing industrial buildings in the core of the city created slum areas in the center. This kind of rapid development seen in settlements force researchers to form new models in the reorganisation of settlements and planning of development areas. In all of the models, either lineer or circular XIIsettlement models, there are always iterative form &amp;apos;cell&amp;apos; characteristics in land use decisions and if s hierarchy. The growth of these settlements depends on if s iteration in equal conditions and use. These arise from the simulation of real environment by taking into consideration certain hypothesis which occur as the synthesis of complex and endless directors. In order to enable balanced relations among the main functions of human life such as accomodation, working, resting, transportation and communication in urban areas, 3 main principles have been accepted in land use models that developed in several periods. The first one is the organisation of urban land use from city centers to tiie rings opened outwards (consantric); the second one is the organisation of land use as radial sectors which open from center to the sides. The third one is the spread of land use by cores that facilitate the accessibility in the settlement. Models which used at the moment and developed for the computer aided land use estimation have also affected from these three models. From this point of view, for supporting to explain the relations among functions used in cellular automata (C.A.) method which aims land use estimation and occurs the foundation of the research, examples related with these models are examined. With the common use of computers in all scientific branches, data communication especially among City and Regional Planning and other scientific branches increased. As a result of this, with the data of all scientific branches coming together in a short time and qualitatively cause healthy land use estimations. At the end of 1980&amp;apos;s, the development of computer programs (GIS) which can store data in computer environment in series and obtain input-output facilities among data and interrogate and evaluate data according to aim, help the simulation of land use estimations. The method used in this research is a computer aided method. In the planning evolution, land use models belong to pre-industrial period have developed. The importance of these studies couldn&amp;apos;t be ignored but technological development and tiie decrease of computing time to minimum cause new methods. Before the land use method which occure the core of the research, the cronological development process of studies up to now were given. In this chapter, beside these cronological land use estimation methods, methods developed for the end of 20* century were focused because of if s close relation with the method used in this research. XIIIIn the researches of White and Engelen about cellular automata (C.A.) based urban models, C.A. based urban models which combine theoretical concepts with ampirical realities were developed. In the C.A. based urban models which depend on dense sensibility analysis by accepting the four main functions of settlements push and pull force depend on the distance among the cells are thought and land use estimation depend on the relations among cells and it&amp;apos;s simulation are aimed. In the third chapter iteration, cellular relation, automation and computing methods which occur the foundation of research&amp;apos;s method and the development process of these concepts are examined. The formation of fraktal concept, it&amp;apos;s relation with chaos, types of fraktal and measuring fraktal dimension, nature, social events, their relations, cellular automata&amp;apos;s definition, it&amp;apos;s relation with planning the relationship between C.A. and land use are the other explained subjects. When the development process of several events in natural, physical and social environment are examined, in differentations seen in initial and the next time interval, if s seen that initial position affects the next position much. Especially functional changes in existing texture (such as commerce, service functions) shows it&amp;apos;s effects in a short time and cause differentations in texture. The dimension of this differentation changes according to the function&amp;apos;s quality and effect Mostly industrial enterprise occur in a cell unit cause the development of other industrial enterprises, settlement areas, commerce and other service functions. So as to explain the relation between fraktal structure and nature several phenomena can be examined. Researces which has done to explain the relation of natural phenomena with fraktal method show that distribution of earthquakes follows a special mathematical pattern and it constitutes similar properties with distribution with distribution of incomes per capita in a liberal economy. All the blood vessels from aorta to capillary vessels forming another type of continuous series can be examined. Vessels bifurcate and divide then again bifurcate and so on. The nature of the vessel&amp;apos;s bifurcation is fraktal. The fraktal system can also be seen in the structure of a tree or bone system of a man or transportation system of a settlement. Golden ratio has been used for a long time by specialists like architects and city planners. In golden ratio by the iteration of rectangles in definite ratios a spiral similar to the initial rectangle occurs. Mathematical comment of infinite and self similar iterations occurs fraktal geometry. XIVMethods using cellular automata mechanism for land use estimation depend on the fraktal structure in settlments have been developed. The model suggestedin the research is also a method which developed through cellular automata (cellular transformation) rules. Urban land use estimation simulation model with cellular automata which developed by G. Engelen, R. White contributed to the development of suggested model of the research. Sierpinski accepted cellular automata as the initial point of science. In a way Pascal triangle was the first cellular automata. Studies done by Konrad zuse, stonislaw Ulam, John Van newmann about cellular automata was related with the production of the first counting machines. Nowadays cellular automata has been used in so many science and technology from physic, chemistry, biology to countable liquid dynamics in aeroplane and ship design, from philosophy and sociology to geography and city planning as an important modelling and simulation means. A cellular automata is characterised by these main properties. It forms from regular cell lattice. Development occurs in time steps. Every cell characterise with a situation. Every cell develop by the same rule only depend on the situation of the cell and neighbour cell number. Neighbour relationship is local and self similar. Two main concepts and their relation is important in the running system of models depend on cellular automata. These concepts are induction and deduction approaches between real world (world of observed events-events to be modelled) and certain world (modelled events world). In the fourth chapter, after the explanation of the main characteristics of the model that developed in the research, the method applied to the determination of parameters and the criteria determined in the application of data to model are explained. The aim of the model which develop for the estimation of urban land use, is having data that contribute to the development tendencies by using user demands and land use data in the synthesis process of planning studies. Every cell in the model represent some kind of urban land use. For example cells are empty (unsettled area), housing, industry, commerce. The use of model as the mean in the estimation of settlement&amp;apos;s development process, a computer program to decrease the counting time to minimum have developed. In this chapter the model is run in Bursa and the results are evaluated. In the fifth chapter the schema occurred at the end of the running of the model is tested by the initial hypothesis and suggestions are determined. i*2 *$S&amp;gt;* *£&amp;amp;" xml:lang="en_US" />
+<meta name="DC.language" content="Turkish" />
+<meta name="DC.language" content="tr" scheme="DCTERMS.RFC1766" />
+<meta name="DC.rights" content="info:eu-repo/semantics/embargoedAccess" />
+<meta name="DC.rights" content="Attribution 4.0 United States" xml:lang="tr_TR" />
+<meta name="DC.rights" content="https://creativecommons.org/licenses/by/4.0/" scheme="DCTERMS.URI" />
+<meta name="DC.subject" content="Şehircilik ve Bölge Planlama" xml:lang="tr_TR" />
+<meta name="DC.subject" content="Urban and Regional Planning" xml:lang="en_US" />
+<meta name="DC.title" content="Şehirsel yerleşmelerde fraktal ve hücresel otomata yöntemi ile gelişme alanlarının belirlenmesi" />
+<meta name="DCTERMS.alternative" content="Determination of urban development area by fractal and cellular automata method" />
+<meta name="DC.type" content="doctoralThesis" />
+<meta name="DC.date" content="2018-08-06" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.contributor" content="Diğer" />
+<meta name="DC.subject" content="Urban planning" />
+<meta name="DC.subject" content="Fractal" />
+<meta name="DC.subject" content="Cellular automata" />
+<meta name="DC.subject" content="Urban development" />
+<meta name="DC.identifier" content="118192" />
+<meta name="DC.publisher" content="Fen Bilimleri Enstitüsü" />
+<meta name="DC.publisher" content="İSTANBUL TEKNİK ÜNİVERSİTESİ" />
+<meta name="DC.identifier" content="112254" />
+<meta name="DC.description" content="128" />
+<meta name="DC.publisher" content="Diğer" />
+<meta content="Şehircilik ve B&ouml;lge Planlama; Urban and Regional Planning; doctoralThesis" name="citation_keywords">
+<meta content="Şehirsel yerleşmelerde fraktal ve h&uuml;cresel otomata y&ouml;ntemi ile gelişme alanlarının belirlenmesi" name="citation_title">
+<meta content="tr" name="citation_language">
+<meta content="Y&uuml;zer, Mehmet Ali" name="citation_author">
+<meta content="2018-08-06" name="citation_date">
+<meta content="https://acikbilim.yok.gov.tr/handle/20.500.12812/657298" name="citation_abstract_html_url">
+</head><body>
+<header>
+<div role="navigation" class="navbar navbar-default navbar-static-top navbarBackground">
+<div class="container-fluid">
+<div class="navbar-header">
+<button data-toggle="offcanvas" class="navbar-toggle" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/"><img class="logo" src="/themes/Mirage2/images/miniLogo.png"></a>
+<div class="navbar-header pull-right visible-xs hidden-sm hidden-md hidden-lg">
+<ul class="nav nav-pills pull-left ">
+<li>
+<form method="get" action="/login" style="display: inline">
+<button class="navbar-toggle navbar-link"><b aria-hidden="true" class="visible-xs glyphicon glyphicon-user"></b></button>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<div class="navbar-header pull-right hidden-xs">
+<ul class="nav navbar-nav pull-left"></ul>
+<ul class="nav navbar-nav pull-left">
+<li>
+<a href="/login"><span class="hidden-xs">Login</span></a>
+</li>
+</ul>
+<button type="button" class="navbar-toggle visible-sm" data-toggle="offcanvas"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+</div>
+</div>
+</div>
+</header>
+<div class="trail-wrapper hidden-print">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">
+<div class="breadcrumb dropdown visible-xs">
+<a data-toggle="dropdown" class="dropdown-toggle" role="button" href="#" id="trail-dropdown-toggle">View Item&nbsp;<b class="caret"></b></a>
+<ul aria-labelledby="trail-dropdown-toggle" role="menu" class="dropdown-menu">
+<li role="presentation">
+<a role="menuitem" href="/"><i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+                        DSpace Home</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/20.500.12812/117014">İSTANBUL TEKNİK &Uuml;NİVERSİTESİ</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/20.500.12812/632310">FEN BİLİMLERİ ENSTİT&Uuml;S&Uuml;</a>
+</li>
+<li role="presentation">
+<a role="menuitem" href="/handle/20.500.12812/632311">TEZLER</a>
+</li>
+<li role="presentation" class="disabled">
+<a href="#" role="menuitem">View Item</a>
+</li>
+</ul>
+</div>
+<ul class="breadcrumb hidden-xs">
+<li>
+<i aria-hidden="true" class="glyphicon glyphicon-home"></i>&nbsp;
+            <a href="/">DSpace Home</a>
+</li>
+<li>
+<a href="/handle/20.500.12812/117014">İSTANBUL TEKNİK &Uuml;NİVERSİTESİ</a>
+</li>
+<li>
+<a href="/handle/20.500.12812/632310">FEN BİLİMLERİ ENSTİT&Uuml;S&Uuml;</a>
+</li>
+<li>
+<a href="/handle/20.500.12812/632311">TEZLER</a>
+</li>
+<li class="active">View Item</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden" id="no-js-warning-wrapper">
+<div id="no-js-warning">
+<div class="notice failure">JavaScript is disabled for your browser. Some features of this site may not work without it.</div>
+</div>
+</div>
+<div class="container-fluid" id="main-container">
+<div class="row row-offcanvas row-offcanvas-right">
+<div class="horizontal-slider clearfix">
+<div role="navigation" id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+<div class="word-break hidden-print" id="ds-options">
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" class="" id="ds-search-form" action="/discover">
+<fieldset>
+<div class="input-group">
+<input placeholder="Search" type="text" class="ds-text-field form-control" name="query"><span class="input-group-btn"><button title="Go" class="ds-button-field btn btn-primary"><span aria-hidden="true" class="glyphicon glyphicon-search"></span></button></span>
+</div>
+<div class="radio">
+<label><input checked value="" name="scope" type="radio" id="ds-search-form-scope-all">Search DSpace</label>
+</div>
+<div class="radio">
+<label><input name="scope" type="radio" id="ds-search-form-scope-container" value="20.500.12812/632311">This Collection</label>
+</div>
+</fieldset>
+</form>
+</div>
+<div class="panel-group">
+<div class="panel panel-info">
+<div data-target="#pans1" data-parent="#accordion" data-toggle="collapse" class="panel-heading collapsed">
+<h2 class="panel-title accordion-toggle page-header  h6">Browse</h2>
+</div>
+<div class="panel-collapse collapse in" id="pans1">
+<div class="panel-body">
+<div class="row">
+<ul class="list-group">
+<a class="list-group-item disabled" href="#"><span class="h5  h5">All of DSpace</span></a>
+<li class="list-group-item filitre_menu">
+<a data-target="pan1" href="/community-list" class="ds-option">Communities &amp; Collections</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan1" href="/browse?type=dateissued" class="ds-option">By Issue Date</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan1" href="/browse?type=author" class="ds-option">Authors</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan1" href="/browse?type=title" class="ds-option">Titles</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan1" href="/browse?type=subject" class="ds-option">Subjects</a>
+</li>
+<a class="list-group-item disabled" href="#"><span class="h5  h5">This Collection</span></a>
+<li class="list-group-item filitre_menu">
+<a data-target="pan2" href="/handle/20.500.12812/632311/browse?type=dateissued" class="ds-option">By Issue Date</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan2" href="/handle/20.500.12812/632311/browse?type=author" class="ds-option">Authors</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan2" href="/handle/20.500.12812/632311/browse?type=title" class="ds-option">Titles</a>
+</li>
+<li class="list-group-item filitre_menu">
+<a data-target="pan2" href="/handle/20.500.12812/632311/browse?type=subject" class="ds-option">Subjects</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-group">
+<div class="panel panel-info">
+<div data-target="#pan2" data-parent="#accordion" data-toggle="collapse" class="panel-heading collapsed">
+<h2 class="panel-title accordion-toggle page-header  h6">My Account</h2>
+</div>
+<div style="height: 0px;" class="panel-collapse collapse" id="pan2">
+<div class="panel-body">
+<div class="row">
+<ul class="list-group">
+<li class="list-group-item filitre_menu">
+<a data-target="" href="/login" class="ds-option">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel-group">
+<div class="panel panel-info">
+<div data-target="#pan6" data-parent="#accordion" data-toggle="collapse" class="panel-heading collapsed">
+<h2 class="panel-title accordion-toggle page-header  h6">Statistics</h2>
+</div>
+<div style="height: 0px;" class="panel-collapse collapse" id="pan6">
+<div class="panel-body">
+<div class="row">
+<ul class="list-group">
+<li class="list-group-item filitre_menu">
+<a data-target="" href="/handle/20.500.12812/657298/statistics" class="ds-option">View Usage Statistics</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-9 main-content">
+<div>
+<div id="aspect_artifactbrowser_ItemViewer_div_item-view" class="ds-static-div primary">
+<!-- External Metadata URL: cocoon://metadata/handle/20.500.12812/657298/mets.xml-->
+<div class="item-summary-view-metadata">
+<h2 class="page-header first-page-header">Şehirsel yerleşmelerde fraktal ve h&uuml;cresel otomata y&ouml;ntemi ile gelişme alanlarının belirlenmesi</h2>
+<div class="btn-group sort-export-menu pull-right">
+<button data-toggle="dropdown" class="btn btn-default dropdown-toggle export-button" type="button"><span class="export-text">Citations</span></button>
+<ul role="menu" class="dropdown-menu">
+<li class="global-citations gear-head dropdown-header">Global styles</li>
+<li class="global-citation citation-style">
+<a href="42"><span class="glyphicon glyphicon-ok btn-xs active invisible"></span>Apa</a>
+</li>
+<li class="global-citation citation-style">
+<a href="44"><span class="glyphicon glyphicon-ok btn-xs active invisible"></span>Bibtex</a>
+</li>
+<li class="global-citation citation-style">
+<a href="43"><span class="glyphicon glyphicon-ok btn-xs active invisible"></span>Chicago Fullnote</a>
+</li>
+<li class="single-search divider"></li>
+<li>
+<a data-target="#itemCitationHelpModal" data-toggle="modal" id="item-citation-help" href="#"><span class="glyphicon glyphicon-ok btn-xs active invisible"></span>Help</a>
+</li>
+</ul>
+</div>
+<div class="row">
+<div class="col-sm-4">
+<div class="row">
+<div class="col-xs-6 col-sm-12">
+<div class="thumbnail">
+<img alt="Thumbnail" class="img-thumbnail" data-src="holder.js/100%x160/text:No Thumbnail"></div>
+</div>
+<div class="col-xs-6 col-sm-12">
+<div class="item-page-field-wrapper table word-break">
+<h5>View/<wbr></wbr>Open</h5>
+<div>
+<a href="/bitstream/handle/20.500.12812/657298/yokAcikBilim_118192.pdf?sequence=-1&isAllowed=n"><i aria-hidden="true" class="glyphicon  glyphicon-lock"></i> File_118192 (395.4Mb)</a>
+</div>
+</div>
+</div>
+</div>
+<div class="simple-item-view-date word-break item-page-field-wrapper table">
+<h5>Date</h5>2001</div>
+<div class="simple-item-view-authors item-page-field-wrapper table">
+<h5>Author</h5>
+<div class="ds-dc_contributor_author-authority">Y&uuml;zer, Mehmet Ali</div>
+</div>
+<div class="simple-item-view-show-full item-page-field-wrapper table">
+<h5>Metadata</h5>
+<a href="/handle/20.500.12812/657298?show=full">Show full item record</a>
+</div>
+</div>
+<div class="col-sm-8">
+<div class="simple-item-view-description item-page-field-wrapper table">
+<h5 class="visible-xs">Abstract</h5>
+<div>ŞEHİRSEL YERLEŞMELERDE FRAKTAL VE H&Uuml;CRESEL OTOMATA Y&Ouml;NTEMİ İLE GELİŞME ALANLARININ BELİRLENMESİ &Ouml;ZET Yerleşmelerde &ccedil;eşitli koşulların oluşturduğu fiziksel doku ve diğer &ouml;zellikler ayrı nitelikler g&ouml;stermektedir. Ancak her yerleşmenin makro ve mikro formları arasında organik bir bağ bulunmakta ve genelde sistematik ilişkiler d&uuml;zeni kademeli olarak belirli zaman aralıklarında benzerlikler g&ouml;stermektedir. Yerleşmelerde g&ouml;zlenen bu t&uuml;r benzerlikler, planlama s&uuml;recinde kullanılan y&ouml;ntem ve modellere evrensel bir boyut kazandırmaktadır. M.&Ouml;. 10000 yıllarından itibaren yerleşik d&uuml;zene ge&ccedil;iş ve sonrasında, daha rahat, sağlıklı ve d&uuml;zenli bir yaşam i&ccedil;in şehirlerde &ccedil;eşitli d&uuml;zenlemeler ve planlanma faaliyetleri başlamış, &ouml;zellikle 18. yy&amp;apos; dan itibaren geliştirilen ideal yerleşme şemaları ile planlamada yeni yaklaşımlar ortaya &ccedil;ıkmıştır. 1950&amp;apos;li yıllara kadar yapısında &ccedil;ok farklılıklar olmayan planlama &ccedil;alışmalarında, hesaplama tekniklerinde g&ouml;zlenen gelişmelerle birlikte yeni y&ouml;ntemler araştırılmış ve şehirlerin gelecekteki durumlarını tahmin eden modeller ortaya konmuştur. 1980&amp;apos;li yıllarda bilgisayarların aktif olarak planlama &ccedil;alışmalarında kullanılması, sayısal ortamda modelleme &ccedil;alışmalarını hızlandırmış ve şehirlerde bilgi sistemleri organizasyonuna olanak tanımıştır. &Uuml;lkemizde bu &ccedil;er&ccedil;evede 1990&amp;apos;lı yılların başlarından itibaren geliştirilen modelleme &ccedil;alışmaları ve planlama anlayışı, Coğrafi Bilgi Sistemleri (CBS) ve Kent Bilgi Sistemleri (KBS) kavramları altında g&uuml;ndeme gelmiş ancak ge&ccedil;en s&uuml;re i&ccedil;inde konu şehir planlama &ccedil;alışmalarında yaygınlaştırılamamıştır. Bu araştırmada, fiziki verilerin yanı sıra sosyo-ekonomik veriler kullanılarak ve yerleşmelerin fraktal yapısına bağlı olarak en k&uuml;&ccedil;&uuml;k h&uuml;cresel fonksiyon ile diğer fonksiyonlar arası ilişkiler baz alınarak geliştirilen h&uuml;creselotomata modeli ile, yerleşmelerin planlama s&uuml;recine katkı sağlayacak y&ouml;nlendiricilerin elde edilmesi araştırmanın amacı olarak belirlenmiştir. Bu ama&ccedil; doğrultusunda hazırlanan araştırma beş b&ouml;l&uuml;mden oluşmaktadır. Giriş b&ouml;l&uuml;m&uuml;nden sonra ikinci b&ouml;l&uuml;mde, d&uuml;nyada yerleşik d&uuml;zene ge&ccedil;iş sonrası şehirsel alanların oluşturduğu formların irdelenmesi, klasik şehir formları-gelişme sınırları b&uuml;y&uuml;me modelleri hakkında sanayi d&ouml;nemi &ouml;ncesi ve sonrası geliştirilen modeller araştırılmıştır. &Uuml;&ccedil;&uuml;nc&uuml; b&ouml;l&uuml;mde araştırmada geliştirilen y&ouml;ntemin temelini oluşturan tekrar, h&uuml;cresel ilişki, otomasyon ve hesaplama y&ouml;ntemleri kavramları ve bu kavramların gelişim s&uuml;re&ccedil;leri irdelenmiştir. Fraktal kavramının ortaya &ccedil;ıkışı, kaos kavramıyla olan bağlantısı, fraktal tipleri ve fraktal boyutun &ouml;l&ccedil;&uuml;lmesi, doğa, sosyal olaylar ve bilim fraktal, arasındaki ilişki bu b&ouml;l&uuml;mde a&ccedil;ıklanmıştır. H&uuml;cresel otomatanın (Cellular Automata) tanımı, mantığı, planlama ile h&uuml;cresel otomata arasındaki bağlantı, h&uuml;cresel otomata arazi kullanımı ilişkisi bu b&ouml;l&uuml;mde irdelenen diğer konulardır. D&ouml;rd&uuml;nc&uuml; b&ouml;l&uuml;mde araştırma kapsamında geliştirilen modelin temel &ouml;zellikleri a&ccedil;ıklandıktan sonra modele baz teşkil eden parametrelerin tespitinde uygulanan y&ouml;ntem a&ccedil;ıklanmış ve verilerin modele aplikasyonunda belirlenen kriterlerin esastan verilmiştir. Yerleşmelerin b&uuml;y&uuml;me s&uuml;re&ccedil;lerinin tahmininde modelin yaygın bir ara&ccedil; olarak kullanılması i&ccedil;in hesaplama s&uuml;resinin minimuma indirilmesine y&ouml;nelik olarak, bilgisayar ortamında rahat kullanılabilen bir program geliştirilmiştir. Bu b&ouml;l&uuml;mde modelin Bursa yerleşmesinde sınanması i&ccedil;in model &ccedil;alıştırılmış ve &ccedil;ıkan sonu&ccedil;lar değerlendirilmiştir. Araştırmanın beşinci ve son b&ouml;l&uuml;m&uuml;nde modelin &ccedil;alıştırılması sonucunda ortaya &ccedil;ıkan şema başta belirlenen varsayımlarla test edilmiş, buna g&ouml;re araştırmanın genel sonu&ccedil;lan elde edilerek &ouml;neriler belirlenmiştir.<div class="spacer">&nbsp;</div>DETERMINATION OF URBAN DEVELOPMENT AREA BY FRACTAL AND CELLULAR AUTOMATA METHOD SUMMARY Cities take shape depend on their natural and social environment in their region. Sometimes a river or a harbour or if s demographic and social structure affects this form positively or negatively. The most important factor which change the existing structure of the city and one of the main reasons of urban development is the economic relations with their region, environment, nation and even world and their inner dynamics (productive activities). Dense productive activities, demographic movements and economic relations with close environment cause the development of cities and differentiation in land use in the development process. Land use differentiation has first seen in rural areas. Other effected are is the core of the city. Either the differentiation (transformation) of functional areas in city center depend on the existing structure or transformations seen in residential, industrial, commerce and unstructured areas depend on the relations with other functions occur as important criterion in urban development planning. In traditional planning approach, defining the development strategies, synthesis of physical and social data collected in several steps of planning process towards aim and goals, personal experience and skills of planner and other participants are used as the directors in planning. In recent years developments seen in information communication, transition of computers used in common areas to individual space, minimize the time spent in accessing to information, data collection and it&amp;apos;s evaluation. Computers which are used dense in different stages of planning help to obtain reliable and right results in planning of urban areas and defining their development strategies if they are directed well. In the process beginning from Mezopotamia civilization to the end of industrial revolution, city forms accurred depend on several factors. Since the first XI1000), Classic times (1500-1540), end of Renaissance (1540-1600), Barocco (16th- &amp;lt;jyth_18th centurjeS) time intervals.settlements organised according to geometric and symetric forms and fraktal order principles have been seen. In reality, fraktal geometric order reserved in nature itself. Fraktal geometric order which form the natural structure and structure of all the living are important to explain the textuer characteristics related to settlements. In settlements, physical texture and other characteristics show different qualities. However there are organic relations among micro and macro forms of every settlement and in general, systematic relations order show gradually similarities in certain time intervals. Planning understanding with modelling studies in numerical environment have been seen under Geographic Information System (GIS) and Urban Information System (UIS) since 1990&amp;apos;s. But it couldn&amp;apos;t be spread to urban planning studies. In this reserach, planning of settlements by using fraktal structure and cellular automata method which can form transformation and development strategies at the end of interaction among functions, depend on socio-economic data beyond physical data and go from minimum cell size to city form are defined as the main goal. The research which is prepared according to this goal consist of five chapter. After the introduction part in the second chapter, urban forms in the world after the settled order are examined and models developed before and after industrial period about classic urban forms- development borders- growth models are searched. In antique settlements, beyond natural conditions, administrative, religious and defence factors directed the formation of settlements, similarities determined in Maya and Inka civilisation&amp;apos;s cities developed in American continent and Mezopotamia and Egypt civilisation&amp;apos;s cities in BC 2500. Especially pyramid styled buildings occurred with mathematical and geometric orders and in grid system settlements domination of religious people have been seen. Iteration and cell development seen in grid system resemble today&amp;apos;s settlements.These iterations show that fraktal structure have been effective in settlement formation since past times. Growth requirements coming from migartion and population increase parallel to the industrial development cause unplanned and unhealthy lands in settlements and especially growing tendency of existing industrial buildings in the core of the city created slum areas in the center. This kind of rapid development seen in settlements force researchers to form new models in the reorganisation of settlements and planning of development areas. In all of the models, either lineer or circular XIIsettlement models, there are always iterative form &amp;apos;cell&amp;apos; characteristics in land use decisions and if s hierarchy. The growth of these settlements depends on if s iteration in equal conditions and use. These arise from the simulation of real environment by taking into consideration certain hypothesis which occur as the synthesis of complex and endless directors. In order to enable balanced relations among the main functions of human life such as accomodation, working, resting, transportation and communication in urban areas, 3 main principles have been accepted in land use models that developed in several periods. The first one is the organisation of urban land use from city centers to tiie rings opened outwards (consantric); the second one is the organisation of land use as radial sectors which open from center to the sides. The third one is the spread of land use by cores that facilitate the accessibility in the settlement. Models which used at the moment and developed for the computer aided land use estimation have also affected from these three models. From this point of view, for supporting to explain the relations among functions used in cellular automata (C.A.) method which aims land use estimation and occurs the foundation of the research, examples related with these models are examined. With the common use of computers in all scientific branches, data communication especially among City and Regional Planning and other scientific branches increased. As a result of this, with the data of all scientific branches coming together in a short time and qualitatively cause healthy land use estimations. At the end of 1980&amp;apos;s, the development of computer programs (GIS) which can store data in computer environment in series and obtain input-output facilities among data and interrogate and evaluate data according to aim, help the simulation of land use estimations. The method used in this research is a computer aided method. In the planning evolution, land use models belong to pre-industrial period have developed. The importance of these studies couldn&amp;apos;t be ignored but technological development and tiie decrease of computing time to minimum cause new methods. Before the land use method which occure the core of the research, the cronological development process of studies up to now were given. In this chapter, beside these cronological land use estimation methods, methods developed for the end of 20* century were focused because of if s close relation with the method used in this research. XIIIIn the researches of White and Engelen about cellular automata (C.A.) based urban models, C.A. based urban models which combine theoretical concepts with ampirical realities were developed. In the C.A. based urban models which depend on dense sensibility analysis by accepting the four main functions of settlements push and pull force depend on the distance among the cells are thought and land use estimation depend on the relations among cells and it&amp;apos;s simulation are aimed. In the third chapter iteration, cellular relation, automation and computing methods which occur the foundation of research&amp;apos;s method and the development process of these concepts are examined. The formation of fraktal concept, it&amp;apos;s relation with chaos, types of fraktal and measuring fraktal dimension, nature, social events, their relations, cellular automata&amp;apos;s definition, it&amp;apos;s relation with planning the relationship between C.A. and land use are the other explained subjects. When the development process of several events in natural, physical and social environment are examined, in differentations seen in initial and the next time interval, if s seen that initial position affects the next position much. Especially functional changes in existing texture (such as commerce, service functions) shows it&amp;apos;s effects in a short time and cause differentations in texture. The dimension of this differentation changes according to the function&amp;apos;s quality and effect Mostly industrial enterprise occur in a cell unit cause the development of other industrial enterprises, settlement areas, commerce and other service functions. So as to explain the relation between fraktal structure and nature several phenomena can be examined. Researces which has done to explain the relation of natural phenomena with fraktal method show that distribution of earthquakes follows a special mathematical pattern and it constitutes similar properties with distribution with distribution of incomes per capita in a liberal economy. All the blood vessels from aorta to capillary vessels forming another type of continuous series can be examined. Vessels bifurcate and divide then again bifurcate and so on. The nature of the vessel&amp;apos;s bifurcation is fraktal. The fraktal system can also be seen in the structure of a tree or bone system of a man or transportation system of a settlement. Golden ratio has been used for a long time by specialists like architects and city planners. In golden ratio by the iteration of rectangles in definite ratios a spiral similar to the initial rectangle occurs. Mathematical comment of infinite and self similar iterations occurs fraktal geometry. XIVMethods using cellular automata mechanism for land use estimation depend on the fraktal structure in settlments have been developed. The model suggestedin the research is also a method which developed through cellular automata (cellular transformation) rules. Urban land use estimation simulation model with cellular automata which developed by G. Engelen, R. White contributed to the development of suggested model of the research. Sierpinski accepted cellular automata as the initial point of science. In a way Pascal triangle was the first cellular automata. Studies done by Konrad zuse, stonislaw Ulam, John Van newmann about cellular automata was related with the production of the first counting machines. Nowadays cellular automata has been used in so many science and technology from physic, chemistry, biology to countable liquid dynamics in aeroplane and ship design, from philosophy and sociology to geography and city planning as an important modelling and simulation means. A cellular automata is characterised by these main properties. It forms from regular cell lattice. Development occurs in time steps. Every cell characterise with a situation. Every cell develop by the same rule only depend on the situation of the cell and neighbour cell number. Neighbour relationship is local and self similar. Two main concepts and their relation is important in the running system of models depend on cellular automata. These concepts are induction and deduction approaches between real world (world of observed events-events to be modelled) and certain world (modelled events world). In the fourth chapter, after the explanation of the main characteristics of the model that developed in the research, the method applied to the determination of parameters and the criteria determined in the application of data to model are explained. The aim of the model which develop for the estimation of urban land use, is having data that contribute to the development tendencies by using user demands and land use data in the synthesis process of planning studies. Every cell in the model represent some kind of urban land use. For example cells are empty (unsettled area), housing, industry, commerce. The use of model as the mean in the estimation of settlement&amp;apos;s development process, a computer program to decrease the counting time to minimum have developed. In this chapter the model is run in Bursa and the results are evaluated. In the fifth chapter the schema occurred at the end of the running of the model is tested by the initial hypothesis and suggestions are determined. i*2 *$S&amp;gt;* *&pound;&amp;amp;<div class="spacer">&nbsp;</div>
+</div>
+</div>
+<div class="simple-item-view-uri item-page-field-wrapper table">
+<h5>URI</h5>
+<span><a href="https://acikbilim.yok.gov.tr/handle/20.500.12812/657298">https://acikbilim.yok.gov.tr/handle/20.500.12812/657298</a></span>
+</div>
+<div class="simple-item-view-collections item-page-field-wrapper table">
+<h5>Collections</h5>
+<ul class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/20.500.12812/632311/mets.xml-->
+<li>
+<a href="/handle/20.500.12812/632311">TEZLER</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p id="com_atmire_app_xmlui_aspect_citations_ItemCitationTransformer_p_hidden-fields" class="ds-paragraph hidden">
+<input id="com_atmire_app_xmlui_aspect_citations_ItemCitationTransformer_field_citation-export-base" class="ds-hidden-field form-control" name="citation-export-base" type="hidden" value="https://acikbilim.yok.gov.tr/discover/citation-export?itemUuid=6014bffb-a611-45aa-8f1e-c8e834899169">
+</p>
+</div>
+<div class="row" about="https://acikbilim.yok.gov.tr/handle/20.500.12812/657298">
+<div class="col-sm-3 col-xs-12">
+<a title="info:eu-repo/semantics/embargoedAccess" alt="info:eu-repo/semantics/embargoedAccess" href="https://creativecommons.org/licenses/by/4.0/" rel="license"><img class="img-responsive" src="/themes/Mirage2//images/creativecommons/cc-generic.png" alt="info:eu-repo/semantics/embargoedAccess"></a>
+</div>
+<div class="col-sm-8">
+<span>Except where otherwise noted, this item's license is described as info:eu-repo/semantics/embargoedAccess</span>
+</div>
+</div>
+</div>
+<div class="visible-xs visible-sm">
+<footer>
+<div class="row">
+<hr>
+<div class="col-xs-7 col-sm-8">
+<div>
+<a target="_blank" href="https://www.yok.gov.tr/">Y&uuml;ksek&ouml;ğretim Kurulu </a><a target="_blank" href="http://acikbilim.yok.gov.tr/">A&ccedil;ık Bilim</a>
+</div>
+<div class="hidden-print">
+<a href="/contact">Contact Us</a> | <a href="/feedback">Send Feedback</a>
+</div>
+</div>
+<div class="col-xs-5 col-sm-4 hidden-print">
+<div class="pull-right">
+<a href="https://yok.gov.tr" target="_blank" title="Y&uuml;ksek&ouml;ğretim Kurulu"><img src="/themes/Mirage2/images/yokLogo.png" width="100" alt="Council of Higher Education"></a>
+</div>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+<p>&nbsp;</p>
+</footer>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs hidden-sm">
+<footer>
+<div class="row">
+<hr>
+<div class="col-xs-7 col-sm-8">
+<div>
+<a target="_blank" href="https://www.yok.gov.tr/">Y&uuml;ksek&ouml;ğretim Kurulu </a><a target="_blank" href="http://acikbilim.yok.gov.tr/">A&ccedil;ık Bilim</a>
+</div>
+<div class="hidden-print">
+<a href="/contact">Contact Us</a> | <a href="/feedback">Send Feedback</a>
+</div>
+</div>
+<div class="col-xs-5 col-sm-4 hidden-print">
+<div class="pull-right">
+<a href="https://yok.gov.tr" target="_blank" title="Y&uuml;ksek&ouml;ğretim Kurulu"><img src="/themes/Mirage2/images/yokLogo.png" width="100" alt="Council of Higher Education"></a>
+</div>
+</div>
+</div>
+<a class="hidden" href="/htmlmap">&nbsp;</a>
+<p>&nbsp;</p>
+</footer>
+</div>
+</div>
+<script type="text/javascript">
+                         if(typeof window.publication === 'undefined'){
+                            window.publication={};
+                          };
+                        window.publication.contextPath= '';window.publication.themePath= '/themes/Mirage2/';</script><script>if(!window.DSpace){window.DSpace={};}window.DSpace.context_path='';window.DSpace.theme_path='/themes/Mirage2/';</script><script src="/themes/Mirage2/scripts/theme.js"> </script><script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-212994163-1', 'acikbilim.yok.gov.tr');
+                ga('send', 'pageview');
+            </script>
+<div aria-labelledby="citationHelpModal" role="dialog" tabindex="-1" id="citationHelpModal" class="modal fade">
+<div role="document" class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 id="myModalLabel" class="modal-title">Export citations</h4>
+</div>
+<div class="modal-body">         
+<p>Export the current results of the search query as a citation list. Select one of the available citation             styles, or add a new one using the "Citations format" option present in the "My account" section.         </p>         
+<p>The list of citations that can be exported is limited to  items.</p>     
+</div>
+<div class="modal-footer">
+<button data-dismiss="modal" class="btn btn-default" type="button">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="itemCitationHelpModal" role="dialog" tabindex="-1" id="itemCitationHelpModal" class="modal fade">
+<div role="document" class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Export citations</h4>
+</div>
+<div class="modal-body">         
+<p>Export the current item as a citation. Select one of the available citation             styles, or add a new one using the "Citations format" option present in the "My account" section.         </p>     
+</div>
+<div class="modal-footer">
+<button data-dismiss="modal" class="btn btn-default" type="button">Close</button>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="citationFormatModal" role="dialog" tabindex="-1" id="citationFormatModal" class="modal fade">
+<div role="document" class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Export Citations</h4>
+</div>
+<div class="modal-body">
+<fieldset id="N10054" class="ds-radio-field citation-format-radio">
+<div class="radio">
+<label><input name="citation-format-radio" type="radio" value="htmlFormat" checked>HTML</label>
+</div>
+<div class="radio">
+<label><input name="citation-format-radio" type="radio" value="textFormat">Text</label>
+</div>
+<div class="radio">
+<label><input name="citation-format-radio" type="radio" value="asciidocFormat">Asciidoc</label>
+</div>
+<div class="radio">
+<label><input name="citation-format-radio" type="radio" value="foFormat">FO</label>
+</div>
+<div class="radio">
+<label><input name="citation-format-radio" type="radio" value="rtfFormat">RTF</label>
+</div>
+</fieldset>
+</div>
+<div class="modal-footer">
+<button data-dismiss="modal" class="btn btn-default citation-export-button" type="button">Export</button>
+</div>
+</div>
+</div>
+</div>
+</body></html>

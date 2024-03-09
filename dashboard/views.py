@@ -7,6 +7,13 @@ from django.conf import settings
 # Create your views here.
 import os
 
+import re
+
+def temizle(string):
+    # Boşlukları ve noktalama işaretlerini kaldır
+    temiz_veri = re.sub(r'\s+', '', string)  # Boşlukları kaldır
+    temiz_veri = re.sub(r'[^\w\s]', '', temiz_veri)  # Noktalama işaretlerini kaldır
+    return temiz_veri
 
 def homepage(request):
 
@@ -57,9 +64,21 @@ def homepage(request):
                     results.append(veri)
                 # filename = os.path.basename(a.get('href'))
 
+
+                    temizVeri=temizle(a.get('href'))
                 #dosya_yolu = "/path/to/your/directory/"
-                    filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
+                    filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(temizVeri))
+                    # filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
     # İndirme işlemi
+                    # if os.path.exists(filename):
+#     with open(filename, 'wb') as f:
+#         # Dosya işlemleri burada yapılır
+# else:
+#     # Dosya var olmadığında yapılacak işlemler
+#     print(f"{filename} adlı dosya mevcut değil.")
+                    
+
+
                     with open(filename, 'wb') as f:
                         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
                         response = requests.get(a.get('href'), headers=headers)
