@@ -1,0 +1,3215 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<!-- BEGIN header.tt -->
+  <head>
+    <title>Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes
+    </title>
+    <link rel="icon" href="https://pub.uni-bielefeld.de/images/brand_logo.png" type="image/png">
+      <!-- Google Scholar --><meta name="citation_title" content="Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes"><meta name="citation_author" content="Lemke, Johannes R.">
+      <meta name="citation_author" content="Lal, Dennis">
+      <meta name="citation_author" content="Reinthaler, Eva M.">
+      <meta name="citation_author" content="Steiner, Isabelle">
+      <meta name="citation_author" content="Nothnagel, Michael">
+      <meta name="citation_author" content="Alber, Michael">
+      <meta name="citation_author" content="Geider, Kirsten">
+      <meta name="citation_author" content="Laube, Bodo">
+      <meta name="citation_author" content="Schwake, Michael">
+      <meta name="citation_author" content="Finsterwalder, Katrin">
+      <meta name="citation_author" content="Franke, Andre">
+      <meta name="citation_author" content="Schilhabel, Markus">
+      <meta name="citation_author" content="Jaehn, Johanna A.">
+      <meta name="citation_author" content="Muhle, Hiltrud">
+      <meta name="citation_author" content="Boor, Rainer">
+      <meta name="citation_author" content="Van Paesschen, Wim">
+      <meta name="citation_author" content="Caraballo, Roberto">
+      <meta name="citation_author" content="Fejerman, Natalio">
+      <meta name="citation_author" content="Weckhuysen, Sarah">
+      <meta name="citation_author" content="De Jonghe, Peter">
+      <meta name="citation_author" content="Larsen, Jan">
+      <meta name="citation_author" content="Moller, Rikke S.">
+      <meta name="citation_author" content="Hjalgrim, Helle">
+      <meta name="citation_author" content="Addis, Laura">
+      <meta name="citation_author" content="Tang, Shan">
+      <meta name="citation_author" content="Hughes, Elaine">
+      <meta name="citation_author" content="Pal, Deb K.">
+      <meta name="citation_author" content="Veri, Kadi">
+      <meta name="citation_author" content="Vaher, Ulvi">
+      <meta name="citation_author" content="Talvik, Tiina">
+      <meta name="citation_author" content="Dimova, Petia">
+      <meta name="citation_author" content="Lopez, Rosa Guerrero">
+      <meta name="citation_author" content="Serratosa, Jose M.">
+      <meta name="citation_author" content="Linnankivi, Tarja">
+      <meta name="citation_author" content="Lehesjoki, Anna-Elina">
+      <meta name="citation_author" content="Ruf, Susanne">
+      <meta name="citation_author" content="Wolff, Markus">
+      <meta name="citation_author" content="Buerki, Sarah">
+      <meta name="citation_author" content="Wohlrab, Gabriele">
+      <meta name="citation_author" content="Kroell, Judith">
+      <meta name="citation_author" content="Datta, Alexandre N.">
+      <meta name="citation_author" content="Fiedler, Barbara">
+      <meta name="citation_author" content="Kurlemann, Gerhard">
+      <meta name="citation_author" content="Kluger, Gerhard">
+      <meta name="citation_author" content="Hahn, Andreas">
+      <meta name="citation_author" content="Haberlandt, D. Edda">
+      <meta name="citation_author" content="Kutzer, Christina">
+      <meta name="citation_author" content="Sperner, Juergen">
+      <meta name="citation_author" content="Becker, Felicitas">
+      <meta name="citation_author" content="Weber, Yvonne G.">
+      <meta name="citation_author" content="Feucht, Martha">
+      <meta name="citation_author" content="Steinboeck, Hannelore">
+      <meta name="citation_author" content="Neophythou, Birgit">
+      <meta name="citation_author" content="Ronen, Gabriel M.">
+      <meta name="citation_author" content="Gruber-Sedlmayr, Ursula">
+      <meta name="citation_author" content="Geldner, Julia">
+      <meta name="citation_author" content="Harvey, Robert J.">
+      <meta name="citation_author" content="Hoffmann, Per">
+      <meta name="citation_author" content="Herms, Stefan">
+      <meta name="citation_author" content="Altmueller, Janine">
+      <meta name="citation_author" content="Toliat, Mohammad R.">
+      <meta name="citation_author" content="Thiele, Holger">
+      <meta name="citation_author" content="Nuernberg, Peter">
+      <meta name="citation_author" content="Wilhelm, Christian">
+      <meta name="citation_author" content="Stephani, Ulrich">
+      <meta name="citation_author" content="Helbig, Ingo">
+      <meta name="citation_author" content="Lerche, Holger">
+      <meta name="citation_author" content="Zimprich, Fritz">
+      <meta name="citation_author" content="Neubauer, Bernd A.">
+      <meta name="citation_author" content="Biskup, Saskia">
+      <meta name="citation_author" content="von Spiczak, Sarah">
+      <meta name="citation_date" content="2013"><meta name="citation_pdf_url" content="https://doi.org/10.1038/ng.2728"><meta name="citation_journal_title" content="Nature Genetics" /><meta name="citation_volume" content="45" /><meta name="citation_issue" content="9" /><meta name="citation_issn" content="1061-4036">
+      <!-- DC-Tags -->
+      <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+      <meta name="DC.title" content="Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes"><meta name="DC.creator" content="Lemke, Johannes R.">
+      <meta name="DC.creator" content="Lal, Dennis">
+      <meta name="DC.creator" content="Reinthaler, Eva M.">
+      <meta name="DC.creator" content="Steiner, Isabelle">
+      <meta name="DC.creator" content="Nothnagel, Michael">
+      <meta name="DC.creator" content="Alber, Michael">
+      <meta name="DC.creator" content="Geider, Kirsten">
+      <meta name="DC.creator" content="Laube, Bodo">
+      <meta name="DC.creator" content="Schwake, Michael">
+      <meta name="DC.creator" content="Finsterwalder, Katrin">
+      <meta name="DC.creator" content="Franke, Andre">
+      <meta name="DC.creator" content="Schilhabel, Markus">
+      <meta name="DC.creator" content="Jaehn, Johanna A.">
+      <meta name="DC.creator" content="Muhle, Hiltrud">
+      <meta name="DC.creator" content="Boor, Rainer">
+      <meta name="DC.creator" content="Van Paesschen, Wim">
+      <meta name="DC.creator" content="Caraballo, Roberto">
+      <meta name="DC.creator" content="Fejerman, Natalio">
+      <meta name="DC.creator" content="Weckhuysen, Sarah">
+      <meta name="DC.creator" content="De Jonghe, Peter">
+      <meta name="DC.creator" content="Larsen, Jan">
+      <meta name="DC.creator" content="Moller, Rikke S.">
+      <meta name="DC.creator" content="Hjalgrim, Helle">
+      <meta name="DC.creator" content="Addis, Laura">
+      <meta name="DC.creator" content="Tang, Shan">
+      <meta name="DC.creator" content="Hughes, Elaine">
+      <meta name="DC.creator" content="Pal, Deb K.">
+      <meta name="DC.creator" content="Veri, Kadi">
+      <meta name="DC.creator" content="Vaher, Ulvi">
+      <meta name="DC.creator" content="Talvik, Tiina">
+      <meta name="DC.creator" content="Dimova, Petia">
+      <meta name="DC.creator" content="Lopez, Rosa Guerrero">
+      <meta name="DC.creator" content="Serratosa, Jose M.">
+      <meta name="DC.creator" content="Linnankivi, Tarja">
+      <meta name="DC.creator" content="Lehesjoki, Anna-Elina">
+      <meta name="DC.creator" content="Ruf, Susanne">
+      <meta name="DC.creator" content="Wolff, Markus">
+      <meta name="DC.creator" content="Buerki, Sarah">
+      <meta name="DC.creator" content="Wohlrab, Gabriele">
+      <meta name="DC.creator" content="Kroell, Judith">
+      <meta name="DC.creator" content="Datta, Alexandre N.">
+      <meta name="DC.creator" content="Fiedler, Barbara">
+      <meta name="DC.creator" content="Kurlemann, Gerhard">
+      <meta name="DC.creator" content="Kluger, Gerhard">
+      <meta name="DC.creator" content="Hahn, Andreas">
+      <meta name="DC.creator" content="Haberlandt, D. Edda">
+      <meta name="DC.creator" content="Kutzer, Christina">
+      <meta name="DC.creator" content="Sperner, Juergen">
+      <meta name="DC.creator" content="Becker, Felicitas">
+      <meta name="DC.creator" content="Weber, Yvonne G.">
+      <meta name="DC.creator" content="Feucht, Martha">
+      <meta name="DC.creator" content="Steinboeck, Hannelore">
+      <meta name="DC.creator" content="Neophythou, Birgit">
+      <meta name="DC.creator" content="Ronen, Gabriel M.">
+      <meta name="DC.creator" content="Gruber-Sedlmayr, Ursula">
+      <meta name="DC.creator" content="Geldner, Julia">
+      <meta name="DC.creator" content="Harvey, Robert J.">
+      <meta name="DC.creator" content="Hoffmann, Per">
+      <meta name="DC.creator" content="Herms, Stefan">
+      <meta name="DC.creator" content="Altmueller, Janine">
+      <meta name="DC.creator" content="Toliat, Mohammad R.">
+      <meta name="DC.creator" content="Thiele, Holger">
+      <meta name="DC.creator" content="Nuernberg, Peter">
+      <meta name="DC.creator" content="Wilhelm, Christian">
+      <meta name="DC.creator" content="Stephani, Ulrich">
+      <meta name="DC.creator" content="Helbig, Ingo">
+      <meta name="DC.creator" content="Lerche, Holger">
+      <meta name="DC.creator" content="Zimprich, Fritz">
+      <meta name="DC.creator" content="Neubauer, Bernd A.">
+      <meta name="DC.creator" content="Biskup, Saskia">
+      <meta name="DC.creator" content="von Spiczak, Sarah">
+      <meta name="DC.date" content="2013"><meta name="DC.language" content="eng">
+      <meta name="DC.identifier" content="https://pub.uni-bielefeld.de/record/2625613/2625613"><meta name="DC.description" content="Idiopathic focal epilepsy (IFE) with rolandic spikes is the most common childhood epilepsy, comprising a phenotypic spectrum from rolandic epilepsy (also benign epilepsy with centrotemporal spikes, BECTS) to atypical benign partial epilepsy (ABPE), Landau-Kleffner syndrome (LKS) and epileptic encephalopathy with continuous spike and waves during slow-wave sleep (CSWS)(1,2). The genetic basis is largely unknown. We detected new heterozygous mutations in GRIN2A in 27 of 359 affected individuals from 2 independent cohorts with IFE (7.5%; P = 4.83 x 10(-18), Fisher's exact test). Mutations occurred significantly more frequently in the more severe phenotypes, with mutation detection rates ranging from 12/245 (4.9%) in individuals with BECTS to 9/51 (17.6%) in individuals with CSWS (P = 0.009, Cochran-Armitage test for trend). In addition, exon-disrupting microdeletions were found in 3 of 286 individuals (1.0%; P = 0.004, Fisher's exact test). These results establish alterations of the gene encoding the NMDA receptor NR2A subunit as a major genetic risk factor for IFE.">
+      <meta name="DC.type" content="article"><link rel="DC.relation" href="https://doi.org/10.1038/ng.2728"><link rel="DC.relation" href="urn:ISSN:1061-4036">
+        
+    
+    <meta name="robots" content="index,follow,noimageindex" />
+    
+    <!-- BEGIN head_meta.tt -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="https://pub.uni-bielefeld.de/css/ltIE10.css" />
+    <![endif]-->
+    <link rel="stylesheet" href="https://pub.uni-bielefeld.de/css/main.css">
+    <script type="text/javascript">
+      window.librecat = {
+        uri_base: "https://pub.uni-bielefeld.de"
+      };
+    </script>
+    <script src="https://pub.uni-bielefeld.de/javascripts/jquery.min.js"></script>
+    <script src="https://pub.uni-bielefeld.de/javascripts/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="https://pub.uni-bielefeld.de/javascripts/bootstrap.min.js"></script><!-- main bootstrap file -->
+    <script src="https://pub.uni-bielefeld.de/javascripts/bootstrap-select.min.js"></script><!-- dropdown-like selects -->
+    <script src="https://pub.uni-bielefeld.de/javascripts/librecat.js"></script>
+<!-- END head_meta.tt -->
+  </head>
+
+  <body>
+  
+
+
+<link rel="stylesheet" href="https://pub.uni-bielefeld.de/css/pub-librecat.css">
+<script src="https://pub.uni-bielefeld.de/javascripts/librecat_orcid.js"></script>
+
+<!-- BEGIN pub-librecat/views/topbar.tt -->
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top frontend" role="navigation">
+      <div class="container">
+  <div class="row">
+    <div class="col-xs-11 hidden-sm hidden-lg hidden-md">
+      <span class="navbar-brand">
+        <a href="//www.ub.uni-bielefeld.de/">
+          <img src="/images/logoverbund_bg-grau.png" alt="Universität Bielefeld" usemap="#map_logoverbund_xs">
+        </a>
+        <map name="map_logoverbund_xs" id="map_logoverbund_xs">
+          <area shape="rect" coords="0,0,84,20" href="//www.uni-bielefeld.de" alt="Universität Bielefeld" title="Zur Startseite der Universität">
+          <area shape="rect" coords="0,20,84,30" href="//www.ub.uni-bielefeld.de/" alt="Universitätsbibliothek Bielefeld" title="Zur Startseite der Universiätsbibliothek">
+        </map>
+      </span>
+    </div>
+    <div class="col-md-11 col-sm-10 hidden-xs">
+      <span class="pub-navbar-brand">
+        <a href="//www.ub.uni-bielefeld.de/">
+          <img src="/images/logoverbund_bg-grau.png" alt="Universität Bielefeld" usemap="#map_logoverbund">
+        </a>
+        <map name="map_logoverbund" id="map_logoverbund">
+          <area shape="rect" coords="0,0,200,50" href="//www.uni-bielefeld.de" alt="Universität Bielefeld" title="Zur Startseite der Universität">
+          <area shape="rect" coords="0,51,200,71" href="//www.ub.uni-bielefeld.de/" alt="Universitätsbibliothek Bielefeld" title="Zur Startseite der Universiätsbibliothek">
+        </map>
+      </span>
+    </div>
+  </div>
+</div><!-- /container -->
+
+    </nav>
+
+    <div class="modal" id="selectAFF">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Title</h4>
+            <div><small>Click a name to choose. Click <span class="fa fa-chevron-down"></span> to show more.</small></div>
+          </div>
+          <div class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- <main class="front"> -->
+  <main class="front">
+
+  <div class="container publication">
+
+<!-- END pub-librecat/views/topbar.tt -->
+
+
+  <div class="row">
+    <div class="col-xs-12" id="messages">
+    </div>
+  </div>
+
+<!-- END header.tt -->
+
+<!-- BEGIN publication/record.tt -->
+
+<script type="text/javascript">function ReduceAuthors (){
+  document.getElementById('showAut').innerHTML= '<br><a href="#details" onclick="ShowAuthors();"><span class="fa fa-plus fw"></span>All</a>' ;
+}
+
+function ShowAuthors (){
+  var str = "" ;
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    str +=  " ; <strong>Jaehn, Johanna A.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Muhle, Hiltrud</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Boor, Rainer</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Van Paesschen, Wim</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Caraballo, Roberto</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Fejerman, Natalio</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Weckhuysen, Sarah</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>De Jonghe, Peter</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Larsen, Jan</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Moller, Rikke S.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Hjalgrim, Helle</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Addis, Laura</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Tang, Shan</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Hughes, Elaine</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Pal, Deb K.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Veri, Kadi</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Vaher, Ulvi</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Talvik, Tiina</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Dimova, Petia</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Lopez, Rosa Guerrero</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Serratosa, Jose M.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Linnankivi, Tarja</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Lehesjoki, Anna-Elina</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Ruf, Susanne</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Wolff, Markus</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Buerki, Sarah</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Wohlrab, Gabriele</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Kroell, Judith</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Datta, Alexandre N.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Fiedler, Barbara</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Kurlemann, Gerhard</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Kluger, Gerhard</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Hahn, Andreas</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Haberlandt, D. Edda</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Kutzer, Christina</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Sperner, Juergen</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Becker, Felicitas</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Weber, Yvonne G.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Feucht, Martha</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Steinboeck, Hannelore</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Neophythou, Birgit</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Ronen, Gabriel M.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Gruber-Sedlmayr, Ursula</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Geldner, Julia</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Harvey, Robert J.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Hoffmann, Per</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Herms, Stefan</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Altmueller, Janine</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Toliat, Mohammad R.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Thiele, Holger</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Nuernberg, Peter</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Wilhelm, Christian</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Stephani, Ulrich</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Helbig, Ingo</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Lerche, Holger</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Zimprich, Fritz</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Neubauer, Bernd A.</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>Biskup, Saskia</strong>" ;
+    
+  
+    
+    str +=  " ; <strong>von Spiczak, Sarah</strong>" ;
+    
+  
+  str += "<br><a href='#details' onclick='ReduceAuthors();return false;'><span class='fa fa-minus fw'></span>Less</a>" ;
+  document.getElementById('showAut').innerHTML= str ;
+}
+
+function ReduceGenBankIDs (){
+  document.getElementById('showGen').innerHTML= '<br><a href="#supplements" onclick="ShowGenBankIDs();"><span class="fa fa-plus fw"></span>All</a>' ;
+}
+
+function ShowGenBankIDs (){
+  var str = "" ;
+  
+  str += '<br><a href="#" onclick="ReduceGenBankIDs();"><span class="fa fa-minus fw"></span>Less</a>' ;
+  document.getElementById('showGen').innerHTML= str ;
+}
+
+function ReduceFiles (){
+  document.getElementById('showFiles').innerHTML= '<br><a href="#" onclick="ShowFiles();"><span class="fa fa-plus fw"></span>All</a>' ;
+}
+
+function ShowFiles (){
+  var str = "" ;
+  
+  
+  str += '<br><a href="#" onclick="ReduceFiles();"><span class="fa fa-minus fw"></span>Less</a>' ;
+  document.getElementById('showFiles').innerHTML= str ;
+}
+
+function ReduceAuthorFacet () {
+  $('#showAuthorFacet').hide();
+  $('#showAuthorFacetLink').show();
+}
+
+function ShowAuthorFacet (){
+  $('#showAuthorFacet').show();
+  $('#showAuthorFacetLink').hide();
+}
+
+function ReduceEditorFacet () {
+  $('#showEditorFacet').hide();
+  $('#showEditorFacetLink').show();
+}
+
+function ShowEditorFacet (){
+  $('#showEditorFacet').show();
+  $('#showEditorFacetLink').hide();
+}
+
+</script>
+
+<div class="row"><!-- outer row-->
+  <div class="col-md-11 col-sm-12"><!-- outer col -->
+    <div id="banner">
+      <h1>PUB - Publikationen an der Universität Bielefeld</h1>
+    </div>
+    <div class="page-header">
+    </div>
+    
+    <div class="row margin-bottom1 padding_top1">
+      <div class="col-xs-10 col-sm-8"><!-- begin left col -->
+        <h2 class="cmark frontdoor_heading">Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes</h2>
+        <div class="row">
+          <div class="col-md-12">
+          <p>Lemke JR, Lal D, Reinthaler EM, Steiner I, Nothnagel M, Alber M, Geider K, Laube B, Schwake M, Finsterwalder K, Franke A, et al. (2013) <br /><em>Nature Genetics</em> 45(9): 1067-1072.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <!-- Pubtyp, -status und -quali -->
+            <strong>Zeitschriftenaufsatz</strong>
+            | <strong>Veröffentlicht</strong> |              <meta itemprop="inLanguage" content="eng"><strong>Englisch</strong>
+          </div>
+        </div>
+        <div>&nbsp;</div>
+
+        <!-- fulltext -->
+        
+
+        
+        
+        <!-- no fulltext -->
+        <div class="row">
+          <div class="col-xs-2">Download</div>
+          <div class="col-xs-10"><span class='text-danger'><strong>Es wurden keine Dateien hochgeladen. Nur Publikationsnachweis!</strong></span></div>
+        </div>
+        
+        
+
+        <div class="row">
+          <div class="col-xs-2">DOI</div>
+          <div class="col-xs-10"><a itemprop="url" href="https://doi.org/10.1038/ng.2728" title="10.1038/ng.2728">https://doi.org/10.1038/ng.2728</a></div>
+        </div>
+
+      </div><!-- end left col -->
+
+    </div><!-- row -->
+
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#details" data-toggle="tab">Details</a></li>
+          
+
+          
+          <li><a href="#ebi_dblinks" data-toggle="tab">Life science DBs</a></li>
+          
+
+          
+          <li><a href="#ebi_citations" data-toggle="tab">Zitationen</a></li>
+          
+
+          
+          <li><a href="#ebi_references" data-toggle="tab">Referenzen</a></li>
+          
+
+          
+
+          
+
+          <li class="hidden-md hidden-lg hidden-sm"><a href="#citethis">Zitieren</a></li>
+          <li class="hidden-md hidden-lg hidden-sm"><a href="#export">Export / Suche</a></li>
+
+          <!-- Link to backend -->
+          <li class="navbar-right"><a href="/"><span class="fa fa-home"></span> PUB</a></li>
+          <li class="navbar-right">
+            
+            <a href="/set_language?lang=en"><span class="fa fa-flag"></span><span class="hidden-sm">English</span><span class="hidden-xs hidden-md hidden-lg">EN</span></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8"><!-- tab-content -->
+
+        <div class="tab tab-content">
+
+          
+<!-- BEGIN publication/tab_details.tt -->
+
+<div class="tab-pane active" id="details">
+
+
+      <div class="row">        <div class="col-md-3">Autor*in</div>
+        <div class="col-md-9">
+      <strong>Lemke, Johannes R.</strong>;
+      <strong>Lal, Dennis</strong>;
+      <strong>Reinthaler, Eva M.</strong>;
+      <strong>Steiner, Isabelle</strong>;
+      <strong>Nothnagel, Michael</strong>;
+      <strong>Alber, Michael</strong>;
+      <strong>Geider, Kirsten</strong>;
+      <strong>Laube, Bodo</strong>;
+      <a href="https://pub.uni-bielefeld.de/person/37985144">Schwake, Michael<sup class="text-muted">UniBi</sup></a> <a href="https://orcid.org/0000-0002-4173-2166"><sup><img src="https://pub.uni-bielefeld.de/images/icon_orcid.png" /></sup></a>;
+      <strong>Finsterwalder, Katrin</strong>;
+      <strong>Franke, Andre</strong>;
+      <strong>Schilhabel, Markus</strong>
+        <span id="showAut">
+          <br><a href="#details" onclick="ShowAuthors();return false;"><span class="fa fa-plus fw"></span>Alle</a>
+        </span>
+        </div>
+      </div>
+
+  <div class="row">
+    <div class="col-md-3">Einrichtung</div>
+    <div class="col-md-9">
+  <a href="https://pub.uni-bielefeld.de/record?cql=department=288445" class="long">Fakultät für Chemie > Biochemie III</a></div></div>
+
+  <div class="row">
+    <div class="col-md-3">Abstract / Bemerkung</div>
+    <div class="col-md-9 cmark abstract">Idiopathic focal epilepsy (IFE) with rolandic spikes is the most common childhood epilepsy, comprising a phenotypic spectrum from rolandic epilepsy (also benign epilepsy with centrotemporal spikes, BECTS) to atypical benign partial epilepsy (ABPE), Landau-Kleffner syndrome (LKS) and epileptic encephalopathy with continuous spike and waves during slow-wave sleep (CSWS)(1,2). The genetic basis is largely unknown. We detected new heterozygous mutations in GRIN2A in 27 of 359 affected individuals from 2 independent cohorts with IFE (7.5%; P = 4.83 x 10(-18), Fisher's exact test). Mutations occurred significantly more frequently in the more severe phenotypes, with mutation detection rates ranging from 12/245 (4.9%) in individuals with BECTS to 9/51 (17.6%) in individuals with CSWS (P = 0.009, Cochran-Armitage test for trend). In addition, exon-disrupting microdeletions were found in 3 of 286 individuals (1.0%; P = 0.004, Fisher's exact test). These results establish alterations of the gene encoding the NMDA receptor NR2A subunit as a major genetic risk factor for IFE.
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">Erscheinungsjahr</div>
+    <div class="col-md-9"><span>2013</span></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">Zeitschriftentitel</div>
+    <div class="col-md-9"><span>Nature Genetics</span></div>
+  </div>
+
+
+    <div class="row">
+      <div class="col-md-3">Band</div>
+      <div class="col-md-9"><span>45</span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">Ausgabe</div>
+      <div class="col-md-9"><span>9</span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">Seite(n)</div>
+      <div class="col-md-9"><span>1067-1072</span></div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-3">ISSN</div>
+    <div class="col-md-9">1061-4036</div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">eISSN</div>
+    <div class="col-md-9">1546-1718</div>
+  </div>
+  <div class="row" id="quality_check">
+  </div>
+  <div class="row">
+    <div class="col-md-3">Page URI</div>
+    <div class="col-md-9">
+    https://pub.uni-bielefeld.de/record/2625613
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <!-- BEGIN publication/citation_box.tt -->
+<div id="citethis" class="anchor">
+  <h2 id="cite">Zitieren</h2>
+  <ul class="nav nav-tabs">
+        <li class="active"><a href="#ama" data-toggle="tab">AMA</a></li>
+        <li ><a href="#apa" data-toggle="tab">APA (6th ed.)</a></li>
+        <li ><a href="#chicago" data-toggle="tab">Chicago</a></li>
+        <li ><a href="#frontiers" data-toggle="tab">Frontiers</a></li>
+        <li ><a href="#harvard1" data-toggle="tab">Harvard</a></li>
+        <li ><a href="#ieee" data-toggle="tab">IEEE</a></li>
+        <li ><a href="#lncs" data-toggle="tab">LNCS</a></li>
+        <li ><a href="#mla" data-toggle="tab">MLA</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="ama" class="tab-pane active cmark">Lemke JR, Lal D, Reinthaler EM, et al. Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes. <em>Nature Genetics</em>. 2013;45(9):1067-1072.</div>
+    <div id="apa" class="tab-pane cmark">Lemke, J. R., Lal, D., Reinthaler, E. M., Steiner, I., Nothnagel, M., Alber, M., Geider, K., et al. (2013). Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes. <em>Nature Genetics</em>, <em>45</em>(9), 1067-1072. doi:10.1038/ng.2728</div>
+    <div id="chicago" class="tab-pane cmark"><div style="text-indent:-25px; padding-left:25px;padding-bottom:0px;">Lemke, Johannes R., Lal, Dennis, Reinthaler, Eva M., Steiner, Isabelle, Nothnagel, Michael, Alber, Michael, Geider, Kirsten, et al. 2013. “Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes”. <em>Nature Genetics</em> 45 (9): 1067-1072.</div></div>
+    <div id="frontiers" class="tab-pane cmark">Lemke, J. R., Lal, D., Reinthaler, E. M., Steiner, I., Nothnagel, M., Alber, M., Geider, K., Laube, B., Schwake, M., Finsterwalder, K., et al. (2013). Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes. <em>Nature Genetics</em> 45, 1067-1072.</div>
+    <div id="harvard1" class="tab-pane cmark">Lemke, J.R., et al., 2013. Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes. <em>Nature Genetics</em>, 45(9), p 1067-1072.</div>
+    <div id="ieee" class="tab-pane cmark"> J.R. Lemke, et al., “Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes”, <em>Nature Genetics</em>,  vol. 45, 2013,  pp. 1067-1072.</div>
+    <div id="lncs" class="tab-pane cmark"> Lemke, J.R., Lal, D., Reinthaler, E.M., Steiner, I., Nothnagel, M., Alber, M., Geider, K., Laube, B., Schwake, M., Finsterwalder, K., Franke, A., Schilhabel, M., Jaehn, J.A., Muhle, H., Boor, R., Van Paesschen, W., Caraballo, R., Fejerman, N., Weckhuysen, S., De Jonghe, P., Larsen, J., Moller, R.S., Hjalgrim, H., Addis, L., Tang, S., Hughes, E., Pal, D.K., Veri, K., Vaher, U., Talvik, T., Dimova, P., Lopez, R.G., Serratosa, J.M., Linnankivi, T., Lehesjoki, A.-E., Ruf, S., Wolff, M., Buerki, S., Wohlrab, G., Kroell, J., Datta, A.N., Fiedler, B., Kurlemann, G., Kluger, G., Hahn, A., Haberlandt, D.E., Kutzer, C., Sperner, J., Becker, F., Weber, Y.G., Feucht, M., Steinboeck, H., Neophythou, B., Ronen, G.M., Gruber-Sedlmayr, U., Geldner, J., Harvey, R.J., Hoffmann, P., Herms, S., Altmueller, J., Toliat, M.R., Thiele, H., Nuernberg, P., Wilhelm, C., Stephani, U., Helbig, I., Lerche, H., Zimprich, F., Neubauer, B.A., Biskup, S., von Spiczak, S.: Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes. Nature Genetics. 45, 1067-1072 (2013).</div>
+    <div id="mla" class="tab-pane cmark">Lemke, Johannes R., Lal, Dennis, Reinthaler, Eva M., Steiner, Isabelle, Nothnagel, Michael, Alber, Michael, Geider, Kirsten, Laube, Bodo, Schwake, Michael, Finsterwalder, Katrin, Franke, Andre, Schilhabel, Markus, Jaehn, Johanna A., Muhle, Hiltrud, Boor, Rainer, Van Paesschen, Wim, Caraballo, Roberto, Fejerman, Natalio, Weckhuysen, Sarah, De Jonghe, Peter, Larsen, Jan, Moller, Rikke S., Hjalgrim, Helle, Addis, Laura, Tang, Shan, Hughes, Elaine, Pal, Deb K., Veri, Kadi, Vaher, Ulvi, Talvik, Tiina, Dimova, Petia, Lopez, Rosa Guerrero, Serratosa, Jose M., Linnankivi, Tarja, Lehesjoki, Anna-Elina, Ruf, Susanne, Wolff, Markus, Buerki, Sarah, Wohlrab, Gabriele, Kroell, Judith, Datta, Alexandre N., Fiedler, Barbara, Kurlemann, Gerhard, Kluger, Gerhard, Hahn, Andreas, Haberlandt, D. Edda, Kutzer, Christina, Sperner, Juergen, Becker, Felicitas, Weber, Yvonne G., Feucht, Martha, Steinboeck, Hannelore, Neophythou, Birgit, Ronen, Gabriel M., Gruber-Sedlmayr, Ursula, Geldner, Julia, Harvey, Robert J., Hoffmann, Per, Herms, Stefan, Altmueller, Janine, Toliat, Mohammad R., Thiele, Holger, Nuernberg, Peter, Wilhelm, Christian, Stephani, Ulrich, Helbig, Ingo, Lerche, Holger, Zimprich, Fritz, Neubauer, Bernd A., Biskup, Saskia, and von Spiczak, Sarah. “Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes”. <em>Nature Genetics</em> 45.9 (2013): 1067-1072.</div>
+  </div>
+</div>
+<!-- END publication/citation_box.tt -->
+
+    </div>
+  </div>
+</div>
+
+<!-- END publication/tab_details.tt -->
+
+
+ <!-- BEGIN frontdoor/tab_ebi_links.tt -->
+
+
+<div class="tab-pane" id="ebi_dblinks">
+
+  
+
+  
+  <p>Daten bereitgestellt von <a href='http://www.ebi.ac.uk/'>European Bioinformatics Institute (EBI)</a></p>
+
+  
+  <div class="row margin-top1">
+    <div class="col-md-2">UNIPROT</div>
+    <div class="col-md-10">
+    
+      <strong>4</strong> Einträge gefunden, die diesen Artikel zitieren
+      
+      
+	<div class="row margin-top1-2">
+	  <div class="col-md-12">
+	    
+	    <a href="http://www.uniprot.org/uniprot/Q59EW6.html">N-methyl-D-aspartate receptor subunit 2A variant (UNIPROT: Q59EW6)</a><br />
+	    Organism: Homo sapiens<br />
+	    
+	    <a class="normal" href="http://www.uniprot.org/uniprot/Q59EW6.fasta"><span class="fa fa-share-square-o fw"></span>Download in FASTA format</a>
+	    
+	  </div>
+	</div>
+      
+	<div class="row margin-top1-2">
+	  <div class="col-md-12">
+	    
+	    <a href="http://www.uniprot.org/uniprot/Q12879.html">Glutamate receptor ionotropic, NMDA 2A (UNIPROT: Q12879)</a><br />
+	    Organism: Homo sapiens<br />
+	    
+	    <a class="normal" href="http://www.uniprot.org/uniprot/Q12879.fasta"><span class="fa fa-share-square-o fw"></span>Download in FASTA format</a>
+	    
+	  </div>
+	</div>
+      
+	<div class="row margin-top1-2">
+	  <div class="col-md-12">
+	    
+	    <a href="http://www.uniprot.org/uniprot/B4DII7.html">cDNA FLJ50741, highly similar to Glutamate (NMDA) receptor subunit epsilon 1 (UNIPROT: B4DII7)</a><br />
+	    Organism: Homo sapiens<br />
+	    
+	    <a class="normal" href="http://www.uniprot.org/uniprot/B4DII7.fasta"><span class="fa fa-share-square-o fw"></span>Download in FASTA format</a>
+	    
+	  </div>
+	</div>
+      
+	<div class="row margin-top1-2">
+	  <div class="col-md-12">
+	    
+	    <a href="http://www.uniprot.org/uniprot/Q547U9.html">Glutamate receptor, ionotropic, N-methyl D-aspartate 2A (UNIPROT: Q547U9)</a><br />
+	    Organism: Homo sapiens<br />
+	    
+	    <a class="normal" href="http://www.uniprot.org/uniprot/Q547U9.fasta"><span class="fa fa-share-square-o fw"></span>Download in FASTA format</a>
+	    
+	  </div>
+	</div>
+      
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-2">OMIM</div>
+    <div class="col-md-10">
+    
+      <strong>2</strong> Einträge gefunden, die diesen Artikel zitieren
+      
+      
+	<div class="row margin-top1-2">
+	  <div class="col-md-12">
+	    
+	    <a href="">15 (OMIM: 138253)</a><br />
+	    Type of record: gene<br />
+	    
+	  </div>
+	</div>
+      
+	<div class="row margin-top1-2">
+	  <div class="col-md-12">
+	    
+	    <a href="">8 (OMIM: 245570)</a><br />
+	    Type of record: description, not locus<br />
+	    
+	  </div>
+	</div>
+      
+    </div>
+  </div>
+  
+  
+
+</div>
+
+<!-- END frontdoor/tab_ebi_links.tt -->
+  <!-- BEGIN frontdoor/tab_ebi_cit.tt -->
+
+<div class="tab-pane" id="ebi_citations">
+
+<h3 class="margin-top0">143 Zitationen in Europe PMC</h3>
+<p>Daten bereitgestellt von <a href='http://europepmc.org/'>Europe PubMed Central</a>.</p>
+
+<div class="row">
+  <div class="col-md-12">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29023665">Clinician's guide to genes associated with Rett-like phenotypes-Investigation of a Danish cohort and review of the literature.</a><br />
+  
+  Schönewolf-Greulich B, Bisgaard AM, Møller RS, Dunø M, Brøndum-Nielsen K, Kaur S, Van Bergen NJ, Lunke S, Eggers S, Jespersgaard C, Christodoulou J, Tümer Z.,  <i>Clin Genet</i> 95(2), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29023665">29023665</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29895856">Evaluating the pathogenic potential of genes with de novo variants in epileptic encephalopathies.</a><br />
+  
+  He N, Lin ZJ, Wang J, Wei F, Meng H, Liu XR, Chen Q, Su T, Shi YW, Yi YH, Liao WP.,  <i>Genet Med</i> 21(1), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29895856">29895856</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29992546">Epilepsy genetics: Current knowledge, applications, and future directions.</a><br />
+  
+  Myers KA, Johnstone DL, Dyment DA.,  <i>Clin Genet</i> 95(1), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29992546">29992546</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30544257">GRIN2A-related disorders: genotype and functional consequence predict phenotype.</a><br />
+  
+  Strehlow V, Heyne HO, Vlaskamp DRM, Marwick KFM, Rudolf G, de Bellescize J, Biskup S, Brilstra EH, Brouwer OF, Callenbach PMC, Hentschel J, Hirsch E, Kind PC, Mignot C, Platzer K, Rump P, Skehel PA, Wyllie DJA, Hardingham GE, van Ravenswaaij-Arts CMA, Lesca G, Lemke JR, GRIN2A study group.,  <i>Brain</i> 142(1), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30544257">30544257</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30659174">Structural elements of a pH-sensitive inhibitor binding site in NMDA receptors.</a><br />
+  
+  Regan MC, Zhu Z, Yuan H, Myers SJ, Menaldino DS, Tahirovic YA, Liotta DC, Traynelis SF, Furukawa H.,  <i>Nat Commun</i> 10(1), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30659174">30659174</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30909517">Spontaneous Switching among Conformational Ensembles in Intrinsically Disordered Proteins.</a><br />
+  
+  Choi UB, Sanabria H, Smirnova T, Bowen ME, Weninger KR.,  <i>Biomolecules</i> 9(3), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30909517">30909517</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/31300657">AMPA receptor GluA2 subunit defects are a cause of neurodevelopmental disorders.</a><br />
+  
+  Salpietro V, Dixon CL, Guo H, Bello OD, Vandrovcova J, Efthymiou S, Maroofian R, Heimer G, Burglen L, Valence S, Torti E, Hacke M, Rankin J, Tariq H, Colin E, Procaccio V, Striano P, Mankad K, Lieb A, Chen S, Pisani L, Bettencourt C, Männikkö R, Manole A, Brusco A, Grosso E, Ferrero GB, Armstrong-Moron J, Gueden S, Bar-Yosef O, Tzadok M, Monaghan KG, Santiago-Sim T, Person RE, Cho MT, Willaert R, Yoo Y, Chae JH, Quan Y, Wu H, Wang T, Bernier RA, Xia K, Blesson A, Jain M, Motazacker MM, Jaeger B, Schneider AL, Boysen K, Muir AM, Myers CT, Gavrilova RH, Gunderson L, Schultz-Rogers L, Klee EW, Dyment D, Osmond M, Parellada M, Llorente C, Gonzalez-Peñas J, Carracedo A, Van Haeringen A, Ruivenkamp C, Nava C, Heron D, Nardello R, Iacomino M, Minetti C, Skabar A, Fabretto A, SYNAPS Study Group, Raspall-Chaure M, Chez M, Tsai A, Fassi E, Shinawi M, Constantino JN, De Zorzi R, Fortuna S, Kok F, Keren B, Bonneau D, Choi M, Benzeev B, Zara F, Mefford HC, Scheffer IE, Clayton-Smith J, Macaya A, Rothman JE, Eichler EE, Kullmann DM, Houlden H.,  <i>Nat Commun</i> 10(1), 2019
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/31300657">31300657</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28082152">Pharmacogenomics in epilepsy.</a><br />
+  
+  Balestrini S, Sisodiya SM.,  <i>Neurosci Lett</i> 667(), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28082152">28082152</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28936771">Functional Investigation of a GRIN2A Variant Associated with Rolandic Epilepsy.</a><br />
+  
+  Xu XX, Liu XR, Fan CY, Lai JX, Shi YW, Yang W, Su T, Xu JY, Luo JH, Liao WP.,  <i>Neurosci Bull</i> 34(2), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28936771">28936771</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29124671">Mutations of N-Methyl-D-Aspartate Receptor Subunits in Epilepsy.</a><br />
+  
+  Xu XX, Luo JH.,  <i>Neurosci Bull</i> 34(3), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29124671">29124671</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29214672">Region-specific deletions of the glutamate transporter GLT1 differentially affect seizure activity and neurodegeneration in mice.</a><br />
+  
+  Sugimoto J, Tanaka M, Sugiyama K, Ito Y, Aizawa H, Soma M, Shimizu T, Mitani A, Tanaka K.,  <i>Glia</i> 66(4), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29214672">29214672</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29241678">Language Dysfunction in Pediatric Epilepsy.</a><br />
+  
+  Baumer FM, Cardon AL, Porter BE.,  <i>J Pediatr</i> 194(), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29241678">29241678</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29242355">The Bioactive Protein-Ligand Conformation of GluN2C-Selective Positive Allosteric Modulators Bound to the NMDA Receptor.</a><br />
+  
+  Kaiser TM, Kell SA, Kusumoto H, Shaulsky G, Bhattacharya S, Epplin MP, Strong KL, Miller EJ, Cox BD, Menaldino DS, Liotta DC, Traynelis SF, Burger PB.,  <i>Mol Pharmacol</i> 93(2), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29242355">29242355</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29756080">De Novo Mutations and Rare Variants Occurring in NMDA Receptors.</a><br />
+  
+  XiangWei W, Jiang Y, Yuan H.,  <i>Curr Opin Physiol</i> 2(), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29756080">29756080</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29263209">Ion Channels in Genetic Epilepsy: From Genes and Mechanisms to Disease-Targeted Therapies.</a><br />
+  
+  Oyrer J, Maljevic S, Scheffer IE, Berkovic SF, Petrou S, Reid CA.,  <i>Pharmacol Rev</i> 70(1), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29263209">29263209</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29335819">NMDA Receptor GluN2 Subtypes Control Epileptiform Events in the Hippocampus.</a><br />
+  
+  Punnakkal P, Dominic D.,  <i>Neuromolecular Med</i> 20(1), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29335819">29335819</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29358611">Exome-wide analysis of mutational burden in patients with typical and atypical Rolandic epilepsy.</a><br />
+  
+  Bobbili DR, Lal D, May P, Reinthaler EM, Jabbari K, Thiele H, Nothnagel M, Jurkowski W, Feucht M, Nürnberg P, Lerche H, Zimprich F, Krause R, Neubauer BA, Reinthaler EM, Zimprich F, Feucht M, Steinböck H, Neophytou B, Geldner J, Gruber-Sedlmayr U, Haberlandt E, Ronen GM, Altmüller J, Lal D, Nürnberg P, Sander T, Thiele H, Krause R, May P, Balling R, Lerche H, Neubauer BA, EUROEPINOMICS COGIE Consortium.,  <i>Eur J Hum Genet</i> 26(2), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29358611">29358611</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29473046">Duplications at 19q13.33 in patients with neurodevelopmental disorders.</a><br />
+  
+  Pérez-Palma E, Saarentaus E, Ravoet M, De Ferrari GV, Nürnberg P, Isidor B, Neubauer BA, Lal D.,  <i>Neurol Genet</i> 4(1), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29473046">29473046</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29365063">De novo mutations in GRIN1 cause extensive bilateral polymicrogyria.</a><br />
+  
+  Fry AE, Fawcett KA, Zelnik N, Yuan H, Thompson BAN, Shemer-Meiri L, Cushion TD, Mugalaasi H, Sims D, Stoodley N, Chung SK, Rees MI, Patel CV, Brueton LA, Layet V, Giuliano F, Kerr MP, Banne E, Meiner V, Lerman-Sagie T, Helbig KL, Kofman LH, Knight KM, Chen W, Kannan V, Hu C, Kusumoto H, Zhang J, Swanger SA, Shaulsky GH, Mirzaa GM, Muir AM, Mefford HC, Dobyns WB, Mackenzie AB, Mullins JGL, Lemke JR, Bahi-Buisson N, Traynelis SF, Iago HF, Pilz DT.,  <i>Brain</i> 141(3), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29365063">29365063</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29545546">Dendritic structural plasticity and neuropsychiatric disease.</a><br />
+  
+  Forrest MP, Parnell E, Penzes P.,  <i>Nat Rev Neurosci</i> 19(4), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29545546">29545546</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29394500">Mutations in MICAL-1cause autosomal-dominant lateral temporal epilepsy.</a><br />
+  
+  Dazzo E, Rehberg K, Michelucci R, Passarelli D, Boniver C, Vianello Dri V, Striano P, Striano S, Pasterkamp RJ, Nobile C.,  <i>Ann Neurol</i> 83(3), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29394500">29394500</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29644724">A novel missense mutation in GRIN2A causes a nonepileptic neurodevelopmental disorder.</a><br />
+  
+  Fernández-Marmiesse A, Kusumoto H, Rekarte S, Roca I, Zhang J, Myers SJ, Traynelis SF, Couce ML, Gutierrez-Solana L, Yuan H.,  <i>Mov Disord</i> 33(6), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29644724">29644724</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29760947">Incorporating epilepsy genetics into clinical practice: a 360°evaluation.</a><br />
+  
+  Oates S, Tang S, Rosch R, Lear R, Hughes EF, Williams RE, Larsen LHG, Hao Q, Dahl HA, Møller RS, Pal DK.,  <i>NPJ Genom Med</i> 3(), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29760947">29760947</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29789371">Identification of new risk factors for rolandic epilepsy: CNV at Xp22.31 and alterations at cholinergic synapses.</a><br />
+  
+  Addis L, Sproviero W, Thomas SV, Caraballo RH, Newhouse SJ, Gomez K, Hughes E, Kinali M, McCormick D, Hannan S, Cossu S, Taylor J, Akman CI, Wolf SM, Mandelbaum DE, Gupta R, van der Spek RA, Pruna D, Pal DK.,  <i>J Med Genet</i> 55(9), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29789371">29789371</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29862897">Incidence of Childhood Epilepsy in Estonia.</a><br />
+  
+  Veri K, Talvik I, Vaher U, Napa A, Ilves P, Uibo O, Õiglane-Shlik E, Laugesaar R, Rein R, Kolk A, Noormets K, Reimand T, Õunap K, Talvik T.,  <i>J Child Neurol</i> 33(9), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29862897">29862897</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29976148">Genetic etiologies of the electrical status epilepticus during slow wave sleep: systematic review.</a><br />
+  
+  Kessi M, Peng J, Yang L, Xiong J, Duan H, Pang N, Yin F.,  <i>BMC Genet</i> 19(1), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29976148">29976148</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30034362">Molecular Genetic Characterization of Patients With Focal Epilepsy Using a Customized Targeted Resequencing Gene Panel.</a><br />
+  
+  Tsai MH, Chan CK, Chang YC, Lin CH, Liou CW, Chang WN, Ng CC, Lim KS, Hwang DY.,  <i>Front Neurol</i> 9(), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30034362">30034362</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29917241">A structurally derived model of subunit-dependent NMDA receptor function.</a><br />
+  
+  Gibb AJ, Ogden KK, McDaniel MJ, Vance KM, Kell SA, Butch C, Burger P, Liotta DC, Traynelis SF.,  <i>J Physiol</i> 596(17), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29917241">29917241</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30146685">Transient microstructural brain anomalies and epileptiform discharges in mice defective for epilepsy and language-related NMDA receptor subunit gene Grin2a.</a><br />
+  
+  Salmi M, Bolbos R, Bauer S, Minlebaev M, Burnashev N, Szepetowski P.,  <i>Epilepsia</i> 59(10), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30146685">30146685</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30148849">Rare gene deletions in genetic generalized and Rolandic epilepsies.</a><br />
+  
+  Jabbari K, Bobbili DR, Lal D, Reinthaler EM, Schubert J, Wolking S, Sinha V, Motameny S, Thiele H, Kawalia A, Altmüller J, Toliat MR, Kraaij R, van Rooij J, Uitterlinden AG, Ikram MA, EuroEPINOMICS CoGIE Consortium, Zara F, Lehesjoki AE, Krause R, Zimprich F, Sander T, Neubauer BA, May P, Lerche H, Nürnberg P.,  <i>PLoS One</i> 13(8), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30148849">30148849</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30259965">Benign epilepsy with centrotemporal spikes: Correlating spike frequency and neuropsychology.</a><br />
+  
+  Tacke M, Rupp N, Gerstl L, Heinen F, Vill K, Bonfert M, Neubauer BA, Bast T, Borggraefe I, Further Members of the German HEAD Study Group.,  <i>Acta Neurol Scand</i> 138(6), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30259965">30259965</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/30319421">Sleep Related Epilepsy and Pharmacotherapy: An Insight.</a><br />
+  
+  Kumar J, Solaiman A, Mahakkanukrauh P, Mohamed R, Das S.,  <i>Front Pharmacol</i> 9(), 2018
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/30319421">30319421</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26797520">The Functional and Molecular Properties, Physiological Functions, and Pathophysiological Roles of GluN2A in the Central Nervous System.</a><br />
+  
+  Sun Y, Cheng X, Zhang L, Hu J, Chen Y, Zhan L, Gao Z.,  <i>Mol Neurobiol</i> 54(2), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26797520">26797520</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26954261">Mutation screening of the PRRT2 gene for benign epilepsy with centrotemporal spikes in Chinese mainland population.</a><br />
+  
+  Che XQ, Sun ZF, Mao X, Xia K, Yan XX, Jiang H, Shen L, Li N, Tang BS.,  <i>Int J Neurosci</i> 127(1), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26954261">26954261</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27781560">Precision medicine in genetic epilepsies: break of dawn?</a><br />
+  
+  Reif PS, Tsai MH, Helbig I, Rosenow F, Klein KM.,  <i>Expert Rev Neurother</i> 17(4), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27781560">27781560</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28007608">16p13 microduplication without CREBBP involvement: Moving toward a phenotype delineation.</a><br />
+  
+  Ciaccio C, Tucci A, Scuvera G, Estienne M, Esposito S, Milani D.,  <i>Eur J Med Genet</i> 60(3), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28007608">28007608</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28051072">Novel homozygous missense variant of GRIN1 in two sibs with intellectual disability and autistic features without epilepsy.</a><br />
+  
+  Rossi M, Chatron N, Labalme A, Ville D, Carneiro M, Edery P, des Portes V, Lemke JR, Sanlaville D, Lesca G.,  <i>Eur J Hum Genet</i> 25(3), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28051072">28051072</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28109652">Epilepsy in patients with GRIN2A alterations: Genetics, neurodevelopment, epileptic phenotype and response to anticonvulsive drugs.</a><br />
+  
+  von Stülpnagel C, Ensslen M, Møller RS, Pal DK, Masnada S, Veggiotti P, Piazza E, Dreesmann M, Hartlieb T, Herberhold T, Hughes E, Koch M, Kutzer C, Hoertnagel K, Nitanda J, Pohl M, Rostásy K, Haack TB, Stöhr K, Kluger G, Borggraefe I.,  <i>Eur J Paediatr Neurol</i> 21(3), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28109652">28109652</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28098945">Frequency of CNKSR2 mutation in the X-linked epilepsy-aphasia spectrum.</a><br />
+  
+  Damiano JA, Burgess R, Kivity S, Lerman-Sagie T, Afawi Z, Scheffer IE, Berkovic SF, Hildebrand MS.,  <i>Epilepsia</i> 58(3), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28098945">28098945</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28126851">Functional Evaluation of a De Novo GRIN2A Mutation Identified in a Patient with Profound Global Developmental Delay and Refractory Epilepsy.</a><br />
+  
+  Chen W, Tankovic A, Burger PB, Kusumoto H, Traynelis SF, Yuan H.,  <i>Mol Pharmacol</i> 91(4), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28126851">28126851</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28160673">Reduced thalamic volume in patients with Electrical Status Epilepticus in Sleep.</a><br />
+  
+  Sánchez Fernández I, Peters JM, Akhondi-Asl A, Klehm J, Warfield SK, Loddenkemper T.,  <i>Epilepsy Res</i> 130(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28160673">28160673</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28182669">A de novo loss-of-function GRIN2A mutation associated with childhood focal epilepsy and acquired epileptic aphasia.</a><br />
+  
+  Gao K, Tankovic A, Zhang Y, Kusumoto H, Zhang J, Chen W, XiangWei W, Shaulsky GH, Hu C, Traynelis SF, Yuan H, Jiang Y.,  <i>PLoS One</i> 12(2), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28182669">28182669</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28228639">GRIN1 mutation associated with intellectual disability alters NMDA receptor trafficking and function.</a><br />
+  
+  Chen W, Shieh C, Swanger SA, Tankovic A, Au M, McGuire M, Tagliati M, Graham JM, Madan-Khetarpal S, Traynelis SF, Yuan H, Pierson TM.,  <i>J Hum Genet</i> 62(6), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28228639">28228639</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28242877">Epilepsy-associated GRIN2A mutations reduce NMDA receptor trafficking and agonist potency - molecular profiling and functional rescue.</a><br />
+  
+  Addis L, Virdee JK, Vidler LR, Collier DA, Pal DK, Ursu D.,  <i>Sci Rep</i> 7(1), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28242877">28242877</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28351718">Progress in unraveling the genetic etiology of rolandic epilepsy.</a><br />
+  
+  Xiong W, Zhou D.,  <i>Seizure</i> 47(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28351718">28351718</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28283559">A Rare Variant Identified Within the GluN2B C-Terminus in a Patient with Autism Affects NMDA Receptor Surface Expression and Spine Density.</a><br />
+  
+  Liu S, Zhou L, Yuan H, Vieira M, Sanz-Clemente A, Badger JD, Lu W, Traynelis SF, Roche KW.,  <i>J Neurosci</i> 37(15), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28283559">28283559</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28459106">Functional assessment of the NMDA receptor variant GluN2A R586K.</a><br />
+  
+  Marwick KFM, Parker P, Skehel P, Hardingham G, Wyllie DJA.,  <i>Wellcome Open Res</i> 2(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28459106">28459106</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28377535">GRIN2B encephalopathy: novel findings on phenotype, variant clustering, functional consequences and treatment aspects.</a><br />
+  
+  Platzer K, Yuan H, Schütz H, Winschel A, Chen W, Hu C, Kusumoto H, Heyne HO, Helbig KL, Tang S, Willing MC, Tinkle BT, Adams DJ, Depienne C, Keren B, Mignot C, Frengen E, Strømme P, Biskup S, Döcker D, Strom TM, Mefford HC, Myers CT, Muir AM, LaCroix A, Sadleir L, Scheffer IE, Brilstra E, van Haelst MM, van der Smagt JJ, Bok LA, Møller RS, Jensen UB, Millichap JJ, Berg AT, Goldberg EM, De Bie I, Fox S, Major P, Jones JR, Zackai EH, Abou Jamra R, Rolfs A, Leventer RJ, Lawson JA, Roscioli T, Jansen FE, Ranza E, Korff CM, Lehesjoki AE, Courage C, Linnankivi T, Smith DR, Stanley C, Mintz M, McKnight D, Decker A, Tan WH, Tarnopolsky MA, Brady LI, Wolff M, Dondit L, Pedro HF, Parisotto SE, Jones KL, Patel AD, Franz DN, Vanzo R, Marco E, Ranells JD, Di Donato N, Dobyns WB, Laube B, Traynelis SF, Lemke JR.,  <i>J Med Genet</i> 54(7), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28377535">28377535</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28389307">De novo GRIN1 mutations: An emerging cause of severe early infantile encephalopathy.</a><br />
+  
+  Zehavi Y, Mandel H, Zehavi A, Rashid MA, Straussberg R, Jabur B, Shaag A, Elpeleg O, Spiegel R.,  <i>Eur J Med Genet</i> 60(6), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28389307">28389307</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28406046">DEPDC5 as a potential therapeutic target for epilepsy.</a><br />
+  
+  Myers KA, Scheffer IE.,  <i>Expert Opin Ther Targets</i> 21(6), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28406046">28406046</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28440294">Next-generation DNA sequencing identifies novel gene variants and pathways involved in specific language impairment.</a><br />
+  
+  Chen XS, Reader RH, Hoischen A, Veltman JA, Simpson NH, Francks C, Newbury DF, Fisher SE.,  <i>Sci Rep</i> 7(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28440294">28440294</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28488083">Ion Channel Genes and Epilepsy: Functional Alteration, Pathogenic Potential, and Mechanism of Epilepsy.</a><br />
+  
+  Wei F, Yan LM, Su T, He N, Lin ZJ, Wang J, Shi YW, Yi YH, Liao WP.,  <i>Neurosci Bull</i> 33(4), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28488083">28488083</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28507080">Divergent roles of a peripheral transmembrane segment in AMPA and NMDA receptors.</a><br />
+  
+  Amin JB, Salussolia CL, Chan K, Regan MC, Dai J, Zhou HX, Furukawa H, Bowen ME, Wollmuth LP.,  <i>J Gen Physiol</i> 149(6), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28507080">28507080</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28533163">GRIN2B gain of function mutations are sensitive to radiprodil, a negative allosteric modulator of GluN2B-containing NMDA receptors.</a><br />
+  
+  Mullier B, Wolff C, Sands ZA, Ghisdal P, Muglia P, Kaminski RM, André VM.,  <i>Neuropharmacology</i> 123(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28533163">28533163</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28611597">Functional Properties of Human NMDA Receptors Associated with Epilepsy-Related Mutations of GluN2A Subunit.</a><br />
+  
+  Sibarov DA, Bruneau N, Antonov SM, Szepetowski P, Burnashev N, Giniatullin R.,  <i>Front Cell Neurosci</i> 11(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28611597">28611597</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28558813">Genome annotation for clinical genomic diagnostics: strengths and weaknesses.</a><br />
+  
+  Steward CA, Parker APJ, Minassian BA, Sisodiya SM, Frankish A, Harrow J.,  <i>Genome Med</i> 9(1), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28558813">28558813</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28548558">The role of genetic testing in epilepsy diagnosis and management.</a><br />
+  
+  Weber YG, Biskup S, Helbig KL, Von Spiczak S, Lerche H.,  <i>Expert Rev Mol Diagn</i> 17(8), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28548558">28548558</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28775948">The Clinical Spectrum of Benign Epilepsy with Centro-Temporal Spikes: a Challenge in Categorization and Predictability.</a><br />
+  
+  Lee YJ, Hwang SK, Kwon S.,  <i>J Epilepsy Res</i> 7(1), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28775948">28775948</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28772100">Catastrophic Epilepsies of Childhood.</a><br />
+  
+  Howard MA, Baraban SC.,  <i>Annu Rev Neurosci</i> 40(), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28772100">28772100</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28756411">Heterogeneous contribution of microdeletions in the development of common generalised and focal epilepsies.</a><br />
+  
+  Pérez-Palma E, Helbig I, Klein KM, Anttila V, Horn H, Reinthaler EM, Gormley P, Ganna A, Byrnes A, Pernhorst K, Toliat MR, Saarentaus E, Howrigan DP, Hoffman P, Miquel JF, De Ferrari GV, Nürnberg P, Lerche H, Zimprich F, Neubauer BA, Becker AJ, Rosenow F, Perucca E, Zara F, Weber YG, Lal D.,  <i>J Med Genet</i> 54(9), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28756411">28756411</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28197949">The Impact of Next-Generation Sequencing on the Diagnosis and Treatment of Epilepsy in Paediatric Patients.</a><br />
+  
+  Mei D, Parrini E, Marini C, Guerrini R.,  <i>Mol Diagn Ther</i> 21(4), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28197949">28197949</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28582324">Sleep-related movement disorders and disturbances of motor control.</a><br />
+  
+  Bargiotas P, Bassetti CL.,  <i>Curr Opin Neurol</i> 30(4), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28582324">28582324</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28781152">Speech and Language: Translating the Genome.</a><br />
+  
+  Deriziotis P, Fisher SE.,  <i>Trends Genet</i> 33(9), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28781152">28781152</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29050392">Clinical spectrum and genotype-phenotype associations of KCNA2-related encephalopathies.</a><br />
+  
+  Masnada S, Hedrich UBS, Gardella E, Schubert J, Kaiwar C, Klee EW, Lanpher BC, Gavrilova RH, Synofzik M, Bast T, Gorman K, King MD, Allen NM, Conroy J, Ben Zeev B, Tzadok M, Korff C, Dubois F, Ramsey K, Narayanan V, Serratosa JM, Giraldez BG, Helbig I, Marsh E, O'Brien M, Bergqvist CA, Binelli A, Porter B, Zaeyen E, Horovitz DD, Wolff M, Marjanovic D, Caglayan HS, Arslan M, Pena SDJ, Sisodiya SM, Balestrini S, Syrbe S, Veggiotti P, Lemke JR, Møller RS, Lerche H, Rubboli G.,  <i>Brain</i> 140(9), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29050392">29050392</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28742937">Models for discovery of targeted therapy in genetic epileptic encephalopathies.</a><br />
+  
+  Maljevic S, Reid CA, Petrou S.,  <i>J Neurochem</i> 143(1), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28742937">28742937</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29089052">Epigenetic control of epilepsy target genes contributes to a cellular memory of epileptogenesis in cultured rat hippocampal neurons.</a><br />
+  
+  Kiese K, Jablonski J, Hackenbracht J, Wrosch JK, Groemer TW, Kornhuber J, Blümcke I, Kobow K.,  <i>Acta Neuropathol Commun</i> 5(1), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29089052">29089052</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29100089">De Novo Mutations in Protein Kinase Genes CAMK2A and CAMK2B Cause Intellectual Disability.</a><br />
+  
+  Küry S, van Woerden GM, Besnard T, Proietti Onori M, Latypova X, Towne MC, Cho MT, Prescott TE, Ploeg MA, Sanders S, Stessman HAF, Pujol A, Distel B, Robak LA, Bernstein JA, Denommé-Pichon AS, Lesca G, Sellars EA, Berg J, Carré W, Busk ØL, van Bon BWM, Waugh JL, Deardorff M, Hoganson GE, Bosanko KB, Johnson DS, Dabir T, Holla ØL, Sarkar A, Tveten K, de Bellescize J, Braathen GJ, Terhal PA, Grange DK, van Haeringen A, Lam C, Mirzaa G, Burton J, Bhoj EJ, Douglas J, Santani AB, Nesbitt AI, Helbig KL, Andrews MV, Begtrup A, Tang S, van Gassen KLI, Juusola J, Foss K, Enns GM, Moog U, Hinderhofer K, Paramasivam N, Lincoln S, Kusako BH, Lindenbaum P, Charpentier E, Nowak CB, Cherot E, Simonet T, Ruivenkamp CAL, Hahn S, Brownstein CA, Xia F, Schmitt S, Deb W, Bonneau D, Nizon M, Quinquis D, Chelly J, Rudolf G, Sanlaville D, Parent P, Gilbert-Dussardier B, Toutain A, Sutton VR, Thies J, Peart-Vissers LELM, Boisseau P, Vincent M, Grabrucker AM, Dubourg C, Undiagnosed Diseases Network, Tan WH, Verbeek NE, Granzow M, Santen GWE, Shendure J, Isidor B, Pasquier L, Redon R, Yang Y, State MW, Kleefstra T, Cogné B, GEM HUGO, Deciphering Developmental Disorders Study, Petrovski S, Retterer K, Eichler EE, Rosenfeld JA, Agrawal PB, Bézieau S, Odent S, Elgersma Y, Mercier S.,  <i>Am J Hum Genet</i> 101(5), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29100089">29100089</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/28932874">[Epilepsy-new diagnostic tools, old drugs? : Therapeutic consequences of epilepsy genetics].</a><br />
+  
+  Tacke M, Neubauer BA, Gerstl L, Roser T, Rémi J, Borggraefe I.,  <i>Nervenarzt</i> 88(12), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/28932874">28932874</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/29220673">De Novo Variants in GRIA4 Lead to Intellectual Disability with or without Seizures and Gait Abnormalities.</a><br />
+  
+  Martin S, Chamberlin A, Shinde DN, Hempel M, Strom TM, Schreiber A, Johannsen J, Ousager LB, Larsen MJ, Hansen LK, Fatemi A, Cohen JS, Lemke J, Sørensen KP, Helbig KL, Lessel D, Abou Jamra R.,  <i>Am J Hum Genet</i> 101(6), 2017
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/29220673">29220673</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26597089">The genetic landscape of the epileptic encephalopathies of infancy and childhood.</a><br />
+  
+  McTague A, Howell KB, Cross JH, Kurian MA, Scheffer IE.,  <i>Lancet Neurol</i> 15(3), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26597089">26597089</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26603999">Lessons learned from gene identification studies in Mendelian epilepsy disorders.</a><br />
+  
+  Hardies K, Weckhuysen S, De Jonghe P, Suls A.,  <i>Eur J Hum Genet</i> 24(7), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26603999">26603999</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26747882">Real-time effects of centrotemporal spikes on cognition in rolandic epilepsy: An EEG-fMRI study.</a><br />
+  
+  Xiao F, An D, Lei D, Li L, Chen S, Wu X, Yang T, Ren J, Gong Q, Zhou D.,  <i>Neurology</i> 86(6), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26747882">26747882</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26763624">Linking early-life NMDAR hypofunction and oxidative stress in schizophrenia pathogenesis.</a><br />
+  
+  Hardingham GE, Do KQ.,  <i>Nat Rev Neurosci</i> 17(2), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26763624">26763624</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26829109">MPX-004 and MPX-007: New Pharmacological Tools to Study the Physiology of NMDA Receptors Containing the GluN2A Subunit.</a><br />
+  
+  Volkmann RA, Fanger CM, Anderson DR, Sirivolu VR, Paschetto K, Gordon E, Virginio C, Gleyzes M, Buisson B, Steidl E, Mierau SB, Fagiolini M, Menniti FS.,  <i>PLoS One</i> 11(2), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26829109">26829109</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26875626">Positive Allosteric Modulators of GluN2A-Containing NMDARs with Distinct Modes of Action and Impacts on Circuit Function.</a><br />
+  
+  Hackos DH, Lupardus PJ, Grand T, Chen Y, Wang TM, Reynen P, Gustafson A, Wallweber HJ, Volgraf M, Sellers BD, Schwarz JB, Paoletti P, Sheng M, Zhou Q, Hanson JE.,  <i>Neuron</i> 89(5), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26875626">26875626</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27080588">Management of genetic epilepsies: From empirical treatment to precision medicine.</a><br />
+  
+  Striano P, Vari MS, Mazzocchetti C, Verrotti A, Zara F.,  <i>Pharmacol Res</i> 107(), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27080588">27080588</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27504264">Atypical benign partial epilepsy of childhood with acquired neurocognitive, lexical semantic, and autistic spectrum disorder.</a><br />
+  
+  Allen NM, Conroy J, Deonna T, McCreary D, McGettigan P, Madigan C, Carter I, Ennis S, Lynch SA, Shahwan A, King MD.,  <i>Epilepsy Behav Case Rep</i> 6(), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27504264">27504264</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27059342">Sleep-Related Epilepsy.</a><br />
+  
+  Carreño M, Fernández S.,  <i>Curr Treat Options Neurol</i> 18(5), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27059342">27059342</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27330450">2014 Epilepsy Benchmarks Area I: Understanding the Causes of the Epilepsies and Epilepsy-Related Neurologic, Psychiatric, and Somatic Conditions.</a><br />
+  
+  Caplan R, Mefford H, Berl M, Chang B, Lin J, Mazarati A, Fureman B, Dingledine R, American Epilepsy Society (AES)/National Institute of Neurological Disorders and Stroke (NINDS) Epilepsy Benchmark Stewards.,  <i>Epilepsy Curr</i> 16(3), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27330450">27330450</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27164704">Delineating the GRIN1 phenotypic spectrum: A distinct genetic NMDA receptor encephalopathy.</a><br />
+  
+  Lemke JR, Geider K, Helbig KL, Heyne HO, Schütz H, Hentschel J, Courage C, Depienne C, Nava C, Heron D, Møller RS, Hjalgrim H, Lal D, Neubauer BA, Nürnberg P, Thiele H, Kurlemann G, Arnold GL, Bhambhani V, Bartholdi D, Pedurupillay CR, Misceo D, Frengen E, Strømme P, Dlugos DJ, Doherty ES, Bijlsma EK, Ruivenkamp CA, Hoffer MJ, Goldstein A, Rajan DS, Narayanan V, Ramsey K, Belnap N, Schrauwen I, Richholt R, Koeleman BP, Sá J, Mendonça C, de Kovel CG, Weckhuysen S, Hardies K, De Jonghe P, De Meirleir L, Milh M, Badens C, Lebrun M, Busa T, Francannet C, Piton A, Riesch E, Biskup S, Vogt H, Dorn T, Helbig I, Michaud JL, Laube B, Syrbe S.,  <i>Neurology</i> 86(23), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27164704">27164704</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27386500">A microRNA-328 binding site in PAX6 is associated with centrotemporal spikes of rolandic epilepsy.</a><br />
+  
+  Panjwani N, Wilson MD, Addis L, Crosbie J, Wirrell E, Auvin S, Caraballo RH, Kinali M, McCormick D, Oren C, Taylor J, Trounce J, Clarke T, Akman CI, Kugler SL, Mandelbaum DE, McGoldrick P, Wolf SM, Arnold P, Schachar R, Pal DK, Strug LJ.,  <i>Ann Clin Transl Neurol</i> 3(7), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27386500">27386500</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27255282">N-methyl-d-aspartate (NMDA) receptor antibodies encephalitis mimicking an autistic regression.</a><br />
+  
+  Hacohen Y, Wright S, Gadian J, Vincent A, Lim M, Wassmer E, Lin JP.,  <i>Dev Med Child Neurol</i> 58(10), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27255282">27255282</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27288002">Altered zinc sensitivity of NMDA receptors harboring clinically-relevant mutations.</a><br />
+  
+  Serraz B, Grand T, Paoletti P.,  <i>Neuropharmacology</i> 109(), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27288002">27288002</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27270830">Ripples on rolandic spikes: A marker of epilepsy severity.</a><br />
+  
+  van Klink NE, van 't Klooster MA, Leijten FS, Jacobs J, Braun KP, Zijlmans M.,  <i>Epilepsia</i> 57(7), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27270830">27270830</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27781030">Seizures and Epilepsies due to Channelopathies and Neurotransmitter Receptor Dysfunction: A Parallel between Genetic and Immune Aspects.</a><br />
+  
+  Lascano AM, Korff CM, Picard F.,  <i>Mol Syndromol</i> 7(4), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27781030">27781030</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27781031">Gene Panel Testing in Epileptic Encephalopathies and Familial Epilepsies.</a><br />
+  
+  Møller RS, Larsen LH, Johannesen KM, Talvik I, Talvik T, Vaher U, Miranda MJ, Farooq M, Nielsen JE, Svendsen LL, Kjelgaard DB, Linnet KM, Hao Q, Uldall P, Frangu M, Tommerup N, Baig SM, Abdullah U, Born AP, Gellert P, Nikanorova M, Olofsson K, Jepsen B, Marjanovic D, Al-Zehhawi LI, Peñalva SJ, Krag-Olsen B, Brusgaard K, Hjalgrim H, Rubboli G, Pal DK, Dahl HA.,  <i>Mol Syndromol</i> 7(4), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27781031">27781031</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27605359">Further evidence for GRIN2B mutation as the cause of severe epileptic encephalopathy.</a><br />
+  
+  Smigiel R, Kostrzewa G, Kosinska J, Pollak A, Stawinski P, Szmida E, Bloch M, Szymanska K, Karpinski P, Sasiadek MM, Ploski R.,  <i>Am J Med Genet A</i> 170(12), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27605359">27605359</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27616483">GRIN2D Recurrent De Novo Dominant Mutation Causes a Severe Epileptic Encephalopathy Treatable with NMDA Receptor Channel Blockers.</a><br />
+  
+  Li D, Yuan H, Ortiz-Gonzalez XR, Marsh ED, Tian L, McCormick EM, Kosobucki GJ, Chen W, Schulien AJ, Chiavacci R, Tankovic A, Naase C, Brueckner F, von Stülpnagel-Steinbeis C, Hu C, Kusumoto H, Hedrich UB, Elsen G, Hörtnagel K, Aizenman E, Lemke JR, Hakonarson H, Traynelis SF, Falk MJ.,  <i>Am J Hum Genet</i> 99(4), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27616483">27616483</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27731509">MicroRNA-139-5p negatively regulates NR2A-containing NMDA receptor in the rat pilocarpine model and patients with temporal lobe epilepsy.</a><br />
+  
+  Alsharafi WA, Xiao B, Li J.,  <i>Epilepsia</i> 57(11), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27731509">27731509</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/27839871">Mechanistic Insight into NMDA Receptor Dysregulation by Rare Variants in the GluN2A and GluN2B Agonist Binding Domains.</a><br />
+  
+  Swanger SA, Chen W, Wells G, Burger PB, Tankovic A, Bhattacharya S, Strong KL, Hu C, Kusumoto H, Zhang J, Adams DR, Millichap JJ, Petrovski S, Traynelis SF, Yuan H.,  <i>Am J Hum Genet</i> 99(6), 2016
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/27839871">27839871</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24848745">Improving molecular diagnosis in epilepsy by a dedicated high-throughput sequencing platform.</a><br />
+  
+  Della Mina E, Ciccone R, Brustia F, Bayindir B, Limongelli I, Vetro A, Iascone M, Pezzoli L, Bellazzi R, Perotti G, De Giorgis V, Lunghi S, Coppola G, Orcesi S, Merli P, Savasta S, Veggiotti P, Zuffardi O.,  <i>Eur J Hum Genet</i> 23(3), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24848745">24848745</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25339366">Neuronal calcium signaling pathways are associated with the development of epilepsy.</a><br />
+  
+  Meng F, You Y, Liu Z, Liu J, Ding H, Xu R.,  <i>Mol Med Rep</i> 11(1), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25339366">25339366</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25498981">NMDA receptor subunit mutations in neurodevelopmental disorders.</a><br />
+  
+  Burnashev N, Szepetowski P.,  <i>Curr Opin Pharmacol</i> 20(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25498981">25498981</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25497044">Molecular characterization of a cohort of 73 patients with infantile spasms syndrome.</a><br />
+  
+  Boutry-Kryza N, Labalme A, Ville D, de Bellescize J, Touraine R, Prieur F, Dimassi S, Poulat AL, Till M, Rossi M, Bourel-Ponchel E, Delignières A, Le Moing AG, Rivier C, des Portes V, Edery P, Calender A, Sanlaville D, Lesca G.,  <i>Eur J Med Genet</i> 58(2), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25497044">25497044</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25546732">Impaired sleep-related consolidation of declarative memories in idiopathic focal epilepsies of childhood.</a><br />
+  
+  Galer S, Urbain C, De Tiège X, Emeriau M, Leproult R, Deliens G, Nonclerq A, Peigneux P, Van Bogaert P.,  <i>Epilepsy Behav</i> 43(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25546732">25546732</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25596524">Clinical and molecular delineation of a 16p13.2p13.13 microduplication.</a><br />
+  
+  Tassano E, Alpigiani MG, Calcagno A, Salvati P, De Miglio L, Fiorio P, Cuoco C, Gimelli G.,  <i>Eur J Med Genet</i> 58(3), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25596524">25596524</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25596506">GRIN2A: an aptly named gene for speech dysfunction.</a><br />
+  
+  Turner SJ, Mayes AK, Verhoeven A, Mandelstam SA, Morgan AT, Scheffer IE.,  <i>Neurology</i> 84(6), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25596506">25596506</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25597031">Insights into the genetic foundations of human communication.</a><br />
+  
+  Graham SA, Deriziotis P, Fisher SE.,  <i>Neuropsychol Rev</i> 25(1), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25597031">25597031</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25726841">Rare variants in γ-aminobutyric acid type A receptor genes in rolandic epilepsy and related syndromes.</a><br />
+  
+  Reinthaler EM, Dejanovic B, Lal D, Semtner M, Merkler Y, Reinhold A, Pittrich DA, Hotzy C, Feucht M, Steinböck H, Gruber-Sedlmayr U, Ronen GM, Neophytou B, Geldner J, Haberlandt E, Muhle H, Ikram MA, van Duijn CM, Uitterlinden AG, Hofman A, Altmüller J, Kawalia A, Toliat MR, EuroEPINOMICS Consortium, Nürnberg P, Lerche H, Nothnagel M, Thiele H, Sander T, Meier JC, Schwarz G, Neubauer BA, Zimprich F.,  <i>Ann Neurol</i> 77(6), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25726841">25726841</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25692410">Genetic screening and diagnosis in epilepsy?</a><br />
+  
+  Sisodiya SM.,  <i>Curr Opin Neurol</i> 28(2), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25692410">25692410</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25840007">The genetics of neuropsychiatric diseases: looking in and beyond the exome.</a><br />
+  
+  Heinzen EL, Neale BM, Traynelis SF, Allen AS, Goldstein DB.,  <i>Annu Rev Neurosci</i> 38(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25840007">25840007</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26000327">Epilepsy, cognitive deficits and neuroanatomy in males with ZDHHC9 mutations.</a><br />
+  
+  Baker K, Astle DE, Scerif G, Barnes J, Smith J, Moffat G, Gillard J, Baldeweg T, Raymond FL.,  <i>Ann Clin Transl Neurol</i> 2(5), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26000327">26000327</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25900226">Autism spectrum disorder and epilepsy: Disorders with a shared biology.</a><br />
+  
+  Lee BH, Smith T, Paciorkowski AR.,  <i>Epilepsy Behav</i> 47(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25900226">25900226</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25904555">Ionotropic GABA and Glutamate Receptor Mutations and Human Neurologic Diseases.</a><br />
+  
+  Yuan H, Low CM, Moody OA, Jenkins A, Traynelis SF.,  <i>Mol Pharmacol</i> 88(1), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25904555">25904555</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25956253">The brain's code and its canonical computational motifs. From sensory cortex to the default mode network: A multi-scale model of brain function in health and disease.</a><br />
+  
+  Turkheimer FE, Leech R, Expert P, Lord LD, Vernon AC.,  <i>Neurosci Biobehav Rev</i> 55(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25956253">25956253</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26003227">Common variants of ATP1A3 but not ATP1A2 are associated with Chinese genetic generalized epilepsies.</a><br />
+  
+  Qu J, Yang ZQ, Zhang Y, Mao CX, Wang ZB, Mao XY, Zhou BT, Yin JY, He H, Long HY, Gong JE, Xiao B, Zhou HH, Liu ZQ.,  <i>J Neurol Sci</i> 354(1-2), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26003227">26003227</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26003806">Epilepsy genetics: the ongoing revolution.</a><br />
+  
+  Lesca G, Depienne C.,  <i>Rev Neurol (Paris)</i> 171(6-7), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26003806">26003806</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25921602">New genes for focal epilepsies with speech and language disorders.</a><br />
+  
+  Turner SJ, Morgan AT, Perez ER, Scheffer IE.,  <i>Curr Neurol Neurosci Rep</i> 15(6), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25921602">25921602</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26109655">Unbalanced Peptidergic Inhibition in Superficial Neocortex Underlies Spike and Wave Seizure Activity.</a><br />
+  
+  Hall S, Hunt M, Simon A, Cunnington LG, Carracedo LM, Schofield IS, Forsyth R, Traub RD, Whittington MA.,  <i>J Neurosci</i> 35(25), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26109655">26109655</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26220384">Investigation of GRIN2A in common epilepsy phenotypes.</a><br />
+  
+  Lal D, Steinbrücker S, Schubert J, Sander T, Becker F, Weber Y, Lerche H, Thiele H, Krause R, Lehesjoki AE, Nürnberg P, Palotie A, Neubauer BA, Muhle H, Stephani U, Helbig I, Becker AJ, Schoch S, Hansen J, Dorn T, Hohl C, Lüscher N, Epicure consortium, EuroEPINOMICS-CoGIE consortium, von Spiczak S, Lemke JR.,  <i>Epilepsy Res</i> 115(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26220384">26220384</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26008807">The genetics of the epilepsies.</a><br />
+  
+  El Achkar CM, Olson HE, Poduri A, Pearl PL.,  <i>Curr Neurol Neurosci Rep</i> 15(7), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26008807">26008807</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26316867">Clinical Genetic Testing in Epilepsy.</a><br />
+  
+  Mefford HC.,  <i>Epilepsy Curr</i> 15(4), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26316867">26316867</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26293670">Should epileptiform discharges be treated?</a><br />
+  
+  Sánchez Fernández I, Loddenkemper T, Galanopoulou AS, Moshé SL.,  <i>Epilepsia</i> 56(10), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26293670">26293670</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26293471">Epileptic activity is a surrogate for an underlying etiology and stopping the activity has a limited impact on developmental outcome.</a><br />
+  
+  Korff CM, Brunklaus A, Zuberi SM.,  <i>Epilepsia</i> 56(10), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26293471">26293471</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26302787">Advancing epilepsy genetics in the genomic era.</a><br />
+  
+  Myers CT, Mefford HC.,  <i>Genome Med</i> 7(), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26302787">26302787</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26337159">Treatment of electrical status epilepticus in sleep: A pooled analysis of 575 cases.</a><br />
+  
+  van den Munckhof B, van Dee V, Sagi L, Caraballo RH, Veggiotti P, Liukkonen E, Loddenkemper T, Sánchez Fernández I, Buzatu M, Bulteau C, Braun KP, Jansen FE.,  <i>Epilepsia</i> 56(11), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26337159">26337159</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26319171">Genetic Discoveries Drive Molecular Analyses and Targeted Therapeutic Options in the Epilepsies.</a><br />
+  
+  Dhindsa RS, Goldstein DB.,  <i>Curr Neurol Neurosci Rep</i> 15(10), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26319171">26319171</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26517219">Recent developments in the genetics of childhood epileptic encephalopathies: impact in clinical practice.</a><br />
+  
+  Gonsales MC, Montenegro MA, Soler CV, Coan AC, Guerreiro MM, Lopes-Cendes I.,  <i>Arq Neuropsiquiatr</i> 73(11), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26517219">26517219</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/26565596">The contribution of next generation sequencing to epilepsy genetics.</a><br />
+  
+  Møller RS, Dahl HA, Helbig I.,  <i>Expert Rev Mol Diagn</i> 15(12), 2015
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/26565596">26565596</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24372385">A subset of genomic alterations detected in rolandic epilepsies contains candidate or known epilepsy genes including GRIN2A and PRRT2.</a><br />
+  
+  Dimassi S, Labalme A, Lesca G, Rudolf G, Bruneau N, Hirsch E, Arzimanoglou A, Motte J, de Saint Martin A, Boutry-Kryza N, Cloarec R, Benitto A, Ameil A, Edery P, Ryvlin P, De Bellescize J, Szepetowski P, Sanlaville D.,  <i>Epilepsia</i> 55(2), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24372385">24372385</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24504326">Functional analysis of a de novo GRIN2A missense mutation associated with early-onset epileptic encephalopathy.</a><br />
+  
+  Yuan H, Hansen KB, Zhang J, Pierson TM, Markello TC, Fajardo KV, Holloman CM, Golas G, Adams DR, Boerkoel CF, Gahl WA, Traynelis SF.,  <i>Nat Commun</i> 5(), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24504326">24504326</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24272827">GRIN2B mutations in West syndrome and intellectual disability with focal epilepsy.</a><br />
+  
+  Lemke JR, Hendrickx R, Geider K, Laube B, Schwake M, Harvey RJ, James VM, Pepler A, Steiner I, Hörtnagel K, Neidhardt J, Ruf S, Wolff M, Bartholdi D, Caraballo R, Platzer K, Suls A, De Jonghe P, Biskup S, Weckhuysen S.,  <i>Ann Neurol</i> 75(1), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24272827">24272827</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24839611">GRIN2A mutation and early-onset epileptic encephalopathy: personalized therapy with memantine.</a><br />
+  
+  Pierson TM, Yuan H, Marsh ED, Fuentes-Fajardo K, Adams DR, Markello T, Golas G, Simeonov DR, Holloman C, Tankovic A, Karamchandani MM, Schreiber JM, Mullikin JC, PhD for the NISC Comparative Sequencing Program, Tifft CJ, Toro C, Boerkoel CF, Traynelis SF, Gahl WA.,  <i>Ann Clin Transl Neurol</i> 1(3), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24839611">24839611</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24492975">Past and present definitions of epileptogenesis and its biomarkers.</a><br />
+  
+  Pitkänen A, Engel J.,  <i>Neurotherapeutics</i> 11(2), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24492975">24492975</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24664660">Genetic epilepsy syndromes without structural brain abnormalities: clinical features and experimental models.</a><br />
+  
+  Guerrini R, Marini C, Mantegazza M.,  <i>Neurotherapeutics</i> 11(2), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24664660">24664660</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24591017">DEPDC5 mutations in genetic focal epilepsies of childhood.</a><br />
+  
+  Lal D, Reinthaler EM, Schubert J, Muhle H, Riesch E, Kluger G, Jabbari K, Kawalia A, Bäumel C, Holthausen H, Hahn A, Feucht M, Neophytou B, Haberlandt E, Becker F, Altmüller J, Thiele H, Lemke JR, Lerche H, Nürnberg P, Sander T, Weber Y, Zimprich F, Neubauer BA.,  <i>Ann Neurol</i> 75(5), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24591017">24591017</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24733163">The hidden genetics of epilepsy-a clinically important new paradigm.</a><br />
+  
+  Thomas RH, Berkovic SF.,  <i>Nat Rev Neurol</i> 10(5), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24733163">24733163</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24739903">Somatic mutation of GRIN2A in malignant melanoma results in loss of tumor suppressor activity via aberrant NMDAR complex formation.</a><br />
+  
+  Prickett TD, Zerlanko BJ, Hill VK, Gartner JJ, Qutob N, Jiang J, Simaan M, Wunderlich J, Gutkind JS, Rosenberg SA, Samuels Y.,  <i>J Invest Dermatol</i> 134(9), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24739903">24739903</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24753000">DEPDC5 does it all: shared genetics for diverse epilepsy syndromes.</a><br />
+  
+  Poduri A.,  <i>Ann Neurol</i> 75(5), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24753000">24753000</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24828792">Towards the identification of a genetic basis for Landau-Kleffner syndrome.</a><br />
+  
+  Conroy J, McGettigan PA, McCreary D, Shah N, Collins K, Parry-Fielder B, Moran M, Hanrahan D, Deonna TW, Korff CM, Webb D, Ennis S, Lynch SA, King MD.,  <i>Epilepsia</i> 55(6), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24828792">24828792</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24859202">Mechanical coupling maintains the fidelity of NMDA receptor-mediated currents.</a><br />
+  
+  Kazi R, Dai J, Sweeney C, Zhou HX, Wollmuth LP.,  <i>Nat Neurosci</i> 17(7), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24859202">24859202</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24740805">Epilepsy: old syndromes, new genes.</a><br />
+  
+  Weckhuysen S, Korff CM.,  <i>Curr Neurol Neurosci Rep</i> 14(6), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24740805">24740805</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24908489">Zinc dynamics and action at excitatory synapses.</a><br />
+  
+  Vergnano AM, Rebola N, Savtchenko LP, Pinheiro PS, Casado M, Kieffer BL, Rusakov DA, Mulle C, Paoletti P.,  <i>Neuron</i> 82(5), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24908489">24908489</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24903190">Whole-exome sequencing in an individual with severe global developmental delay and intractable epilepsy identifies a novel, de novo GRIN2A mutation.</a><br />
+  
+  Venkateswaran S, Myers KA, Smith AC, Beaulieu CL, Schwartzentruber JA, FORGE Canada Consortium, Majewski J, Bulman D, Boycott KM, Dyment DA.,  <i>Epilepsia</i> 55(7), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24903190">24903190</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24939913">16p11.2 600 kb Duplications confer risk for typical and atypical Rolandic epilepsy.</a><br />
+  
+  Reinthaler EM, Lal D, Lebon S, Hildebrand MS, Dahl HH, Regan BM, Feucht M, Steinböck H, Neophytou B, Ronen GM, Roche L, Gruber-Sedlmayr U, Geldner J, Haberlandt E, Hoffmann P, Herms S, Gieger C, Waldenberger M, Franke A, Wittig M, Schoch S, Becker AJ, Hahn A, Männik K, Toliat MR, Winterer G, 16p11.2 European Consortium, Lerche H, Nürnberg P, Mefford H, Scheffer IE, Berkovic SF, Beckmann JS, EPICURE Consortium, EuroEPINOMICS Consortium, Sander T, Jacquemont S, Reymond A, Zimprich F, Neubauer BA.,  <i>Hum Mol Genet</i> 23(22), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24939913">24939913</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25192505">Genetic forms of epilepsies and other paroxysmal disorders.</a><br />
+  
+  Olson HE, Poduri A, Pearl PL.,  <i>Semin Neurol</i> 34(3), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25192505">25192505</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24995671">Analysis of ELP4, SRPX2, and interacting genes in typical and atypical rolandic epilepsy.</a><br />
+  
+  Reinthaler EM, Lal D, Jurkowski W, Feucht M, Steinböck H, Gruber-Sedlmayr U, Ronen GM, Geldner J, Haberlandt E, Neophytou B, Hahn A, Altmüller J, Thiele H, Toliat MR, EuroEPINOMICS Consortium, Lerche H, Nürnberg P, Sander T, Neubauer BA, Zimprich F.,  <i>Epilepsia</i> 55(8), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24995671">24995671</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25014031">Harnessing gene expression networks to prioritize candidate epileptic encephalopathy genes.</a><br />
+  
+  Oliver KL, Lukic V, Thorne NP, Berkovic SF, Scheffer IE, Bahlo M.,  <i>PLoS One</i> 9(7), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25014031">25014031</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25022893">[New aspects in the field of epilepsy].</a><br />
+  
+  Rosenow F, Klein KM, Strzelczyk A, Hamer HM, Menzler K, Bauer S, Knake S.,  <i>Nervenarzt</i> 85(8), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25022893">25022893</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25130547">Zinc: an underappreciated modulatory factor of brain function.</a><br />
+  
+  Marger L, Schubert CR, Bertrand D.,  <i>Biochem Pharmacol</i> 91(4), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25130547">25130547</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/25266964">Epileptic encephalopathies: new genes and new pathways.</a><br />
+  
+  Nieh SE, Sherr EH.,  <i>Neurotherapeutics</i> 11(4), 2014
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/25266964">25266964</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24172334">Glycine transporters as novel therapeutic targets in schizophrenia, alcohol dependence and pain.</a><br />
+  
+  Harvey RJ, Yee BK.,  <i>Nat Rev Drug Discov</i> 12(11), 2013
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24172334">24172334</a>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 margin-top1">
+  <span class="fa fa-share-square-o"></span> <a href="http://europepmc.org/abstract/MED/24239346">GRIN2A, a green semaphore on the lumping route to idiopathic focal epilepsy in childhood.</a><br />
+  
+  Vercueil L.,  <i>Rev Neurol (Paris)</i> 169(12), 2013
+  
+  <br />
+  PMID: <a href="http://europepmc.org/abstract/MED/24239346">24239346</a>
+  
+  </div>
+</div>
+
+</div>
+
+<!-- <p class="margin-top1">Web of Science&reg; times cited:  <span class="text-muted">subscription required</span></p> -->
+
+<!-- END frontdoor/tab_ebi_cit.tt -->
+  <!-- BEGIN frontdoor/tab_ebi_ref.tt -->
+<div class="tab-pane" id="ebi_references">
+
+  <h3 class="margin-top0">32 References</h3>
+  <p>Daten bereitgestellt von <a href='http://europepmc.org/'>Europe PubMed Central</a>.</p>
+  
+  <div class="row">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/22056342"><span class="fa fa-share-square-o"></span>The NMDA receptor complex as a therapeutic target in epilepsy: a review.</a><br />
+    
+    Ghasemi M, Schachter SC.,  <em>Epilepsy Behav</em> 22(4), 2011
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/22056342">22056342</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/11231216"><span class="fa fa-share-square-o"></span>Typical semiology of benign childhood epilepsy with centrotemporal spikes (BCECTS).</a><br />
+    
+    Stephani U.,  <em>Epileptic Disord</em> 2 Suppl 1(), 2000
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/11231216">11231216</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/22612257"><span class="fa fa-share-square-o"></span>Targeted next generation sequencing as a diagnostic tool in epileptic disorders.</a><br />
+    
+    Lemke JR, Riesch E, Scheurenbrand T, Schubach M, Wilhelm C, Steiner I, Hansen J, Courage C, Gallati S, Burki S, Strozzi S, Simonetti BG, Grunt S, Steinlin M, Alber M, Wolff M, Klopstock T, Prott EC, Lorenz R, Spaich C, Rona S, Lakshminarasimhan M, Kroll J, Dorn T, Kramer G, Synofzik M, Becker F, Weber YG, Lerche H, Bohm D, Biskup S.,  <em>Epilepsia</em> 53(8), 2012
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/22612257">22612257</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/6587361"><span class="fa fa-share-square-o"></span>Strategies for multilocus linkage analysis in humans.</a><br />
+    
+    Lathrop GM, Lalouel JM, Julier C, Ott J.,  <em>Proc. Natl. Acad. Sci. U.S.A.</em> 81(11), 1984
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/6587361">6587361</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/19585586"><span class="fa fa-share-square-o"></span>The SCN1A variant database: a novel research and diagnostic tool.</a><br />
+    
+    Claes LR, Deprez L, Suls A, Baets J, Smets K, Van Dyck T, Deconinck T, Jordanova A, De Jonghe P.,  <em>Hum. Mutat.</em> 30(10), 2009
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/19585586">19585586</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/15741513"><span class="fa fa-share-square-o"></span>novoSNP, a novel computational tool for sequence variation discovery.</a><br />
+    
+    Weckx S, Del-Favero J, Rademakers R, Claes L, Cruts M, De Jonghe P, Van Broeckhoven C, De Rijk P.,  <em>Genome Res.</em> 15(3), 2005
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/15741513">15741513</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/19172991"><span class="fa fa-share-square-o"></span>Centrotemporal sharp wave EEG trait in rolandic epilepsy maps to Elongator Protein Complex 4 (ELP4).</a><br />
+    
+    Strug LJ, Clarke T, Chiang T, Chien M, Baskurt Z, Li W, Dorfman R, Bali B, Wirrell E, Kugler SL, Mandelbaum DE, Wolf SM, McGoldrick P, Hardison H, Novotny EJ, Ju J, Greenberg DA, Russo JJ, Pal DK.,  <em>Eur. J. Hum. Genet.</em> 17(9), 2009
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/19172991">19172991</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/17921354"><span class="fa fa-share-square-o"></span>PennCNV: an integrated hidden Markov model designed for high-resolution copy number variation detection in whole-genome SNP genotyping data.</a><br />
+    
+    Wang K, Li M, Hadley D, Liu R, Glessner J, Grant SF, Hakonarson H, Bucan M.,  <em>Genome Res.</em> 17(11), 2007
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/17921354">17921354</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/22824136"><span class="fa fa-share-square-o"></span>Thiol oxidation and altered NR2B/NMDA receptor functions in in vitro and in vivo pilocarpine models: implications for epileptogenesis.</a><br />
+    
+    Di Maio R, Mastroberardino PG, Hu X, Montero LM, Greenamyre JT.,  <em>Neurobiol. Dis.</em> 49(), 2012
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/22824136">22824136</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/21395862"><span class="fa fa-share-square-o"></span>Molecular basis of NMDA receptor functional diversity.</a><br />
+    
+    Paoletti P.,  <em>Eur. J. Neurosci.</em> 33(8), 2011
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/21395862">21395862</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/12177636"><span class="fa fa-share-square-o"></span>Assessment of clinically silent atherosclerotic disease and established and novel risk factors for predicting myocardial infarction and cardiac death in healthy middle-aged subjects: rationale and design of the Heinz Nixdorf RECALL Study. Risk Factors, Evaluation of Coronary Calcium and Lifestyle.</a><br />
+    
+    Schmermund A, Mohlenkamp S, Stang A, Gronemeyer D, Seibel R, Hirche H, Mann K, Siffert W, Lauterbach K, Siegrist J, Jockel KH, Erbel R.,  <em>Am. Heart J.</em> 144(2), 2002
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/12177636">12177636</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/17561957"><span class="fa fa-share-square-o"></span>Idiopathic epilepsies with seizures precipitated by fever and SCN1A abnormalities.</a><br />
+    
+    Marini C, Mei D, Temudo T, Ferrari AR, Buti D, Dravet C, Dias AI, Moreira A, Calado E, Seri S, Neville B, Narbona J, Reid E, Michelucci R, Sicca F, Cross HJ, Guerrini R.,  <em>Epilepsia</em> 48(9), 2007
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/17561957">17561957</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/22875939"><span class="fa fa-share-square-o"></span>Enhanced NMDA receptor-dependent thalamic excitation and network oscillations in stargazer mice.</a><br />
+    
+    Lacey CJ, Bryant A, Brill J, Huguenard JR.,  <em>J. Neurosci.</em> 32(32), 2012
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/22875939">22875939</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/11422340"><span class="fa fa-share-square-o"></span>A proposed diagnostic scheme for people with epileptic seizures and with epilepsy: report of the ILAE Task Force on Classification and Terminology.</a><br />
+    
+    Engel J Jr; International League Against Epilepsy (ILAE).,  <em>Epilepsia</em> 42(6), 2001
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/11422340">11422340</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/17105465"><span class="fa fa-share-square-o"></span>The spectrum of idiopathic Rolandic epilepsy syndromes and idiopathic occipital epilepsies: from the benign to the disabling.</a><br />
+    
+    Gobbi G, Boni A, Filippini M.,  <em>Epilepsia</em> 47 Suppl 2(), 2006
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/17105465">17105465</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/19136953"><span class="fa fa-share-square-o"></span>15q13.3 microdeletions increase risk of idiopathic generalized epilepsy.</a><br />
+    
+    Helbig I, Mefford HC, Sharp AJ, Guipponi M, Fichera M, Franke A, Muhle H, de Kovel C, Baker C, von Spiczak S, Kron KL, Steinich I, Kleefuss-Lie AA, Leu C, Gaus V, Schmitz B, Klein KM, Reif PS, Rosenow F, Weber Y, Lerche H, Zimprich F, Urak L, Fuchs K, Feucht M, Genton P, Thomas P, Visscher F, de Haan GJ, Moller RS, Hjalgrim H, Luciano D, Wittig M, Nothnagel M, Elger CE, Nurnberg P, Romano C, Malafosse A, Koeleman BP, Lindhout D, Stephani U, Schreiber S, Eichler EE, Sander T.,  <em>Nat. Genet.</em> 41(2), 2009
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/19136953">19136953</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/20384727"><span class="fa fa-share-square-o"></span>Deletions in 16p13 including GRIN2A in patients with intellectual disability, various dysmorphic features, and seizure disorders of the rolandic region.</a><br />
+    
+    Reutlinger C, Helbig I, Gawelczyk B, Subero JI, Tonnies H, Muhle H, Finsterwalder K, Vermeer S, Pfundt R, Sperner J, Stefanova I, Gillessen-Kaesbach G, von Spiczak S, van Baalen A, Boor R, Siebert R, Stephani U, Caliebe A.,  <em>Epilepsia</em> 51(9), 2010
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/20384727">20384727</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/18836448"><span class="fa fa-share-square-o"></span>Sequence variants in IL10, ARPC2 and multiple other loci contribute to ulcerative colitis susceptibility.</a><br />
+    
+    Franke A, Balschun T, Karlsen TH, Sventoraityte J, Nikolaus S, Mayr G, Domingues FS, Albrecht M, Nothnagel M, Ellinghaus D, Sina C, Onnie CM, Weersma RK, Stokkers PC, Wijmenga C, Gazouli M, Strachan D, McArdle WL, Vermeire S, Rutgeerts P, Rosenstiel P, Krawczak M, Vatn MH; IBSEN study group, Mathew CG, Schreiber S, Vatn MH, Moum B, Jahnsen J, Solberg C, Stray N, Henriksen M, Sauar J, Hoie O.,  <em>Nat. Genet.</em> 40(11), 2008
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/18836448">18836448</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/9855510"><span class="fa fa-share-square-o"></span>Centrotemporal spikes in families with rolandic epilepsy: linkage to chromosome 15q14.</a><br />
+    
+    Neubauer BA, Fiedler B, Himmelein B, Kampfer F, Lassker U, Schwabe G, Spanier I, Tams D, Bretscher C, Moldenhauer K, Kurlemann G, Weise S, Tedroff K, Eeg-Olofsson O, Wadelius C, Stephani U.,  <em>Neurology</em> 51(6), 1998
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/9855510">9855510</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/21463275"><span class="fa fa-share-square-o"></span>The genetics of Dravet syndrome.</a><br />
+    
+    Marini C, Scheffer IE, Nabbout R, Suls A, De Jonghe P, Zara F, Guerrini R.,  <em>Epilepsia</em> 52 Suppl 2(), 2011
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/21463275">21463275</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/21242107"><span class="fa fa-share-square-o"></span>A review of the relationships between Landau-Kleffner syndrome, electrical status epilepticus during sleep, and continuous spike-waves during sleep.</a><br />
+    
+    Hughes JR.,  <em>Epilepsy Behav</em> 20(2), 2011
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/21242107">21242107</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/20196795"><span class="fa fa-share-square-o"></span>Revised terminology and concepts for organization of seizures and epilepsies: report of the ILAE Commission on Classification and Terminology, 2005-2009.</a><br />
+    
+    Berg AT, Berkovic SF, Brodie MJ, Buchhalter J, Cross JH, van Emde Boas W, Engel J, French J, Glauser TA, Mathern GW, Moshe SL, Nordli D, Plouin P, Scheffer IE.,  <em>Epilepsia</em> 51(4), 2010
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/20196795">20196795</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/22870318"><span class="fa fa-share-square-o"></span>Genetic deletion of NR3A accelerates glutamatergic synapse maturation.</a><br />
+    
+    Henson MA, Larsen RS, Lawson SN, Perez-Otano I, Nakanishi N, Lipton SA, Philpot BD.,  <em>PLoS ONE</em> 7(8), 2012
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/22870318">22870318</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/21575722"><span class="fa fa-share-square-o"></span>Misplaced NMDA receptors in epileptogenesis contribute to excitotoxicity.</a><br />
+    
+    Frasca A, Aalbers M, Frigerio F, Fiordaliso F, Salio M, Gobbi M, Cagnotto A, Gardoni F, Battaglia GS, Hoogland G, Di Luca M, Vezzani A.,  <em>Neurobiol. Dis.</em> 43(2), 2011
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/21575722">21575722</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/20890276"><span class="fa fa-share-square-o"></span>Mutations in GRIN2A and GRIN2B encoding regulatory subunits of NMDA receptors cause variable neurodevelopmental phenotypes.</a><br />
+    
+    Endele S, Rosenberger G, Geider K, Popp B, Tamer C, Stefanova I, Milh M, Kortum F, Fritsch A, Pientka FK, Hellenbroich Y, Kalscheuer VM, Kohlhase J, Moog U, Rappold G, Rauch A, Ropers HH, von Spiczak S, Tonnies H, Villeneuve N, Villard L, Zabel B, Zenker M, Laube B, Reis A, Wieczorek D, Van Maldergem L, Kutsche K.,  <em>Nat. Genet.</em> 42(11), 2010
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/20890276">20890276</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/23163318"><span class="fa fa-share-square-o"></span>The tower of Babel: survey on concepts and terminology in electrical status epilepticus in sleep and continuous spikes and waves during sleep in North America.</a><br />
+    
+    Fernandez IS, Chapman KE, Peters JM, Kothare SV, Nordli DR Jr, Jensen FE, Berg AT, Loddenkemper T.,  <em>Epilepsia</em> 54(4), 2012
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/23163318">23163318</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/21443867"><span class="fa fa-share-square-o"></span>Glutamate receptor composition of the post-synaptic density is altered in genetic mouse models of NMDA receptor hypo- and hyperfunction.</a><br />
+    
+    Balu DT, Coyle JT.,  <em>Brain Res.</em> 1392(), 2011
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/21443867">21443867</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/15748156"><span class="fa fa-share-square-o"></span>Changes in phosphorylation of the NMDA receptor in the rat hippocampus induced by status epilepticus.</a><br />
+    
+    Niimura M, Moussa R, Bissoon N, Ikeda-Douglas C, Milgram NW, Gurd JW.,  <em>J. Neurochem.</em> 92(6), 2005
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/15748156">15748156</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/22738016"><span class="fa fa-share-square-o"></span>Epileptic encephalopathies of the Landau-Kleffner and continuous spike and waves during slow-wave sleep types: genomic dissection makes the link with autism.</a><br />
+    
+    Lesca G, Rudolf G, Labalme A, Hirsch E, Arzimanoglou A, Genton P, Motte J, de Saint Martin A, Valenti MP, Boulay C, De Bellescize J, Keo-Kosal P, Boutry-Kryza N, Edery P, Sanlaville D, Szepetowski P.,  <em>Epilepsia</em> 53(9), 2012
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/22738016">22738016</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/16529620"><span class="fa fa-share-square-o"></span>Analyzing the etiology of benign rolandic epilepsy: a multicenter twin collaboration.</a><br />
+    
+    Vadlamudi L, Kjeldsen MJ, Corey LA, Solaas MH, Friis ML, Pellock JM, Nakken KO, Milne RL, Scheffer IE, Harvey AS, Hopper JL, Berkovic SF.,  <em>Epilepsia</em> 47(3), 2006
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/16529620">16529620</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/20825490"><span class="fa fa-share-square-o"></span>Pleiotropic effects of the 11p13 locus on developmental verbal dyspraxia and EEG centrotemporal sharp waves.</a><br />
+    
+    Pal DK, Li W, Clarke T, Lieberman P, Strug LJ.,  <em>Genes Brain Behav.</em> 9(8), 2010
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/20825490">20825490</a>
+    </div>
+  </div>
+  
+  <div class="row margin-top1">
+    <div class="col-md-12">
+    
+    <a href="http://europepmc.org/abstract/MED/17662063"><span class="fa fa-share-square-o"></span>Autosomal dominant inheritance of centrotemporal sharp waves in rolandic epilepsy families.</a><br />
+    
+    Bali B, Kull LL, Strug LJ, Clarke T, Murphy PL, Akman CI, Greenberg DA, Pal DK.,  <em>Epilepsia</em> 48(12), 2007
+    <br />PMID: <a href="http://europepmc.org/abstract/MED/17662063">17662063</a>
+    </div>
+  </div>
+  
+
+</div>
+<!-- END frontdoor/tab_ebi_ref.tt -->
+ 
+        </div><!-- tab-content -->
+
+      </div>
+
+      <div class="col-md-3 col-md-offset-1">
+
+        <div class="hidden-sm hidden-md hidden-lg"><hr></div>
+
+        <!-- Edit -->
+        
+
+        <!-- Export -->
+        <div class="h3_lookalike" id="export">Export</div>
+        <p>
+        <a class="mark right" data-marked="0" data-id="2625613"><span class="fa fa-square-o"></span>Markieren/ Markierung löschen</a><br />
+        <a title="0 Markierte Publikation(en)" href="https://pub.uni-bielefeld.de/marked" rel="nofollow"><span class="label label-default total-marked"></span> Markierte Publikationen</a>
+        </p>
+
+        <!-- trigger modal -->
+        <p class="margin-left1"><a href="#contentnegotiation" data-toggle="modal"><span class="fa fa-share-square-o fw1"></span>Open Data PUB</a></p>
+
+        <!-- modal -->
+        <div id="contentnegotiation" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+              <h3 id="myModalLabel">Open Data PUB</h3>
+            </div>
+            <div class="modal-body">
+                  <div class="row">
+                    <div class="col-xs-4">
+                    JSON:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.json"> application/json</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    MODS:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.mods"> application/xml</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    BibTeX:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.bibtex"> text/x-bibtex</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    Dublin Core:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.dc"> application/xml</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    aREF (another RDF Encoding Form):
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.aref"> text/x-yaml</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    RDF:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.rdf"> application/xml</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    YAML:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.yaml"> text/x-yaml</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    RTF:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.rtf"> application/rtf</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    DataCite XML:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.datacite"> application/xml</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    DC JSON:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.dc_json"> application/oaidc+json</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    RIS (reference software):
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.ris"> application/x-research-info-systems</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    JSONLines:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.jsonl"> text/plain</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+                  <div class="row">
+                    <div class="col-xs-4">
+                    CSL JSON:
+                    </div>
+                    <div class="col-xs-8">
+                      <a href="https://pub.uni-bielefeld.de/record/2625613.csl_json"> application/vnd.citationstyles.csl+json</a>
+                    </div>
+                  </div>
+                  <div class="row"><div class="col-xs-12">&nbsp;</div></div>
+            </div>
+          </div>
+          </div>
+        </div><!-- end modal -->
+
+    <!-- Sources -->
+
+      <h3 id="wos">Web of Science</h3>
+      <a href="https://ws.isiknowledge.com/cps/openurl/service?url_ver=Z39.88-2004&amp;rft_id=info:ut/000323748200018">Dieser Datensatz im Web of Science&reg;</a>
+
+	    <div class="h3_lookalike">Quellen</div>
+
+	    <p><img src="https://pub.uni-bielefeld.de/images/icon_pubmed.png" class="img-thumbnail" alt="">PMID: 23933819<br>
+	    <a href="https://www.ncbi.nlm.nih.gov/pubmed/23933819">PubMed</a> | <a href="https://europepmc.org/abstract/MED/23933819">Europe PMC</a></p>
+        <!-- Search title in -->
+        <div class="h3_lookalike">Suchen in</div>
+        <p>
+          <a href="https://scholar.google.com/scholar?q=allintitle%3AMutations%20in%20GRIN2A%20cause%20idiopathic%20focal%20epilepsy%20with%20rolandic%20spikes"><img src="https://pub.uni-bielefeld.de/images/icon_gs.png" alt="" class="img-thumbnail">Google Scholar</a><br>
+        </p>
+      </div>
+    </div><!-- row tabs and right info menu -->
+
+    <!-- _id -->
+
+  </div><!-- outer col -->
+
+</div><!-- outer row-->
+
+<script type="application/ld+json">
+{"dateCreated":"2013-10-01T12:37:05Z","author":[{"name":"Lemke, Johannes R.","@type":"Person","givenName":"Johannes R.","familyName":"Lemke"},{"familyName":"Lal","givenName":"Dennis","@type":"Person","name":"Lal, Dennis"},{"name":"Reinthaler, Eva M.","givenName":"Eva M.","@type":"Person","familyName":"Reinthaler"},{"@type":"Person","givenName":"Isabelle","name":"Steiner, Isabelle","familyName":"Steiner"},{"familyName":"Nothnagel","@type":"Person","givenName":"Michael","name":"Nothnagel, Michael"},{"familyName":"Alber","givenName":"Michael","@type":"Person","name":"Alber, Michael"},{"givenName":"Kirsten","@type":"Person","name":"Geider, Kirsten","familyName":"Geider"},{"givenName":"Bodo","@type":"Person","name":"Laube, Bodo","familyName":"Laube"},{"familyName":"Schwake","sameAs":"https://orcid.org/0000-0002-4173-2166","@type":"Person","givenName":"Michael","name":"Schwake, Michael"},{"familyName":"Finsterwalder","@type":"Person","givenName":"Katrin","name":"Finsterwalder, Katrin"},{"familyName":"Franke","givenName":"Andre","@type":"Person","name":"Franke, Andre"},{"name":"Schilhabel, Markus","givenName":"Markus","@type":"Person","familyName":"Schilhabel"},{"@type":"Person","givenName":"Johanna A.","name":"Jaehn, Johanna A.","familyName":"Jaehn"},{"givenName":"Hiltrud","@type":"Person","name":"Muhle, Hiltrud","familyName":"Muhle"},{"name":"Boor, Rainer","@type":"Person","givenName":"Rainer","familyName":"Boor"},{"familyName":"Van Paesschen","@type":"Person","givenName":"Wim","name":"Van Paesschen, Wim"},{"name":"Caraballo, Roberto","@type":"Person","givenName":"Roberto","familyName":"Caraballo"},{"@type":"Person","givenName":"Natalio","name":"Fejerman, Natalio","familyName":"Fejerman"},{"@type":"Person","givenName":"Sarah","name":"Weckhuysen, Sarah","familyName":"Weckhuysen"},{"name":"De Jonghe, Peter","@type":"Person","givenName":"Peter","familyName":"De Jonghe"},{"givenName":"Jan","@type":"Person","name":"Larsen, Jan","familyName":"Larsen"},{"name":"Moller, Rikke S.","givenName":"Rikke S.","@type":"Person","familyName":"Moller"},{"@type":"Person","givenName":"Helle","name":"Hjalgrim, Helle","familyName":"Hjalgrim"},{"name":"Addis, Laura","givenName":"Laura","@type":"Person","familyName":"Addis"},{"name":"Tang, Shan","givenName":"Shan","@type":"Person","familyName":"Tang"},{"familyName":"Hughes","givenName":"Elaine","@type":"Person","name":"Hughes, Elaine"},{"familyName":"Pal","name":"Pal, Deb K.","@type":"Person","givenName":"Deb K."},{"givenName":"Kadi","@type":"Person","name":"Veri, Kadi","familyName":"Veri"},{"familyName":"Vaher","@type":"Person","givenName":"Ulvi","name":"Vaher, Ulvi"},{"familyName":"Talvik","@type":"Person","givenName":"Tiina","name":"Talvik, Tiina"},{"givenName":"Petia","@type":"Person","name":"Dimova, Petia","familyName":"Dimova"},{"familyName":"Lopez","givenName":"Rosa Guerrero","@type":"Person","name":"Lopez, Rosa Guerrero"},{"familyName":"Serratosa","name":"Serratosa, Jose M.","@type":"Person","givenName":"Jose M."},{"familyName":"Linnankivi","name":"Linnankivi, Tarja","givenName":"Tarja","@type":"Person"},{"familyName":"Lehesjoki","name":"Lehesjoki, Anna-Elina","@type":"Person","givenName":"Anna-Elina"},{"givenName":"Susanne","@type":"Person","name":"Ruf, Susanne","familyName":"Ruf"},{"familyName":"Wolff","name":"Wolff, Markus","givenName":"Markus","@type":"Person"},{"familyName":"Buerki","name":"Buerki, Sarah","givenName":"Sarah","@type":"Person"},{"familyName":"Wohlrab","@type":"Person","givenName":"Gabriele","name":"Wohlrab, Gabriele"},{"familyName":"Kroell","givenName":"Judith","@type":"Person","name":"Kroell, Judith"},{"name":"Datta, Alexandre N.","givenName":"Alexandre N.","@type":"Person","familyName":"Datta"},{"familyName":"Fiedler","name":"Fiedler, Barbara","@type":"Person","givenName":"Barbara"},{"familyName":"Kurlemann","name":"Kurlemann, Gerhard","givenName":"Gerhard","@type":"Person"},{"name":"Kluger, Gerhard","givenName":"Gerhard","@type":"Person","familyName":"Kluger"},{"familyName":"Hahn","name":"Hahn, Andreas","@type":"Person","givenName":"Andreas"},{"givenName":"D. Edda","@type":"Person","name":"Haberlandt, D. Edda","familyName":"Haberlandt"},{"name":"Kutzer, Christina","@type":"Person","givenName":"Christina","familyName":"Kutzer"},{"name":"Sperner, Juergen","givenName":"Juergen","@type":"Person","familyName":"Sperner"},{"familyName":"Becker","name":"Becker, Felicitas","givenName":"Felicitas","@type":"Person"},{"familyName":"Weber","givenName":"Yvonne G.","@type":"Person","name":"Weber, Yvonne G."},{"familyName":"Feucht","@type":"Person","givenName":"Martha","name":"Feucht, Martha"},{"givenName":"Hannelore","@type":"Person","name":"Steinboeck, Hannelore","familyName":"Steinboeck"},{"familyName":"Neophythou","@type":"Person","givenName":"Birgit","name":"Neophythou, Birgit"},{"@type":"Person","givenName":"Gabriel M.","name":"Ronen, Gabriel M.","familyName":"Ronen"},{"givenName":"Ursula","@type":"Person","name":"Gruber-Sedlmayr, Ursula","familyName":"Gruber-Sedlmayr"},{"name":"Geldner, Julia","@type":"Person","givenName":"Julia","familyName":"Geldner"},{"familyName":"Harvey","givenName":"Robert J.","@type":"Person","name":"Harvey, Robert J."},{"name":"Hoffmann, Per","@type":"Person","givenName":"Per","familyName":"Hoffmann"},{"familyName":"Herms","name":"Herms, Stefan","givenName":"Stefan","@type":"Person"},{"familyName":"Altmueller","@type":"Person","givenName":"Janine","name":"Altmueller, Janine"},{"familyName":"Toliat","@type":"Person","givenName":"Mohammad R.","name":"Toliat, Mohammad R."},{"familyName":"Thiele","name":"Thiele, Holger","@type":"Person","givenName":"Holger"},{"familyName":"Nuernberg","name":"Nuernberg, Peter","givenName":"Peter","@type":"Person"},{"familyName":"Wilhelm","givenName":"Christian","@type":"Person","name":"Wilhelm, Christian"},{"name":"Stephani, Ulrich","@type":"Person","givenName":"Ulrich","familyName":"Stephani"},{"familyName":"Helbig","@type":"Person","givenName":"Ingo","name":"Helbig, Ingo"},{"familyName":"Lerche","@type":"Person","givenName":"Holger","name":"Lerche, Holger"},{"givenName":"Fritz","@type":"Person","name":"Zimprich, Fritz","familyName":"Zimprich"},{"@type":"Person","givenName":"Bernd A.","name":"Neubauer, Bernd A.","familyName":"Neubauer"},{"familyName":"Biskup","givenName":"Saskia","@type":"Person","name":"Biskup, Saskia"},{"familyName":"von Spiczak","@type":"Person","givenName":"Sarah","name":"von Spiczak, Sarah"}],"name":"Mutations in GRIN2A cause idiopathic focal epilepsy with rolandic spikes","@type":"ScholarlyArticle","description":"Idiopathic focal epilepsy (IFE) with rolandic spikes is the most common childhood epilepsy, comprising a phenotypic spectrum from rolandic epilepsy (also benign epilepsy with centrotemporal spikes, BECTS) to atypical benign partial epilepsy (ABPE), Landau-Kleffner syndrome (LKS) and epileptic encephalopathy with continuous spike and waves during slow-wave sleep (CSWS)(1,2). The genetic basis is largely unknown. We detected new heterozygous mutations in GRIN2A in 27 of 359 affected individuals from 2 independent cohorts with IFE (7.5%; P = 4.83 x 10(-18), Fisher's exact test). Mutations occurred significantly more frequently in the more severe phenotypes, with mutation detection rates ranging from 12/245 (4.9%) in individuals with BECTS to 9/51 (17.6%) in individuals with CSWS (P = 0.009, Cochran-Armitage test for trend). In addition, exon-disrupting microdeletions were found in 3 of 286 individuals (1.0%; P = 0.004, Fisher's exact test). These results establish alterations of the gene encoding the NMDA receptor NR2A subunit as a major genetic risk factor for IFE.","url":"https://pub.uni-bielefeld.de/record/2625613","copyrightYear":"2013","dateModified":"2018-07-24T13:01:14Z","@context":"https://schema.org/"}
+</script>
+<script>
+$.getJSON( librecat.uri_base + "/metrics/2625613").done(function( data ) {
+  if (data.times_cited > 0) {
+    $('#wos').after('<a href="'+ data.citing_url +'" target="_parent">Web of Science&reg; Times Cited: <strong class="wos-times-cited">'+ data.times_cited +'</strong></a></li><br>');
+  }
+});
+
+var url = document.location.toString();
+if (url.match('#')) {
+    $('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+}
+
+// Change hash for page-reload
+$('.nav-tabs a').on('shown.bs.tab', function (e) {
+    window.location.hash = e.target.hash;
+})
+</script>
+
+<script>
+$('#rac_submit').click(function(e){
+  if($('#id_message').val()){
+    var message = $('#id_message').val();
+    var not_allowed = new RegExp('\<|\>|(href)|(http)|\/\/');
+    if (not_allowed.test(message)) {
+      //console.log("Nope! You will not send this!");
+      $('#rac_message').text('Sie haben unerlaubte Zeichen in Ihrer Request-A-Copy Nachricht eingegeben. URLs, Links und html-Tags sind nicht erlaubt.');
+      $('#rac_message').show();
+      e.preventDefault();
+    }
+    else{
+      //console.log("Okay, you may send this!");
+    }
+  }
+});
+
+$('#myModal_').on('hidden.bs.modal', function (e) {
+  $('#rac_message').text('');
+  $('#rac_message').hide();
+  $('#id_message').val('');
+  $('#id_email').val('');
+});
+
+</script>
+
+<!-- END publication/record.tt -->
+
+<!-- BEGIN footer.tt -->
+</div><!-- container -->
+<div id="push"></div><!-- for sticky footer -->
+</main>
+
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+	      <div class="col-sm-5 col-md-4 col-lg-3">
+          <ul class="list-inline margin0-sm">
+            <li><a href="/docs/howto/contact">Kontakt</a></li>
+            <li><a href="/docs/howto/policy">Leitlinien</a></li>
+            <li><a href="https://www.uni-bielefeld.de/impressum/">Impressum</a></li>
+            <li><a href="/docs/howto/privacy">Datenschutzhinweise</a></li>
+            <li><a href="https://www.ub.uni-bielefeld.de/<-en,de>/ub/barrierefreiheit/pub/">Erklärung zur Barrierefreiheit</a></li>
+            <li>Powered by <a href='http://www.librecat.org/'>LibreCat<img src='/images/librecat.png' alt=''></a></li>
+          </ul>
+	      </div>
+        <div class="col-sm-4 col-lg-offset-1 col-lg-3">
+          <ul class="list-inline">
+            <li><a href="http://orcid.org/" target="_blank"><img src="/images/logo_orcid_member.png" style="height:64px;" alt="ORCID" title="PUB reichert Publikationsnachweise mit ORCID iDs an" /></a></li>
+            <li class="margin-top1-2"><a href="/docs/howto/memberships_certificates">Weitere Mitgliedschaften &amp; Zertifikate</a></li>
+          </ul>
+        </div>
+	    <div class="col-sm-3 col-md-4 col-lg-offset-1">
+	      <strong>Support Publikationsdienste</strong><br>Tel.: 0521/106-2545<br><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#117;&#98;&#108;&#105;&#107;&#97;&#116;&#105;&#111;&#110;&#115;&#100;&#105;&#101;&#110;&#115;&#116;&#101;&#46;&#117;&#98;&#64;&#117;&#110;&#105;&#45;&#98;&#105;&#101;&#108;&#101;&#102;&#101;&#108;&#100;&#46;&#100;&#101;'>&#112;&#117;&#98;&#108;&#105;&#107;&#97;&#116;&#105;&#111;&#110;&#115;&#100;&#105;&#101;&#110;&#115;&#116;&#101;&#46;&#117;&#98;&#64;&#117;&#110;&#105;&#45;&#98;&#105;&#101;&#108;&#101;&#102;&#101;&#108;&#100;&#46;&#100;&#101;</a>
+	    </div>
+      </div>
+    </div>
+    <div class="row innerrow">
+      <div class="col-sm-12">
+        <p>&copy; 2010-2024 <a href='http://www.ub.uni-bielefeld.de/'>Universitätsbibliothek Bielefeld</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/javascripts/commonmarkjs/dist/commonmark.min.js"></script>
+<script>
+var reader = new commonmark.Parser();
+var writer = new commonmark.HtmlRenderer();
+$(document).ready(function () {
+  $('.cmark').each(function () {
+    var text = $(this).html();
+    var parsed = reader.parse(text);
+    var result = writer.render(parsed); // result is a String
+    var r = result.replace(/<p>(.*?)<\/p>/g,"$1");
+    $(this).html("");
+    $(this).html(r);
+  });
+});
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script async src="/javascripts/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+<!-- END footer.tt -->
+</html>
+
