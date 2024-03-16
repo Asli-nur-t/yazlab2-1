@@ -58,7 +58,7 @@
                   onload="this.onload=null;this.rel='stylesheet'">
 
 
-        <link href="//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/v-638373789522652865/global.css" rel="stylesheet" type="text/css" />
+        <link href="//oup.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/journals/v-638373778184040619/global.css" rel="stylesheet" type="text/css" />
             <link href="//oup.silverchair-cdn.com/data/SiteBuilderAssets/Live/CSS/mnras/v-637435494138126859/Site.css" rel="stylesheet" type="text/css" />
 
 
@@ -927,7 +927,7 @@
     <i class="icon-general-close mobile-nav-btn nav-open"></i>
     <a class="article-issue-link" href="/mnras/issue/344/4">
         <div class="article-issue-img">
-                <img id="issueImage" class="fb-featured-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/Issue/344/4/1/m_cover.jpeg?Expires=1713301938&amp;Signature=XK3rfKcpG5k3aV0OOj3d-kOsNMZpYBmuFGetGwk-ShRsFyvCdnCK9Qg0B23g2wtC9AJgkfK1duLkK1HJXN3vNlkVK2a8WdNQBcAqU5S-P6wI9uXlBF-WoudiMHWwNir7TRWcCkDswLcoUnPRVH7cfo65yjiZbM7-aW4VnczggE~htopR7q5FSU0xOaDUbDo1GfO4ZcoRuTeCuBUFRkwzKZH0lw6lwmM~L7kG4xFQfcyRzxDLr-DJ6lvM08Ttfu7PKXHrCrEpT3wNV370rXIyQ9VIgsjzMtkX0dFNQ39qZ0dHIj2YUX3Wn~8R5gDVtFFG8xqXS~jndyCuGsMw6rJmyg__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Issue Cover" />
+                <img id="issueImage" class="fb-featured-image" src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mnras/Issue/344/4/1/m_cover.jpeg?Expires=1713617057&amp;Signature=1r1rxXgmNp2w59BLj7j1LEGuXvRinB7LmK4A1SnDM13sbMzrIuk4QPWz79hnFroGdo5xkpYykzmMawhwU6KNJlvuTJUhxlvS4ATz8R~Oahb4nob40bqB8wn4tCKkGj2jz87D0-aVxWAS3YH8N4lq1U~qAO1Ksfhryph6GFK26qbcZzkSI-2ceq9PkRw1CIjFdjsY3N-wXARxvJuSJ65euMafQb5om19RzEmEGIC6Z7Cn8HHt1s1-Fo-C8W1aBbNI99K~p1XBhLPNQYfonsOyBrZQoZQpmEHatoHwKYh0Sjjy0Z4RZ2oLTKovVejt-cd4qTRjfYBZLV8Mt~63UAwHdw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Issue Cover" />
         </div>
         <div class="article-issue-info">
             <div class="volume-issue__wrap">
@@ -1687,7 +1687,7 @@ October 2003            </div>
                     <div class="contentmet-views contentmet-badges-wrap js-contentmet-views">
                 <h3 class="contentmet-text">Views</h3>
                 <div class="contentmet-item circle-text circle-text-views">
-                    <div class="contentmet-number">2,946</div>
+                    <div class="contentmet-number">2,984</div>
                 </div>
             </div>
                     <div class="contentmet-item contentmet-badges-wrap">
@@ -1735,15 +1735,15 @@ October 2003            </div>
                 <div class="artmet-views clearfix">
                     <div class="artmet-total-views">
                         <span class="artmet-text">Total Views</span>
-                        <span class="artmet-number">2,946</span>
+                        <span class="artmet-number">2,984</span>
                     </div>
                     <div class="artmet-breakdown-views-wrap">
                         <div class="artmet-breakdown-view breakdown-border">
-                            <span class="artmet-number">2,068</span>
+                            <span class="artmet-number">2,104</span>
                             <span class="artmet-text">Pageviews</span>
                         </div>
                         <div class="artmet-breakdown-view">
-                            <span class="artmet-number">878</span>
+                            <span class="artmet-number">880</span>
                             <span class="artmet-text">PDF Downloads</span>
                         </div>
                                             </div>
@@ -1756,7 +1756,7 @@ October 2003            </div>
 
                 ChartistData.data = {
                     labels: ['Feb 2017', 'Mar 2017', 'Apr 2017', 'May 2017', 'Jun 2017', 'Jul 2017', 'Aug 2017', 'Sep 2017', 'Oct 2017', 'Nov 2017', 'Dec 2017', 'Jan 2018', 'Feb 2018', 'Mar 2018', 'Apr 2018', 'May 2018', 'Jun 2018', 'Jul 2018', 'Aug 2018', 'Sep 2018', 'Oct 2018', 'Nov 2018', 'Dec 2018', 'Jan 2019', 'Feb 2019', 'Mar 2019', 'Apr 2019', 'May 2019', 'Jun 2019', 'Jul 2019', 'Aug 2019', 'Sep 2019', 'Oct 2019', 'Nov 2019', 'Dec 2019', 'Jan 2020', 'Feb 2020', 'Mar 2020', 'Apr 2020', 'May 2020', 'Jun 2020', 'Jul 2020', 'Aug 2020', 'Sep 2020', 'Oct 2020', 'Nov 2020', 'Dec 2020', 'Jan 2021', 'Feb 2021', 'Mar 2021', 'Apr 2021', 'May 2021', 'Jun 2021', 'Jul 2021', 'Aug 2021', 'Sep 2021', 'Oct 2021', 'Nov 2021', 'Dec 2021', 'Jan 2022', 'Feb 2022', 'Mar 2022', 'Apr 2022', 'May 2022', 'Jun 2022', 'Jul 2022', 'Aug 2022', 'Sep 2022', 'Oct 2022', 'Nov 2022', 'Dec 2022', 'Jan 2023', 'Feb 2023', 'Mar 2023', 'Apr 2023', 'May 2023', 'Jun 2023', 'Jul 2023', 'Aug 2023', 'Sep 2023', 'Oct 2023', 'Nov 2023', 'Dec 2023', 'Jan 2024', 'Feb 2024', 'Mar 2024'],
-                    series: [[5, 5, 5, 11, 1, 9, 3, 3, 5, 8, 11, 13, 22, 22, 22, 44, 17, 30, 14, 51, 14, 29, 24, 43, 31, 20, 48, 28, 8, 30, 25, 30, 50, 41, 30, 28, 19, 28, 30, 15, 21, 24, 29, 37, 52, 40, 69, 41, 43, 88, 45, 36, 55, 49, 41, 58, 70, 48, 45, 24, 37, 38, 48, 45, 47, 49, 54, 72, 43, 49, 44, 39, 33, 51, 46, 37, 39, 37, 44, 40, 34, 56, 71, 48, 33, 25]]
+                    series: [[5, 5, 5, 11, 1, 9, 3, 3, 5, 8, 11, 13, 22, 22, 22, 44, 17, 30, 14, 51, 14, 29, 24, 43, 31, 20, 48, 28, 8, 30, 25, 30, 50, 41, 30, 28, 19, 28, 30, 15, 21, 24, 29, 37, 52, 40, 69, 41, 43, 88, 45, 36, 55, 49, 41, 58, 70, 48, 45, 24, 37, 38, 48, 45, 47, 49, 54, 72, 43, 49, 44, 39, 33, 51, 46, 37, 39, 37, 44, 40, 34, 56, 71, 48, 33, 63]]
                 };
             </script>
             <div class="artmet-item artmet-chart">
@@ -2113,7 +2113,7 @@ October 2003            </div>
                                 </tr>
                                 <tr>
                                     <td>March 2024</td>
-                                    <td>25</td>
+                                    <td>63</td>
                                 </tr>
                         </tbody>
                     </table>
@@ -2262,15 +2262,15 @@ October 2003            </div>
                     <div class="col">
 
 <div class="widget-dynamic-entry journalArticleItem at-widget-entry-SCL">
-    <span class="hfDoi" data-attribute="10.1093/mnras/stae724" aria-hidden="true"></span>
+    <span class="hfDoi" data-attribute="10.1093/mnras/stae765" aria-hidden="true"></span>
 
 
     
 
 
-<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae724/7625606?searchresult=1">
+<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae765/7630242?searchresult=1">
         <div class="widget-dynamic-journal-title">
-Observations of spiral and streamer on a candidate proto-brown dwarf    </div>
+The fundamental plane of blazars based on the black hole spin-mass energy    </div>
 </a>
 
  
@@ -2287,15 +2287,15 @@ Observations of spiral and streamer on a candidate proto-brown dwarf    </div>
 
 </div>
 <div class="widget-dynamic-entry journalArticleItem at-widget-entry-SCL">
-    <span class="hfDoi" data-attribute="10.1093/mnras/stae719" aria-hidden="true"></span>
+    <span class="hfDoi" data-attribute="10.1093/mnras/stae687" aria-hidden="true"></span>
 
 
     
 
 
-<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae719/7625605?searchresult=1">
+<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae687/7630240?searchresult=1">
         <div class="widget-dynamic-journal-title">
-A new test of gravity - I: Introduction to the method    </div>
+Unveiling two expanding stellar groups formed through violent relaxation in the lagoon nebula cluster    </div>
 </a>
 
  
@@ -2312,15 +2312,15 @@ A new test of gravity - I: Introduction to the method    </div>
 
 </div>
 <div class="widget-dynamic-entry journalArticleItem at-widget-entry-SCL">
-    <span class="hfDoi" data-attribute="10.1093/mnras/stae697" aria-hidden="true"></span>
+    <span class="hfDoi" data-attribute="10.1093/mnras/stae477" aria-hidden="true"></span>
 
 
     
 
 
-<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae697/7625603?searchresult=1">
+<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae477/7630239?searchresult=1">
         <div class="widget-dynamic-journal-title">
-Performance and first measurements of the MAGIC Stellar Intensity Interferometer    </div>
+Asymmetrical shape of C-He lines in the Ultraviolet    </div>
 </a>
 
  
@@ -2337,15 +2337,15 @@ Performance and first measurements of the MAGIC Stellar Intensity Interferometer
 
 </div>
 <div class="widget-dynamic-entry journalArticleItem at-widget-entry-SCL">
-    <span class="hfDoi" data-attribute="10.1093/mnras/stae716" aria-hidden="true"></span>
+    <span class="hfDoi" data-attribute="10.1093/mnras/stae745" aria-hidden="true"></span>
 
 
     
 
 
-<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae716/7625602?searchresult=1">
+<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae745/7630238?searchresult=1">
         <div class="widget-dynamic-journal-title">
-A Dusty Locale: Evolution of galactic dust populations from Milky Way to dwarf-mass galaxies    </div>
+Age of Geminids Derived from the Statistics of Meteoroid Orbits    </div>
 </a>
 
  
@@ -2362,15 +2362,15 @@ A Dusty Locale: Evolution of galactic dust populations from Milky Way to dwarf-m
 
 </div>
 <div class="widget-dynamic-entry journalArticleItem at-widget-entry-SCL">
-    <span class="hfDoi" data-attribute="10.1093/mnras/stae718" aria-hidden="true"></span>
+    <span class="hfDoi" data-attribute="10.1093/mnras/stae748" aria-hidden="true"></span>
 
 
     
 
 
-<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae718/7625601?searchresult=1">
+<a class="journal-link" href="/mnras/advance-article/doi/10.1093/mnras/stae748/7630237?searchresult=1">
         <div class="widget-dynamic-journal-title">
-EDGE – Dark matter or astrophysics? Breaking dark matter heating degeneracies with H <sc>i</sc> rotation in faint dwarf galaxies    </div>
+Probing the Physics of Reionization Using kSZ Power Spectrum from Current and Upcoming CMB Surveys    </div>
 </a>
 
  

@@ -10,6 +10,8 @@ import os
 import re
 import PyPDF2
 from pymongo import MongoClient
+from elasticsearch import Elasticsearch
+from elasticsearch_dsl import Search, Q
 
 
 
@@ -73,11 +75,14 @@ def homepage(request):
                 # filename = os.path.basename(a.get('href'))
 
 
-                    temizVeri=temizle(a.get('href'))
+                   
+                    temizVeri = temizle(a.get('href'))
                 #dosya_yolu = "/path/to/your/directory/"
-                    filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(temizVeri))
-                    # filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
-    # İndirme işlemi
+                    #filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(temizVeri))
+                    #filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
+                    filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
+
+    # İndirme işlemi3
                     # if os.path.exists(filename):
 #     with open(filename, 'wb') as f:
 #         # Dosya işlemleri burada yapılır
@@ -87,24 +92,24 @@ def homepage(request):
                     
 
                     
+                    # İndirme işlemi
                     with open(filename, 'wb') as f:
                         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
                         response = requests.get(a.get('href'), headers=headers)
-                    # response = requests.get()
                         f.write(response.content)
-                    print(f"{filename} indirildi.")
-                    if filename.lower().endswith('pdf'):
-                        # document_name=.text
-                        document_name=baslik.text
-                        document_url=a.get('href')
-                        document_file=filename
-                        document_nameid=temizVeri
-                        # pdf_data = PDFData(document_name=document_name, document_url=document_url, document_pdf=document_file,document_nameid=document_nameid)
-                        # pdf_data.save()
-                        # Dosya bir PDF mi diye kontrol et
-                    
-                        pdf_verilerini_kaydet(document_file,document_url,document_name)
-                    else: print("PDF değil.")
+                        print(f"{filename} indirildi.")
+                        if filename.lower().endswith('pdf'):
+                            # document_name=.text
+                            document_name=baslik.text
+                            document_url=a.get('href')
+                            document_file=filename
+                            document_nameid=temizVeri
+                            pdf_data = PDFData(document_name=document_name, document_url=document_url, document_pdf=document_file)
+                            pdf_data.save()
+                            # Dosya bir PDF mi diye kontrol et
+                        
+                            #pdf_verilerini_kaydet(document_file,document_url,document_name)
+                        else: print("PDF değil.")
                     
                     
 
@@ -119,10 +124,6 @@ def homepage(request):
 
 
 def pdf_verilerini_kaydet(pdf_dosyasi, url, name):
-    client = MongoClient('mongodb://localhost:27017/')  # MongoDB bağlantısı
-    db = client['webscraping']  # Veritabanı adı
-    collection = db['pdfdata']  # Koleksiyon adı
-
     with open(pdf_dosyasi, 'rb') as file:
         try:
             pdf_okuyucu = PyPDF2.PdfFileReader(file)
@@ -184,19 +185,20 @@ def pdf_verilerini_kaydet(pdf_dosyasi, url, name):
             match_doi = doi_pattern.search(metin)
             doi_number = match_doi.group(1) if match_doi else ''
 
-            # Yukarıdaki verileri ayıkla ve MongoDB'ye kaydet
-            pdf_verisi = {
-                'document_name': name,
-                'document_url': url,
-                'publish_name': publish_name,
-                'authors_name': authors_name,
-                'publish_type': publish_type,
-                'publication_date': publication_date,
-                'publisher_name': publisher_name,
-                'key_words': key_words,
-                'summary': summary,
-                'reference': reference,
-                'number_of_citations': number_of_citations,
-                'doi_number': doi_number
-            }
-            collection.insert_one(pdf_verisi)
+            # Yukarıdaki verileri ayıkla ve PDFData modeline uygun şekilde kaydet
+            pdf_verisi = PDFData(
+                document_name=name,
+                document_url=url,
+                publish_name=publish_name,
+                authors_name=authors_name,
+                publish_type=publish_type,
+                publication_date=publication_date,
+                publisher_name=publisher_name,
+                key_words=key_words,
+                summary=summary,
+                reference=reference,
+                number_of_citations=number_of_citations,
+                doi_number=doi_number
+            )
+            pdf_verisi.save_base
+            pdf_verisi.save()
