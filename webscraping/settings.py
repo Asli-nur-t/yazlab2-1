@@ -83,29 +83,16 @@ WSGI_APPLICATION = 'webscraping.wsgi.application'
 #     }
 # }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'djongo',
-#         'NAME': 'webscraping',
-#         'ENFORCE_SCHEMA': False,  # İsteğe Bağlı
-#         'CLIENT': {
-#             'host': 'mongodb://localhost:27017/',
-#             # Diğer MongoDB bağlantı seçeneklerini buraya ekleyin
-#         }
-#     }
-# }
-
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'akademi',
+     'default': {
+         'ENGINE': 'djongo',
+        'NAME': 'webscraping',
         'ENFORCE_SCHEMA': False,  # İsteğe Bağlı
-        'CLIENT': {
-            'host': 'mongodb://localhost:56155/',
+         'CLIENT': {
+             'host': 'mongodb://localhost:27017/',
             # Diğer MongoDB bağlantı seçeneklerini buraya ekleyin
         }
-    }
+     }
 }
 
 
