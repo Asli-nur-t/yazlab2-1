@@ -29,7 +29,10 @@ def homepage(request):
 
     if request.method=='POST':
         arama=request.POST.get('arama')
-
+        obj = PDFData.objects.all() # Örnek bir object_id alma yöntemi
+        
+        # Nesneyi veritabanından sil
+        obj.delete()
         parameter='deep'
 
         url=f'https://scholar.google.com/scholar?hl=tr&as_sdt=0%2C5&q={arama}&btnG='
@@ -98,12 +101,14 @@ def homepage(request):
                     yazarlar_listesi.append(author.text.strip())
 
             keywords=soupArticle.find(class_='article-keywords data-section')
-            keywords=keywords.find('p')
-            keywords=keywords.find_all('a')
             anahtarlar=[]
-            for keyword in keywords:
-                anahtar=keyword.text
-                anahtarlar.append(anahtar)
+            if keywords:
+                keywords=keywords.find('p')
+                keywords=keywords.find_all('a')
+                
+                for keyword in keywords:
+                    anahtar=keyword.text
+                    anahtarlar.append(anahtar)
 
             references=soupArticle.find(class_='table table-striped m-table cite-table')
             
@@ -143,8 +148,10 @@ def homepage(request):
 
             
             summary=soupArticle.find(class_='article-abstract data-section')
-            summary=summary.find('p')
-            summary=summary.text
+            if summary:
+
+                summary=summary.find('p')
+                summary=summary.text
 
             veri=pdf_link.get('href')
 
