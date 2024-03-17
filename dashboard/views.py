@@ -108,7 +108,8 @@ def homepage(request):
             references=soupArticle.find(class_='table table-striped m-table cite-table')
             
             references=references.find_all('td')
-            reference=references[1].text
+            if references:
+                reference=references[1].text
 
 
             referans=soupArticle.find(class_='article-citations data-section')
