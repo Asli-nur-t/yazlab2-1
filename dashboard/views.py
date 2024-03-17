@@ -33,6 +33,9 @@ def homepage(request):
         parameter='deep'
 
         url=f'https://scholar.google.com/scholar?hl=tr&as_sdt=0%2C5&q={arama}&btnG='
+        url=f'https://dergipark.org.tr/tr/search?q={arama}&section=articles'
+
+
         response =requests.get(url)
         html_content=response.text
 
@@ -44,72 +47,185 @@ def homepage(request):
 
 
         # titles = soup.find_all(class_='gs_or_ggsm')
-        titles=soup.find_all(class_='gs_r gs_or gs_scl')
+        titles=soup.find_all(class_='card article-card dp-card-outline')
         # results=[]2
         results = []
         for title in titles:
             
-            baslik=title.find(class_='gs_rt')
-            print(baslik.text)
-            at=title.find(class_='gs_or_ggsm')
-            
-            if at:
-                a=at.find('a')
-                if a:
+            content=title.find(class_='card-title')
+            baslikLink=content.find('a')
 
-                    span=a.find('span')
-                    print(span.text)
+            baslik=baslikLink.text.strip()
+           
+            articleUrl=baslikLink['href']
+
+            responseArticle =requests.get(articleUrl)
+            html_contentArticle=responseArticle.text
+
+
+
+
+            soupArticle=BeautifulSoup(html_contentArticle,'html.parser')
+            pdf_link=soupArticle.find(class_='kt-nav__link')
+            # pdf_link=pdf_link.find('a')
+            authors=soupArticle.find(class_='record_properties table')
+            authors=authors.find_all('tr')
+            yazarlar_listesi=[]
+            tarih=''
+            for author in authors:
+                th=author.find('th')
+                if th.text=='Yazarlar':
+                    yazarlar=author.find('td')
+                    yazarlar=yazarlar.find_all('p')
+                    for yazar in yazarlar:
+                        yazar=yazar.find('span')
+                        # yazarlar_listesi.append(yazar.text.strip())
+                
+                if th.text=='Yayımlanma Tarihi':
+                    tarih=author.find('td')
+                    tarih=tarih.text
+            authors=soupArticle.find(class_='article-authors')
+            if authors:
+                authors=authors.find_all('a')
+                for author in authors:
+                    yazarlar_listesi.append(author.text)
+
+            keywords=soupArticle.find(class_='article-keywords data-section')
+            keywords=keywords.find('p')
+            keywords=keywords.find_all('a')
+            anahtarlar=[]
+            for keyword in keywords:
+                anahtar=keyword.text
+                anahtarlar.append(anahtar)
+
+            references=soupArticle.find(class_='table table-striped m-table cite-table')
+            
+            references=references.find_all('td')
+            reference=references[1].text
+
+
+            referans=soupArticle.find(class_='article-citations data-section')
+            referans_list=[]
+            referans_sayisi=0
+            if referans:
+            
+           
+                referans=referans.find_all('li')
+                for ref in referans:
+                    referans_list.append(ref.text.strip())
+                referans_sayisi=len(referans)
+
+            
+
+
+
+
+
+            document_name=baslik
+            document_url='https://dergipark.org.tr'+pdf_link.get('href')
+
+            temizVeri = temizle(document_url)+'.pdf'
+            filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(temizVeri))
+            with open(filename, 'wb') as f:
+                headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+               
+                response = requests.get(document_url, headers=headers)
+                f.write(response.content)
+                print(f"{filename} indirildi.")
+
+            document_pdf=filename
+            publish_id=""
+            publish_name=""
+            authors_name=yazarlar_listesi
+            publish_type=""
+            publication_type=""
+            publication_date=tarih
+            publisher_name=""
+            key_words=anahtarlar
+            summary=""
+            reference=reference
+            number_of_citations=int(referans_sayisi)
+            doi_number=0
+
+            print(document_url)
+
+            pdf_data= PDFData(
+                document_name=document_name,
+                document_url=document_url,
+                document_pdf=document_pdf,
+                publish_name=publish_name,
+                authors_name=authors_name,
+                publish_type=publish_type,
+                publication_date=publication_date,
+                publisher_name=publisher_name,
+                key_words=key_words,
+                summary=summary,
+                reference=reference,
+                number_of_citations=number_of_citations,
+                doi_number=doi_number
+            ) 
+            pdf_data.save()
+
+
+#             at=title.find(class_='gs_or_ggsm')
+            
+#             if at:
+#                 a=at.find('a')
+#                 if a:
+
+#                     span=a.find('span')
+#                     print(span.text)
 
                 
 
-                # results.append(a.get('href'))
-                    # results.append(baslik.text)
+#                 # results.append(a.get('href'))
+#                     # results.append(baslik.text)
 
                    
 
-# 'document_url' ve 'document_url' adında attribute'ları ekleyerek dictionary'e ekleme yapma
-                    veri={}
-                    veri['document_url'] = a.get('href')
-                    veri['document_name'] = baslik.text
-                    results.append(veri)
-                # filename = os.path.basename(a.get('href'))
+# # 'document_url' ve 'document_url' adında attribute'ları ekleyerek dictionary'e ekleme yapma
+#                     veri={}
+#                     veri['document_url'] = a.get('href')
+#                     veri['document_name'] = baslik.text
+#                     results.append(veri)
+#                 # filename = os.path.basename(a.get('href'))
 
 
                    
-                    temizVeri = temizle(a.get('href'))
-                #dosya_yolu = "/path/to/your/directory/"
-                    #filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(temizVeri))
-                    #filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
-                    filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
+#                     temizVeri = temizle(a.get('href'))
+#                 #dosya_yolu = "/path/to/your/directory/"
+#                     #filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(temizVeri))
+#                     #filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
+#                     filename = os.path.join(settings.MEDIA_ROOT, 'pdf', os.path.basename(a.get('href')))
 
-    # İndirme işlemi3
-                    # if os.path.exists(filename):
-#     with open(filename, 'wb') as f:
-#         # Dosya işlemleri burada yapılır
-# else:
-#     # Dosya var olmadığında yapılacak işlemler
-#     print(f"{filename} adlı dosya mevcut değil.")
+#     # İndirme işlemi3
+#                     # if os.path.exists(filename):
+# #     with open(filename, 'wb') as f:
+# #         # Dosya işlemleri burada yapılır
+# # else:
+# #     # Dosya var olmadığında yapılacak işlemler
+# #     print(f"{filename} adlı dosya mevcut değil.")
                     
 
                     
-                    # İndirme işlemi
-                    with open(filename, 'wb') as f:
-                        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-                        response = requests.get(a.get('href'), headers=headers)
-                        f.write(response.content)
-                        print(f"{filename} indirildi.")
-                        if filename.lower().endswith('pdf'):
-                            # document_name=.text
-                            document_name=baslik.text
-                            document_url=a.get('href')
-                            document_file=filename
-                            document_nameid=temizVeri
-                            pdf_data = PDFData(document_name=document_name, document_url=document_url, document_pdf=document_file)
-                            pdf_data.save()
-                            # Dosya bir PDF mi diye kontrol et
+#                     # İndirme işlemi
+#                     with open(filename, 'wb') as f:
+#                         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+#                         response = requests.get(a.get('href'), headers=headers)
+#                         f.write(response.content)
+#                         print(f"{filename} indirildi.")
+#                         if filename.lower().endswith('pdf'):
+#                             # document_name=.text
+#                             document_name=baslik.text
+#                             document_url=a.get('href')
+#                             document_file=filename
+#                             document_nameid=temizVeri
+#                             pdf_data = PDFData(document_name=document_name, document_url=document_url, document_pdf=document_file)
+#                             pdf_data.save()
+#                             # Dosya bir PDF mi diye kontrol et
                         
-                            #pdf_verilerini_kaydet(document_file,document_url,document_name)
-                        else: print("PDF değil.")
+#                             #pdf_verilerini_kaydet(document_file,document_url,document_name)
+#                         else: print("PDF değil.")
                     
                     
 
@@ -118,7 +234,7 @@ def homepage(request):
 # for title in titles:
 #     print(title.text)
         datas=PDFData.objects.all()
-        return render(request,'index.html',{'results':results,'datas':datas})
+        return render(request,'index.html',{'datas':datas})
     datas=PDFData.objects.all()
     return render(request,'index.html',{'datas':datas})
 
