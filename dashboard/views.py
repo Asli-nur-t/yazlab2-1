@@ -51,7 +51,14 @@ def homepage(request):
         # results=[]2
         results = []
         for title in titles:
+            publish_type=title.find(class_="badge badge-secondary")
             
+               
+            if publish_type:
+                publish_type=publish_type.text
+                print(publish_type)
+
+
             content=title.find(class_='card-title')
             baslikLink=content.find('a')
 
@@ -88,7 +95,7 @@ def homepage(request):
             if authors:
                 authors=authors.find_all('a')
                 for author in authors:
-                    yazarlar_listesi.append(author.text)
+                    yazarlar_listesi.append(author.text.strip())
 
             keywords=soupArticle.find(class_='article-keywords data-section')
             keywords=keywords.find('p')
@@ -133,16 +140,33 @@ def homepage(request):
                 f.write(response.content)
                 print(f"{filename} indirildi.")
 
+            
+            summary=soupArticle.find(class_='article-abstract data-section')
+            summary=summary.find('p')
+            summary=summary.text
+
+            veri=pdf_link.get('href')
+
+            publisher_name=soupArticle.find_all('fw-500')
+            
+            publisher_name=publisher_name[-1:0]
+            
+            if publisher_name:
+                publisher_name=publisher_name.text
+
+
+
+
             document_pdf=filename
-            publish_id=""
-            publish_name=""
+            publish_id=veri[-5:0]
+            publish_name=publisher_name
             authors_name=yazarlar_listesi
-            publish_type=""
+            publish_type=publish_type
             publication_type=""
             publication_date=tarih
             publisher_name=""
             key_words=anahtarlar
-            summary=""
+            summary=summary
             reference=reference
             number_of_citations=int(referans_sayisi)
             doi_number=0
