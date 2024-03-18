@@ -41,11 +41,11 @@
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
         {% for veri in datas %}
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option1"> {{veri.authors_name}}
+          <input type="checkbox" name="yazarlar[]" id="option1" value="{{veri.authors_name}}"> {{veri.authors_name}}
         </label>
         {% endfor %}
         <!-- <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option1"> Option 1
+          <input type="checkbox" name="options" id="optivaluon1"> Option 1
         </label>
         <label class="btn btn-outline-primary">
           <input type="checkbox" name="options" id="option2"> Option 2
@@ -66,22 +66,22 @@
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
         
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option1"> Araştırma Makalesi
+          <input type="checkbox" name="yayin[]" id="option1" value="Araştırma Makalesi"> Araştırma Makalesi
         </label>
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option2"> Biyografi
+          <input type="checkbox" name="yayin[]" id="option2" value="Biyografi"> Biyografi
         </label>
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option3"> Sanat ve Edebiyat
+          <input type="checkbox" name="yayin[]" id="option3" value="Sanat ve Edebiyat"> Sanat ve Edebiyat
         </label>
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option4">İnceleme Makalesi
+          <input type="checkbox" name="yayin[]" id="option4" value="İnceleme Makalesi">İnceleme Makalesi
         </label>
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option4">Kitap incelemesi
+          <input type="checkbox" name="yayin[]" id="option4">Kitap incelemesi
         </label>
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option4">Diğer
+          <input type="checkbox" name="yayin[]" id="option4" value="Diğer">Diğer
         </label>
       </div>
     </div>
@@ -91,7 +91,7 @@
         
         {% for veri in datas %}
         <label class="btn btn-outline-primary">
-          <input type="checkbox" name="options" id="option1"> {{veri.key_words}}
+          <input type="checkbox" name="keywords[]" id="option1" value="{{veri.key_words}}"> {{veri.key_words}}
         </label>
         {% endfor %}
         <!-- <label class="btn btn-outline-primary">

@@ -204,7 +204,20 @@ def homepage(request):
             return render(request,'index.html',{'datas':datas})
 
         elif 'submit_btn' in request.POST and request.POST['submit_btn'] == 'filter_submit':
-            pass
+            yazarlar=request.POST.getlist('yazarlar[]')
+            yayin=request.POST.getlist('yayin[]')
+            keywords=request.POST.getlist('keywords[]')
+
+           
+            queryset = datas=PDFData.objects.all()
+            if yazarlar:
+                queryset = queryset.filter(authors_name__in=yazarlar)
+            if yayin:
+                queryset = queryset.filter(publish_type__in=yayin)
+            if keywords:
+                queryset = queryset.filter(key_words__in=keywords)
+
+            return render(request,'index.html',{'datas':queryset})    
 
         
     datas=PDFData.objects.all()
