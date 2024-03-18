@@ -26,14 +26,14 @@
             <div class="form-group ">
                 <input type="text" class="form-control" name="arama" placeholder="Arama terimini girin" />
             </div>
-            <button type="submit" class="btn btn-light mx-1">Ara</button>
+            <button type="submit" class="btn btn-light mx-1" name="submit_btn" value="arama_submit">Ara</button>
         </form>
       </div>
 
 
      
 
-    <form method="post" action="{%url 'inbox'%}"
+    <form method="POST" action="{%url 'inbox'%}"
        class="mt-5">
         {% csrf_token %}
     <div class="container mt-5">
@@ -58,6 +58,9 @@
         </label> -->
       </div>
     </div>
+
+
+
     <div class="container mt-5">
       <h4>Yayın Tipi</h4>
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -109,7 +112,7 @@
       </div>
     </div>
      
-    <button  type="submit" class="btn btn-secondary mt-3">Filtrele</button>
+    <button  type="submit" class="btn btn-secondary mt-3"  name="submit_btn" value="filter_submit">Filtrele</button>
   </form>
       
       
