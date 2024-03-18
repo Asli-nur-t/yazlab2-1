@@ -14,7 +14,7 @@ class PDFData(models.Model):
     authors_name=models.CharField(max_length=600)
     publish_type=models.CharField(max_length=600)
     publication_type=models.CharField(max_length=600)
-    publication_date=models.CharField(max_length=600)
+    publication_date=models.DateField()
     publisher_name=models.CharField(max_length=600)
     key_words=models.CharField(max_length=600)
     summary=models.CharField(max_length=600)

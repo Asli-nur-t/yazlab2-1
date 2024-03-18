@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from bs4 import BeautifulSoup
-
+from datetime import datetime
 from .models import PDFData
 import requests
 from django.conf import settings
@@ -12,7 +12,7 @@ import PyPDF2
 from pymongo import MongoClient
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search, Q
-
+import locale
 
 
 def temizle(string):
@@ -26,11 +26,31 @@ def detail(request,id):
 
     return render(request,'detail.html',{'data':pdf_detail})
 def homepage(request):
+    if request.method == 'GET':
+        order = request.GET.get('order', None)
+        order_q = request.GET.get('order_q', None)
+        datas = None
 
+        if order == 'old_to_new':
+            datas = PDFData.objects.order_by('publication_date')
+        elif order == 'new_to_old':
+            datas = PDFData.objects.order_by('-publication_date')
+        else:
+            datas = PDFData.objects.all()
+
+        if order_q == 'old_to_new_q':
+            datas = datas.order_by('number_of_citations')
+        elif order_q == 'new_to_old_q':
+            datas = datas.order_by('-number_of_citations')
+          # Varsayılan sıralama
+
+        return render(request, 'index.html', {'datas': datas})
     if request.method=='POST':
 
         if 'arama' in request.POST:
             arama=request.POST.get('arama')
+            arama=arama.strip()
+            arama=arama.replace(" ", "+")
             obj = PDFData.objects.all() # Örnek bir object_id alma yöntemi
             
             # Nesneyi veritabanından sil
@@ -164,16 +184,36 @@ def homepage(request):
                 if publisher_name:
                     publisher_name=publisher_name.text
 
+                # locale.setlocale(locale.LC_TIME, 'tr_TR.UTF-8')
+                tr_to_en_months = {
+                'Ocak': 'January',
+                'Şubat': 'February',
+                'Mart': 'March',
+                'Nisan': 'April',
+                'Mayıs': 'May',
+                'Haziran': 'June',
+                'Temmuz': 'July',
+                'Ağustos': 'August',
+                'Eylül': 'September',
+                'Ekim': 'October',
+                'Kasım': 'November',
+                'Aralık': 'December'
+            }
 
+                tarih_formati = "%d %B %Y"
 
-
+# String'i datetime objesine çevir
+                if(tarih!="" or tarih!=None):
+                    tarihDate= turkish_date_to_datetime(tarih)
+                else:
+                    tarihDate=None
                 document_pdf=filename
                 publish_id=veri[-5:0]
                 publish_name=publisher_name
                 authors_name=yazarlar_listesi
                 publish_type=publish_type
                 publication_type=""
-                publication_date=tarih
+                publication_date=tarihDate
                 publisher_name=""
                 key_words=anahtarlar
                 summary=summary
@@ -223,6 +263,51 @@ def homepage(request):
     datas=PDFData.objects.all()
     return render(request,'index.html',{'datas':datas})
 
+def turkish_date_to_datetime(turkish_date):
+    tr_to_en_months = {
+                'Ocak': 'January',
+                'Şubat': 'February',
+                'Mart': 'March',
+                'Nisan': 'April',
+                'Mayıs': 'May',
+                'Haziran': 'June',
+                'Temmuz': 'July',
+                'Ağustos': 'August',
+                'Eylül': 'September',
+                'Ekim': 'October',
+                'Kasım': 'November',
+                'Aralık': 'December'
+            }
+    # Ay isimlerini İngilizceye çevirme
+    for tr_month, en_month in tr_to_en_months.items():
+        turkish_date = turkish_date.replace(tr_month, en_month)
+    
+    # Türkçe tarih stringini datetime objesine dönüştürme
+    return datetime.strptime(turkish_date, '%d %B %Y')
+
+def filter_documents(authors=[], publish_types=[], key_words=[]):
+    # Elasticsearch bağlantısını oluştur
+    client = Elasticsearch(hosts=["http://localhost:9200"])
+
+
+    s = Search(using=client, index="pdf_index")
+
+    # if AuthorizationException:
+    #     author_query = Q('terms', authors_name=authors)
+    #     s = s.query(author_query)
+
+    if publish_types:
+        publish_type_query = Q('terms', publish_type=publish_types)
+        s = s.query(publish_type_query)
+    if authors:
+        publish_type_query = Q('terms',authors_name=authors)
+        s = s.query(publish_type_query)
+    if key_words:
+        key_words_query = Q('terms', key_words=key_words)
+        s = s.query(key_words_query)
+
+    response = s.execute()
+    return response
 
 def pdf_verilerini_kaydet(pdf_dosyasi, url, name):
     with open(pdf_dosyasi, 'rb') as file:

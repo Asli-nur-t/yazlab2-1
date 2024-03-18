@@ -116,7 +116,21 @@
   </form>
       
       
-      
+
+<div class="mt-5 ">
+  <form method="GET" action="{% url 'inbox' %}">
+    {%csrf_token%}
+    <button type="submit" name="order" value="old_to_new" class="btn btn-warning">Eskiden Yeniye</button>
+    <button type="submit" name="order" value="new_to_old" class="btn btn-warning">Yeniden Eskiye</button>
+</form>
+</div> 
+<div class="mt-5 ">
+  <form method="GET" action="{% url 'inbox' %}">
+    {%csrf_token%}
+    <button type="submit" name="order_q" value="old_to_new_q" class="btn btn-danger">Atıf sayısı artan</button>
+    <button type="submit" name="order_q" value="new_to_old_q" class="btn btn-danger">Atıf sayısı azalan</button>
+</form>
+</div>    
 
         {% for veri in datas %}
 
